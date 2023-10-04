@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Renato Salas - Vtrus</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=https://fonts.googleapis.com/css?family=Inconsolata:400,500,600,700|Raleway:400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- ======= Navbar ======= -->
+  <div class="collapse navbar-collapse custom-navmenu" id="main-navbar">
+    <div class="container py-2 py-md-5">
+      <div class="row align-items-start">
+        <div class="col-md-2">
+          <ul class="custom-menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <nav class="navbar navbar-light custom-navbar">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">MyWork.</a>
+      <a href="#" class="burger" data-bs-toggle="collapse" data-bs-target="#main-navbar">
+        <span></span>
+      </a>
+    </div>
+  </nav>
+
+  <main id="main">
+
+    <section class="section">
+      <div class="container">
+        <div class="row mb-4 align-items-center">
+          <div class="col-md-6" data-aos="fade-up">
+            <h2>Vtrus Inc</h2>
+            <p>I was the CEO and co-founder of Vtrus Inc. from 2017-2020, a drone startup from Seattle where we built autonomous drones for indoor inspection. We raised <a href="https://www.geekwire.com/2019/led-ex-oculus-research-scientist-seattle-drone-startup-raises-cash-indoor-inspection-tech/"> $3M seed round</a>, got nominated for <a href="https://www.geekwire.com/2019/startups-vie-gadget-greatness-vote-best-hardware-innovation-geekwire-awards/"> Best Hardware Innovation on Geekwire </a> and won a <a href="https://techcrunch.com/2018/09/06/vtrus-launches-drones-to-inspect-and-protect-your-warehouses-and-factories/"> Techcrunch Disrupt Startup Battlefield award</a>. Our Series-A coincided with COVID and our team got rescued from our corporate investor <a href="https://www.fujiinnovation.com/"> Fuji</a>.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="site-section pb-0">
+        <div class="container">
+          <div class="row align-items-stretch">
+            <div class="col-md-5" data-aos="fade-up">
+              <img src="assets/img/vtrus-multi-cam-tracking.gif" alt="Image" class="img-fluid">
+            </div>
+            <div class="col-md-5 ml-auto" data-aos="fade-up" data-aos-delay="100">
+              <div class="sticky-content">
+                <h3 class="h3">Surround-View Visual-Inertial Localization</h3>
+                <div class="mb-5">
+                  <p>We built a custom capture board where 6x global shutter cameras were time-synchronized with an IMU to perform visual-inertial Simultaneous Localization and Mapping (SLAM).</p>
+                </div>
+
+                <h4 class="h4 mb-3">What I did</h4>
+                <ul class="list-unstyled list-line mb-5">
+                  <li>Provided detailed technical specification of the sensor rig to manufacturing partner</li>
+                  <li>Engineered the custom SLAM solution</li>
+                  <li>Optimized software for the embedded Nvidia TX2 platform</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="row align-items-stretch">
+            <div class="col-md-5 ml-auto" data-aos="fade-up" data-aos-delay="100">
+              <div class="sticky-content">
+                <h3 class="h3">3D Mapping</h3>
+                <div class="mb-5">
+                  <p>With a technique known as Voxel-Hashing, we were able to 3D map large indoor spaces. This worked similar to paged-memory where a background process only loads in-frustum voxels to the GPU and saves the rest to disk.</p>
+                </div>
+
+                <h4 class="h4 mb-3">What I did</h4>
+                <ul class="list-unstyled list-line mb-5">
+                  <li>Carefully wrote the Voxel Hashing algorithm, including visual debugging tools</li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-5" data-aos="fade-up">
+              <img src="assets/img/vtrus-3d_mapping.gif" alt="Image" class="img-fluid">
+            </div>
+          </div>
+          <div class="row align-items-stretch">
+            <div class="col-md-5" data-aos="fade-up">
+              <img src="assets/img/vtrus-obsctacle.gif" alt="Image" class="img-fluid">
+            </div>
+            <div class="col-md-5 ml-auto" data-aos="fade-up" data-aos-delay="100">
+              <div class="sticky-content">
+                <h3 class="h3">GPU-accelerated MPPI Controller</h3>
+                <div class="mb-5">
+                  <p>Our lead robotics scientist Dr. Grady Williams wrote his novel Model-Predictive-Path-Integral (MPPI) controller that samples thousands of possible paths the drone can take and chooses the best one in order to avoid obstacles and reach goal targets.</p>
+                </div>
+                <h4 class="h4 mb-3">What I did</h4>
+                <ul class="list-unstyled list-line mb-5">
+                  <li>Provided guidance</li>
+                  <li>Interfaced the SLAM module with the MPPI module</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="row align-items-stretch">
+            <div class="col-md-5 ml-auto" data-aos="fade-up" data-aos-delay="100">
+              <div class="sticky-content">
+                <h3 class="h3">Simulation Tool for Testing & Debugging</h3>
+                <div class="mb-5">
+                  <p>Our lead software engineer Jeston Furqueron wrote a very versatile simulation tool to help design flight plans and simulate them. This help to assess flight-time and range.</p>
+                </div>
+
+                <h4 class="h4 mb-3">What I did</h4>
+                <ul class="list-unstyled list-line mb-5">
+                  <li>Provided guidance</li>
+                  <li>Interfaced the SLAM module with simulation tool</li>
+                </ul>
+                <p><a href="https://web.archive.org/web/20200407124709/https://www.vtr.us/" class="readmore">Visit Website</a></p>
+              </div>
+            </div>
+            <div class="col-md-5" data-aos="fade-up">
+              <img src="assets/img/vtrus-simulation.gif" alt="Image" class="img-fluid">
+            </div>
+          </div>
+        </div>
+    </section>
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6">
+          <p class="mb-1">&copy; Copyright Renato Salas. All Rights Reserved</p>
+        </div>
+        <div class="col-sm-6 social text-md-end">
+          <a href="https://www.linkedin.com/in/renatosalas"><span class="bi bi-linkedin"></span></a>
+          <a href="https://www.instagram.com/piloto_tatito/"><span class="bi bi-instagram"></span></a>
+          <a href="https://twitter.com/nazcaspider"><span class="bi bi-twitter"></span></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
