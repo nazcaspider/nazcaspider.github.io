@@ -454,7 +454,7 @@
     "Workshops were made half-day to encourage interactive discussion over mini-conference talk lineups, with 32 of 78 valid proposals accepted."
    ],
    "thumb": "assets/img/corl2026/welcome-and-opening-remarks.webp",
-   "reel": "assets/img/corl2026/reel/welcome-and-opening-remarks.webp"
+   "reel": "assets/img/corl2026/strip/welcome-and-opening-remarks.webp"
   },
   {
    "session": "S1",
@@ -511,7 +511,7 @@
    "website": "https://allenai.org/blog/molmoact2",
    "paper_url": "https://openreview.net/forum?id=Q6xWLHyg6x",
    "thumb": "assets/img/corl2026/molmoact2-action-reasoning-models-for-real-world-deployment.webp",
-   "reel": "assets/img/corl2026/reel/molmoact2-action-reasoning-models-for-real-world-deployment.webp"
+   "reel": "assets/img/corl2026/strip/molmoact2-action-reasoning-models-for-real-world-deployment.webp"
   },
   {
    "session": "S1",
@@ -545,7 +545,7 @@
    "website": "https://xy02-05.github.io/SemanticMN",
    "paper_url": "https://openreview.net/forum?id=YTw6LOO9C5",
    "thumb": "assets/img/corl2026/semantic-anchoring-for-robotic-action-representations.webp",
-   "reel": "assets/img/corl2026/reel/semantic-anchoring-for-robotic-action-representations.webp"
+   "reel": "assets/img/corl2026/strip/semantic-anchoring-for-robotic-action-representations.webp"
   },
   {
    "session": "S1",
@@ -590,7 +590,7 @@
    "website": "https://pi.website/research/memory",
    "paper_url": "https://openreview.net/forum?id=5TiiTY1fK3",
    "thumb": "assets/img/corl2026/mem-multi-scale-embodied-memory-for-vision-language-action-m.webp",
-   "reel": "assets/img/corl2026/reel/mem-multi-scale-embodied-memory-for-vision-language-action-m.webp"
+   "reel": "assets/img/corl2026/strip/mem-multi-scale-embodied-memory-for-vision-language-action-m.webp"
   },
   {
    "session": "S1",
@@ -632,7 +632,7 @@
    "arxiv_url": "https://arxiv.org/abs/2604.27472",
    "paper_url": "https://openreview.net/forum?id=QwpnI3BlwT",
    "thumb": "assets/img/corl2026/prts-a-primitive-reasoning-and-tasking-system-via-contrastiv.webp",
-   "reel": "assets/img/corl2026/reel/prts-a-primitive-reasoning-and-tasking-system-via-contrastiv.webp"
+   "reel": "assets/img/corl2026/strip/prts-a-primitive-reasoning-and-tasking-system-via-contrastiv.webp"
   },
   {
    "session": "S1",
@@ -662,7 +662,7 @@
    "arxiv_url": "https://arxiv.org/abs/2606.12299",
    "paper_url": "https://openreview.net/forum?id=z47bcul4Zk",
    "thumb": "assets/img/corl2026/learning-what-to-say-to-your-vla-mostly-harmless-vision-lang.webp",
-   "reel": "assets/img/corl2026/reel/learning-what-to-say-to-your-vla-mostly-harmless-vision-lang.webp"
+   "reel": "assets/img/corl2026/strip/learning-what-to-say-to-your-vla-mostly-harmless-vision-lang.webp"
   },
   {
    "session": "S1",
@@ -698,7 +698,7 @@
    "website": "https://vla-cf.github.io/",
    "paper_url": "https://openreview.net/forum?id=HmdwOezjlQ",
    "thumb": "assets/img/corl2026/when-vision-overrides-language-evaluating-and-mitigating-cou.webp",
-   "reel": "assets/img/corl2026/reel/when-vision-overrides-language-evaluating-and-mitigating-cou.webp"
+   "reel": "assets/img/corl2026/strip/when-vision-overrides-language-evaluating-and-mitigating-cou.webp"
   },
   {
    "session": "S1",
@@ -743,7 +743,7 @@
    "arxiv_url": "https://arxiv.org/abs/2609.02546",
    "paper_url": "https://openreview.net/forum?id=4RLjGPEfpH",
    "thumb": "assets/img/corl2026/zeta-a-controlled-study-of-zero-shot-cross-embodiment-vla-tr.webp",
-   "reel": "assets/img/corl2026/reel/zeta-a-controlled-study-of-zero-shot-cross-embodiment-vla-tr.webp"
+   "reel": "assets/img/corl2026/strip/zeta-a-controlled-study-of-zero-shot-cross-embodiment-vla-tr.webp"
   },
   {
    "session": "S1",
@@ -775,7 +775,7 @@
    "website": "https://frankwang67.github.io/EmbodiSteer-Page",
    "paper_url": "https://openreview.net/forum?id=2Z8xQxrlsY",
    "thumb": "assets/img/corl2026/embodisteer-steering-embodiment-agnostic-visuomotor-policies.webp",
-   "reel": "assets/img/corl2026/reel/embodisteer-steering-embodiment-agnostic-visuomotor-policies.webp"
+   "reel": "assets/img/corl2026/strip/embodisteer-steering-embodiment-agnostic-visuomotor-policies.webp"
   },
   {
    "session": "S1",
@@ -811,7 +811,7 @@
    "website": "https://yixiaowang7.github.io/Diagnosing_Compositional_Generalization_Robot_Page/",
    "paper_url": "https://openreview.net/forum?id=gQFYIM5dJy",
    "thumb": "assets/img/corl2026/diagnosing-compositional-generalization-in-sequential-robot-.webp",
-   "reel": "assets/img/corl2026/reel/diagnosing-compositional-generalization-in-sequential-robot-.webp"
+   "reel": "assets/img/corl2026/strip/diagnosing-compositional-generalization-in-sequential-robot-.webp"
   },
   {
    "session": "ECK1",
@@ -839,7 +839,7 @@
     "Zhao suggests S2 belongs in the cloud, S1 on edge servers shared by multiple robots, and S0 on the robot itself."
    ],
    "thumb": "assets/img/corl2026/organizing-physical-ai-across-timescales.webp",
-   "reel": "assets/img/corl2026/reel/organizing-physical-ai-across-timescales.webp"
+   "reel": "assets/img/corl2026/strip/organizing-physical-ai-across-timescales.webp"
   },
   {
    "session": "O1",
@@ -955,7 +955,7 @@
    "website": "https://www.pi.website/blog/pi07",
    "paper_url": "https://openreview.net/forum?id=5XKFwWrW0v",
    "thumb": "assets/img/corl2026/0-7-a-steerable-generalist-robotic-foundation-model-with-eme.webp",
-   "reel": "assets/img/corl2026/reel/0-7-a-steerable-generalist-robotic-foundation-model-with-eme.webp"
+   "reel": "assets/img/corl2026/strip/0-7-a-steerable-generalist-robotic-foundation-model-with-eme.webp"
   },
   {
    "session": "O1",
@@ -995,7 +995,7 @@
    "arxiv_url": "https://arxiv.org/abs/2601.12993",
    "paper_url": "https://openreview.net/forum?id=cfzFrOJmKA",
    "thumb": "assets/img/corl2026/being-h0-5-scaling-human-centric-robot-learning-for-cross-em.webp",
-   "reel": "assets/img/corl2026/reel/being-h0-5-scaling-human-centric-robot-learning-for-cross-em.webp"
+   "reel": "assets/img/corl2026/strip/being-h0-5-scaling-human-centric-robot-learning-for-cross-em.webp"
   },
   {
    "session": "O1",
@@ -1036,7 +1036,7 @@
    "website": "http://research.nvidia.com/labs/gear/robottt/",
    "paper_url": "https://openreview.net/forum?id=NHE9q2cz1n",
    "thumb": "assets/img/corl2026/robottt-context-scaling-for-robot-policies.webp",
-   "reel": "assets/img/corl2026/reel/robottt-context-scaling-for-robot-policies.webp",
+   "reel": "assets/img/corl2026/strip/robottt-context-scaling-for-robot-policies.webp",
    "award": "winner:Best Student Paper Award"
   },
   {
@@ -1103,7 +1103,7 @@
    "website": "https://dreamzero0.github.io/",
    "paper_url": "https://openreview.net/forum?id=Bshs9HDDiu",
    "thumb": "assets/img/corl2026/world-action-models-are-zero-shot-policies.webp",
-   "reel": "assets/img/corl2026/reel/world-action-models-are-zero-shot-policies.webp"
+   "reel": "assets/img/corl2026/strip/world-action-models-are-zero-shot-policies.webp"
   },
   {
    "session": "O2",
@@ -1142,7 +1142,7 @@
    "arxiv_url": "https://arxiv.org/abs/2606.18960",
    "paper_url": "https://openreview.net/forum?id=f9grq4Ncx9",
    "thumb": "assets/img/corl2026/memory-augmented-action-conditioned-world-model-for-robot-ma.webp",
-   "reel": "assets/img/corl2026/reel/memory-augmented-action-conditioned-world-model-for-robot-ma.webp"
+   "reel": "assets/img/corl2026/strip/memory-augmented-action-conditioned-world-model-for-robot-ma.webp"
   },
   {
    "session": "O2",
@@ -1177,7 +1177,7 @@
    "website": "https://tempo-robot.github.io/",
    "paper_url": "https://openreview.net/forum?id=FVZKpmPHV8",
    "thumb": "assets/img/corl2026/tempo-learning-temporal-context-for-dynamic-robot-manipulati.webp",
-   "reel": "assets/img/corl2026/reel/tempo-learning-temporal-context-for-dynamic-robot-manipulati.webp"
+   "reel": "assets/img/corl2026/strip/tempo-learning-temporal-context-for-dynamic-robot-manipulati.webp"
   },
   {
    "session": "O3",
@@ -1210,7 +1210,7 @@
    "arxiv_url": "https://arxiv.org/abs/2603.11634",
    "paper_url": "https://openreview.net/forum?id=TscNG5Wcwn",
    "thumb": "assets/img/corl2026/diversity-you-can-actually-measure-a-fast-model-free-diversi.webp",
-   "reel": "assets/img/corl2026/reel/diversity-you-can-actually-measure-a-fast-model-free-diversi.webp"
+   "reel": "assets/img/corl2026/strip/diversity-you-can-actually-measure-a-fast-model-free-diversi.webp"
   },
   {
    "session": "O3",
@@ -1268,7 +1268,7 @@
    "website": "https://allenai.github.io/MolmoBot",
    "paper_url": "https://openreview.net/forum?id=c4Z0Y8gvnI",
    "thumb": "assets/img/corl2026/molmob0t-large-scale-simulation-enables-zero-shot-manipulati.webp",
-   "reel": "assets/img/corl2026/reel/molmob0t-large-scale-simulation-enables-zero-shot-manipulati.webp"
+   "reel": "assets/img/corl2026/strip/molmob0t-large-scale-simulation-enables-zero-shot-manipulati.webp"
   },
   {
    "session": "O3",
@@ -1302,7 +1302,7 @@
    "website": "https://ripl.github.io/manipulation_benchmark_audit/",
    "paper_url": "https://openreview.net/forum?id=RdvH11pAfJ",
    "thumb": "assets/img/corl2026/what-are-we-actually-benchmarking-in-robot-manipulation.webp",
-   "reel": "assets/img/corl2026/reel/what-are-we-actually-benchmarking-in-robot-manipulation.webp",
+   "reel": "assets/img/corl2026/strip/what-are-we-actually-benchmarking-in-robot-manipulation.webp",
    "award": "finalist"
   },
   {
@@ -1328,7 +1328,7 @@
     "A real store deployment making a 55-step ice cream order end to end is used as a comprehensive reliability test of the full stack."
    ],
    "thumb": "assets/img/corl2026/scaling-robotic-dexterity-toward-real-world-applications.webp",
-   "reel": "assets/img/corl2026/reel/scaling-robotic-dexterity-toward-real-world-applications.webp"
+   "reel": "assets/img/corl2026/strip/scaling-robotic-dexterity-toward-real-world-applications.webp"
   },
   {
    "session": "SP1",
@@ -1353,7 +1353,7 @@
     "Environment construction is done agentically with simulation engineers reviewing each step for physical fidelity."
    ],
    "thumb": "assets/img/corl2026/scaling-robot-learning-through-data-and-simulation.webp",
-   "reel": "assets/img/corl2026/reel/scaling-robot-learning-through-data-and-simulation.webp"
+   "reel": "assets/img/corl2026/strip/scaling-robot-learning-through-data-and-simulation.webp"
   },
   {
    "session": "SP1",
@@ -1380,7 +1380,7 @@
     "NVIDIA announced GR00T 2 and Turbo weights plus the cross-adapt recipe would be open-sourced in December."
    ],
    "thumb": "assets/img/corl2026/from-dreaming-to-doing-world-action-models-and-agentic-robot.webp",
-   "reel": "assets/img/corl2026/reel/from-dreaming-to-doing-world-action-models-and-agentic-robot.webp"
+   "reel": "assets/img/corl2026/strip/from-dreaming-to-doing-world-action-models-and-agentic-robot.webp"
   },
   {
    "session": "ECK2",
@@ -1408,7 +1408,7 @@
     "Replay-free temporal consensus (TACO) retained pre-training task performance where supervised fine-tuning forgot it, and also avoided duplicate or stale objects in dynamic mapping."
    ],
    "thumb": "assets/img/corl2026/how-can-robots-learn-to-interact-and-coordinate-with-others.webp",
-   "reel": "assets/img/corl2026/reel/how-can-robots-learn-to-interact-and-coordinate-with-others.webp"
+   "reel": "assets/img/corl2026/strip/how-can-robots-learn-to-interact-and-coordinate-with-others.webp"
   },
   {
    "session": "S2",
@@ -1441,7 +1441,7 @@
    "website": "https://github.com/ustcwhy/BitVLA",
    "paper_url": "https://openreview.net/forum?id=mHCqiRUiHi",
    "thumb": "assets/img/corl2026/bitvla-1-bit-vision-language-action-models-for-robotics-mani.webp",
-   "reel": "assets/img/corl2026/reel/bitvla-1-bit-vision-language-action-models-for-robotics-mani.webp"
+   "reel": "assets/img/corl2026/strip/bitvla-1-bit-vision-language-action-models-for-robotics-mani.webp"
   },
   {
    "session": "S2",
@@ -1478,7 +1478,7 @@
    "website": "https://github.com/PKU-SEC-Lab/EagleVLA",
    "paper_url": "https://openreview.net/forum?id=OckqYiY2QM",
    "thumb": "assets/img/corl2026/eaglevla-towards-onboard-real-time-robot-control-via-foresig.webp",
-   "reel": "assets/img/corl2026/reel/eaglevla-towards-onboard-real-time-robot-control-via-foresig.webp"
+   "reel": "assets/img/corl2026/strip/eaglevla-towards-onboard-real-time-robot-control-via-foresig.webp"
   },
   {
    "session": "S2",
@@ -1517,7 +1517,7 @@
    "website": "https://react-vla.github.io",
    "paper_url": "https://openreview.net/forum?id=FFB8qNJwV2",
    "thumb": "assets/img/corl2026/react-rolling-denoising-and-dual-decoupling-for-reactive-rob.webp",
-   "reel": "assets/img/corl2026/reel/react-rolling-denoising-and-dual-decoupling-for-reactive-rob.webp"
+   "reel": "assets/img/corl2026/strip/react-rolling-denoising-and-dual-decoupling-for-reactive-rob.webp"
   },
   {
    "session": "S2",
@@ -1551,7 +1551,7 @@
    "website": "https://arnavsukhija.github.io/projects/tarc",
    "paper_url": "https://openreview.net/forum?id=WvR13cRtRf",
    "thumb": "assets/img/corl2026/tarc-time-adaptive-robotic-control.webp",
-   "reel": "assets/img/corl2026/reel/tarc-time-adaptive-robotic-control.webp"
+   "reel": "assets/img/corl2026/strip/tarc-time-adaptive-robotic-control.webp"
   },
   {
    "session": "S2",
@@ -1582,7 +1582,7 @@
    "website": "https://seonsoo-p1.github.io/DiffusionReRoll/",
    "paper_url": "https://openreview.net/forum?id=HbuX1Fe8bl",
    "thumb": "assets/img/corl2026/diffusion-reroll-revisable-denoising-for-robotic-sequential-.webp",
-   "reel": "assets/img/corl2026/reel/diffusion-reroll-revisable-denoising-for-robotic-sequential-.webp"
+   "reel": "assets/img/corl2026/strip/diffusion-reroll-revisable-denoising-for-robotic-sequential-.webp"
   },
   {
    "session": "S2",
@@ -1615,7 +1615,7 @@
    "arxiv_url": "https://arxiv.org/abs/2606.09499",
    "paper_url": "https://openreview.net/forum?id=6T2ebANGy5",
    "thumb": "assets/img/corl2026/targeting-world-models-to-compromise-robot-learning-pipeline.webp",
-   "reel": "assets/img/corl2026/reel/targeting-world-models-to-compromise-robot-learning-pipeline.webp"
+   "reel": "assets/img/corl2026/strip/targeting-world-models-to-compromise-robot-learning-pipeline.webp"
   },
   {
    "session": "S2",
@@ -1648,7 +1648,7 @@
    "website": "https://song-wx.github.io/cmpo.github.io/",
    "paper_url": "https://openreview.net/forum?id=dngZLI0SlV",
    "thumb": "assets/img/corl2026/chunk-wise-model-based-policy-optimization.webp",
-   "reel": "assets/img/corl2026/reel/chunk-wise-model-based-policy-optimization.webp"
+   "reel": "assets/img/corl2026/strip/chunk-wise-model-based-policy-optimization.webp"
   },
   {
    "session": "S2",
@@ -1677,7 +1677,7 @@
    "arxiv_url": "https://arxiv.org/abs/2609.18964",
    "paper_url": "https://openreview.net/forum?id=QBAA8svAIK",
    "thumb": "assets/img/corl2026/fedguide-diffusion-prior-alignment-and-value-baseline-guidan.webp",
-   "reel": "assets/img/corl2026/reel/fedguide-diffusion-prior-alignment-and-value-baseline-guidan.webp"
+   "reel": "assets/img/corl2026/strip/fedguide-diffusion-prior-alignment-and-value-baseline-guidan.webp"
   },
   {
    "session": "S2",
@@ -1709,7 +1709,7 @@
    ],
    "paper_url": "https://openreview.net/forum?id=v24DO7JOuN",
    "thumb": "assets/img/corl2026/more-mixture-of-experts-for-multi-physics-robotic-world-mode.webp",
-   "reel": "assets/img/corl2026/reel/more-mixture-of-experts-for-multi-physics-robotic-world-mode.webp"
+   "reel": "assets/img/corl2026/strip/more-mixture-of-experts-for-multi-physics-robotic-world-mode.webp"
   },
   {
    "session": "K1",
@@ -1737,7 +1737,7 @@
     "He argues academia must pool resources on open robot foundation models that include force and touch to keep pace with industry."
    ],
    "thumb": "assets/img/corl2026/challenges-to-realize-embodied-ai.webp",
-   "reel": "assets/img/corl2026/reel/challenges-to-realize-embodied-ai.webp"
+   "reel": "assets/img/corl2026/strip/challenges-to-realize-embodied-ai.webp"
   },
   {
    "session": "SP2",
@@ -1763,7 +1763,7 @@
     "VLMs are useful for high-level lane-level reasoning at crash scenes and for mining rare, unstructured events like road debris."
    ],
    "thumb": "assets/img/corl2026/innovations-in-autonomy-at-gm.webp",
-   "reel": "assets/img/corl2026/reel/innovations-in-autonomy-at-gm.webp"
+   "reel": "assets/img/corl2026/strip/innovations-in-autonomy-at-gm.webp"
   },
   {
    "session": "SP2",
@@ -1789,7 +1789,7 @@
     "RoboColosseum is offering 10,000 hours of free real-world evaluation to academic labs."
    ],
    "thumb": "assets/img/corl2026/robocap-robocolosseum.webp",
-   "reel": "assets/img/corl2026/reel/robocap-robocolosseum.webp"
+   "reel": "assets/img/corl2026/strip/robocap-robocolosseum.webp"
   },
   {
    "session": "SP2",
@@ -1815,7 +1815,7 @@
     "A reasoning model that checks outcomes and sends corrective feedback to the policy is part of its real-world data feedback loop."
    ],
    "thumb": "assets/img/corl2026/data-infrastructure-for-physical-ai.webp",
-   "reel": "assets/img/corl2026/reel/data-infrastructure-for-physical-ai.webp"
+   "reel": "assets/img/corl2026/strip/data-infrastructure-for-physical-ai.webp"
   },
   {
    "session": "S3",
@@ -1860,7 +1860,7 @@
    "website": "https://www-ye.github.io/ego2robot_blog/",
    "paper_url": "https://openreview.net/forum?id=JV472m0zgq",
    "thumb": "assets/img/corl2026/ego2robot-scalable-robot-data-synthesis-from-egocentric-huma.webp",
-   "reel": "assets/img/corl2026/reel/ego2robot-scalable-robot-data-synthesis-from-egocentric-huma.webp"
+   "reel": "assets/img/corl2026/strip/ego2robot-scalable-robot-data-synthesis-from-egocentric-huma.webp"
   },
   {
    "session": "S3",
@@ -1894,7 +1894,7 @@
    "website": "https://gazevla.github.io",
    "paper_url": "https://openreview.net/forum?id=l0bwpzWRKy",
    "thumb": "assets/img/corl2026/learning-human-intention-for-robotic-manipulation.webp",
-   "reel": "assets/img/corl2026/reel/learning-human-intention-for-robotic-manipulation.webp"
+   "reel": "assets/img/corl2026/strip/learning-human-intention-for-robotic-manipulation.webp"
   },
   {
    "session": "S3",
@@ -1928,7 +1928,7 @@
    "website": "https://residual-copilot.github.io/",
    "paper_url": "https://openreview.net/forum?id=QGzgVP8RnK",
    "thumb": "assets/img/corl2026/efficient-and-reliable-teleoperation-through-real-to-sim-to-.webp",
-   "reel": "assets/img/corl2026/reel/efficient-and-reliable-teleoperation-through-real-to-sim-to-.webp"
+   "reel": "assets/img/corl2026/strip/efficient-and-reliable-teleoperation-through-real-to-sim-to-.webp"
   },
   {
    "session": "S3",
@@ -1967,7 +1967,7 @@
    "website": "https://microsoft.github.io/FlowDAgger",
    "paper_url": "https://openreview.net/forum?id=aspenN9eir",
    "thumb": "assets/img/corl2026/flowdagger-human-in-the-loop-adaptation-of-generative-robot-.webp",
-   "reel": "assets/img/corl2026/reel/flowdagger-human-in-the-loop-adaptation-of-generative-robot-.webp"
+   "reel": "assets/img/corl2026/strip/flowdagger-human-in-the-loop-adaptation-of-generative-robot-.webp"
   },
   {
    "session": "S3",
@@ -2009,7 +2009,7 @@
    "website": "https://frenkielm.github.io/BiDexGrasp.github.io/",
    "paper_url": "https://openreview.net/forum?id=ODnu3ohjEQ",
    "thumb": "assets/img/corl2026/bidexgrasp-coordinated-bimanual-dexterous-grasps-across-obje.webp",
-   "reel": "assets/img/corl2026/reel/bidexgrasp-coordinated-bimanual-dexterous-grasps-across-obje.webp"
+   "reel": "assets/img/corl2026/strip/bidexgrasp-coordinated-bimanual-dexterous-grasps-across-obje.webp"
   },
   {
    "session": "S3",
@@ -2047,7 +2047,7 @@
    "website": "https://yuansen-huang.github.io/KPGrasp-page/",
    "paper_url": "https://openreview.net/forum?id=BXNVzGSYFe",
    "thumb": "assets/img/corl2026/kpgrasp-scalable-keypoint-flow-matching-for-dexterous-grasp-.webp",
-   "reel": "assets/img/corl2026/reel/kpgrasp-scalable-keypoint-flow-matching-for-dexterous-grasp-.webp"
+   "reel": "assets/img/corl2026/strip/kpgrasp-scalable-keypoint-flow-matching-for-dexterous-grasp-.webp"
   },
   {
    "session": "S3",
@@ -2082,7 +2082,7 @@
    "website": "https://wmcraftnet.github.io/",
    "paper_url": "https://openreview.net/forum?id=AmQH2hU9Gs",
    "thumb": "assets/img/corl2026/wm-craftnet-world-synesthesia-model-for-robust-and-generaliz.webp",
-   "reel": "assets/img/corl2026/reel/wm-craftnet-world-synesthesia-model-for-robust-and-generaliz.webp"
+   "reel": "assets/img/corl2026/strip/wm-craftnet-world-synesthesia-model-for-robust-and-generaliz.webp"
   },
   {
    "session": "S3",
@@ -2117,7 +2117,7 @@
    "website": "http://cyc0429.github.io/sai-project-page/",
    "paper_url": "https://openreview.net/forum?id=rfRjWMFfvV",
    "thumb": "assets/img/corl2026/sequential-asymmetric-imitation-for-learning-coupled-robot-p.webp",
-   "reel": "assets/img/corl2026/reel/sequential-asymmetric-imitation-for-learning-coupled-robot-p.webp"
+   "reel": "assets/img/corl2026/strip/sequential-asymmetric-imitation-for-learning-coupled-robot-p.webp"
   },
   {
    "session": "S3",
@@ -2152,7 +2152,7 @@
    "website": "https://proroklab.github.io/PAVE/",
    "paper_url": "https://openreview.net/forum?id=N77om40jWL",
    "thumb": "assets/img/corl2026/leave-it-better-than-found-value-guided-cooperation-in-seque.webp",
-   "reel": "assets/img/corl2026/reel/leave-it-better-than-found-value-guided-cooperation-in-seque.webp"
+   "reel": "assets/img/corl2026/strip/leave-it-better-than-found-value-guided-cooperation-in-seque.webp"
   },
   {
    "session": "O4",
@@ -2188,7 +2188,7 @@
    "arxiv_url": "https://arxiv.org/abs/2604.23073",
    "paper_url": "https://openreview.net/forum?id=RYXo2ktK1M",
    "thumb": "assets/img/corl2026/rl-token-bootstrapping-online-rl-with-vision-language-action.webp",
-   "reel": "assets/img/corl2026/reel/rl-token-bootstrapping-online-rl-with-vision-language-action.webp"
+   "reel": "assets/img/corl2026/strip/rl-token-bootstrapping-online-rl-with-vision-language-action.webp"
   },
   {
    "session": "O4",
@@ -2229,7 +2229,7 @@
    "website": "https://hongsukchoi.github.io/fpo-control",
    "paper_url": "https://openreview.net/forum?id=acslhrig33",
    "thumb": "assets/img/corl2026/flow-policy-gradients-for-robot-control.webp",
-   "reel": "assets/img/corl2026/reel/flow-policy-gradients-for-robot-control.webp"
+   "reel": "assets/img/corl2026/strip/flow-policy-gradients-for-robot-control.webp"
   },
   {
    "session": "O4",
@@ -2266,7 +2266,7 @@
    "arxiv_url": "https://arxiv.org/abs/2606.15251",
    "paper_url": "https://openreview.net/forum?id=fHzDEYENPF",
    "thumb": "assets/img/corl2026/driving-fast-or-slow-neuro-symbolic-guidance-for-motion-pred.webp",
-   "reel": "assets/img/corl2026/reel/driving-fast-or-slow-neuro-symbolic-guidance-for-motion-pred.webp"
+   "reel": "assets/img/corl2026/strip/driving-fast-or-slow-neuro-symbolic-guidance-for-motion-pred.webp"
   },
   {
    "session": "ECK3",
@@ -2294,7 +2294,7 @@
     "Learned safety offers probabilistic rather than formal guarantees, so future evaluation will rely on testing how safe policies are."
    ],
    "thumb": "assets/img/corl2026/learning-without-starting-over-expanding-what-robots-can-lea.webp",
-   "reel": "assets/img/corl2026/reel/learning-without-starting-over-expanding-what-robots-can-lea.webp"
+   "reel": "assets/img/corl2026/strip/learning-without-starting-over-expanding-what-robots-can-lea.webp"
   },
   {
    "session": "O5",
@@ -2338,7 +2338,7 @@
    "arxiv_url": "https://arxiv.org/abs/2602.16710",
    "paper_url": "https://openreview.net/forum?id=WF4X17Al2r",
    "thumb": "assets/img/corl2026/egoscale-scaling-dexterous-manipulation-with-diverse-egocent.webp",
-   "reel": "assets/img/corl2026/reel/egoscale-scaling-dexterous-manipulation-with-diverse-egocent.webp"
+   "reel": "assets/img/corl2026/strip/egoscale-scaling-dexterous-manipulation-with-diverse-egocent.webp"
   },
   {
    "session": "O5",
@@ -2375,7 +2375,7 @@
    "website": "https://opendexgrasp.github.io/",
    "paper_url": "https://openreview.net/forum?id=wLgEYxjqid",
    "thumb": "assets/img/corl2026/opendexgrasp-open-vocabulary-task-oriented-dexterous-graspin.webp",
-   "reel": "assets/img/corl2026/reel/opendexgrasp-open-vocabulary-task-oriented-dexterous-graspin.webp"
+   "reel": "assets/img/corl2026/strip/opendexgrasp-open-vocabulary-task-oriented-dexterous-graspin.webp"
   },
   {
    "session": "O5",
@@ -2410,7 +2410,7 @@
    "website": "https://play2perfect.github.io",
    "paper_url": "https://openreview.net/forum?id=RRl1xXZLdM",
    "thumb": "assets/img/corl2026/play2perfect-what-matters-in-dexterous-play-pretraining-for-.webp",
-   "reel": "assets/img/corl2026/reel/play2perfect-what-matters-in-dexterous-play-pretraining-for-.webp",
+   "reel": "assets/img/corl2026/strip/play2perfect-what-matters-in-dexterous-play-pretraining-for-.webp",
    "award": "finalist"
   },
   {
@@ -2450,7 +2450,7 @@
    "website": "https://jasonjzliu.com/factr2",
    "paper_url": "https://openreview.net/forum?id=03zMMFkTXk",
    "thumb": "assets/img/corl2026/factr-2-learning-external-force-sensing-for-commodity-robot-.webp",
-   "reel": "assets/img/corl2026/reel/factr-2-learning-external-force-sensing-for-commodity-robot-.webp"
+   "reel": "assets/img/corl2026/strip/factr-2-learning-external-force-sensing-for-commodity-robot-.webp"
   },
   {
    "session": "O6",
@@ -2483,7 +2483,7 @@
    "website": "https://pace-insertion.github.io/",
    "paper_url": "https://openreview.net/forum?id=AIInkHZlvB",
    "thumb": "assets/img/corl2026/pace-temporal-role-tactile-conditioning-for-chunk-based-inse.webp",
-   "reel": "assets/img/corl2026/reel/pace-temporal-role-tactile-conditioning-for-chunk-based-inse.webp"
+   "reel": "assets/img/corl2026/strip/pace-temporal-role-tactile-conditioning-for-chunk-based-inse.webp"
   },
   {
    "session": "O6",
@@ -2519,7 +2519,7 @@
    "website": "https://distilled-search.github.io",
    "paper_url": "https://openreview.net/forum?id=hWuk4y2AeR",
    "thumb": "assets/img/corl2026/long-horizon-multi-object-rearrangement-via-distilled-tree-s.webp",
-   "reel": "assets/img/corl2026/reel/long-horizon-multi-object-rearrangement-via-distilled-tree-s.webp",
+   "reel": "assets/img/corl2026/strip/long-horizon-multi-object-rearrangement-via-distilled-tree-s.webp",
    "award": "finalist"
   },
   {
@@ -2570,7 +2570,7 @@
    "website": "https://research.nvidia.com/labs/dair/grail/",
    "paper_url": "https://openreview.net/forum?id=2dEfANeQL7",
    "thumb": "assets/img/corl2026/grail-generating-humanoid-loco-manipulation-from-world-model.webp",
-   "reel": "assets/img/corl2026/reel/grail-generating-humanoid-loco-manipulation-from-world-model.webp",
+   "reel": "assets/img/corl2026/strip/grail-generating-humanoid-loco-manipulation-from-world-model.webp",
    "award": "finalist"
   },
   {
@@ -2608,7 +2608,7 @@
    "website": "https://supermimic.github.io",
    "paper_url": "https://openreview.net/forum?id=psNqjklVOK",
    "thumb": "assets/img/corl2026/supermimic-scaling-humanoid-whole-body-control-with-one-diff.webp",
-   "reel": "assets/img/corl2026/reel/supermimic-scaling-humanoid-whole-body-control-with-one-diff.webp",
+   "reel": "assets/img/corl2026/strip/supermimic-scaling-humanoid-whole-body-control-with-one-diff.webp",
    "award": "winner:Best Conference Paper Award"
   },
   {
@@ -2650,7 +2650,7 @@
    "website": "https://opendrivelab.com/RoboNaldo",
    "paper_url": "https://openreview.net/forum?id=WBGnJHRIso",
    "thumb": "assets/img/corl2026/robonaldo-accurate-stable-and-powerful-humanoid-soccer-shoot.webp",
-   "reel": "assets/img/corl2026/reel/robonaldo-accurate-stable-and-powerful-humanoid-soccer-shoot.webp"
+   "reel": "assets/img/corl2026/strip/robonaldo-accurate-stable-and-powerful-humanoid-soccer-shoot.webp"
   },
   {
    "session": "SP3",
@@ -2676,7 +2676,7 @@
     "Rao predicts frontier models will take over more of robotics and that agentic, closed-loop robot control will arrive as these models get faster."
    ],
    "thumb": "assets/img/corl2026/building-general-purpose-robots-with-gemini.webp",
-   "reel": "assets/img/corl2026/reel/building-general-purpose-robots-with-gemini.webp"
+   "reel": "assets/img/corl2026/strip/building-general-purpose-robots-with-gemini.webp"
   },
   {
    "session": "SP3",
@@ -2702,7 +2702,7 @@
     "Rodriguez sees large-scale RL in simulation as a path to high-quality data, showing emergent dexterous behaviors from RGB-only policies."
    ],
    "thumb": "assets/img/corl2026/actions-and-agents-for-true-long-horizon-behavior.webp",
-   "reel": "assets/img/corl2026/reel/actions-and-agents-for-true-long-horizon-behavior.webp"
+   "reel": "assets/img/corl2026/strip/actions-and-agents-for-true-long-horizon-behavior.webp"
   },
   {
    "session": "SP3",
@@ -2728,7 +2728,7 @@
     "Franka released its data collection and training pipeline as open source and invites contributions of new input devices and labeling tools."
    ],
    "thumb": "assets/img/corl2026/the-reference-platform-for-physical-ai.webp",
-   "reel": "assets/img/corl2026/reel/the-reference-platform-for-physical-ai.webp"
+   "reel": "assets/img/corl2026/strip/the-reference-platform-for-physical-ai.webp"
   },
   {
    "session": "S4",
@@ -2764,7 +2764,7 @@
    "arxiv_url": "https://arxiv.org/abs/2610.16463",
    "paper_url": "https://openreview.net/forum?id=yMD1ykviND",
    "thumb": "assets/img/corl2026/detac-dual-branch-decoupling-of-texture-and-force-signals-in.webp",
-   "reel": "assets/img/corl2026/reel/detac-dual-branch-decoupling-of-texture-and-force-signals-in.webp"
+   "reel": "assets/img/corl2026/strip/detac-dual-branch-decoupling-of-texture-and-force-signals-in.webp"
   },
   {
    "session": "S4",
@@ -2796,7 +2796,7 @@
    "website": "https://nus-lins-lab.github.io/FingerEyeWeb/",
    "paper_url": "https://openreview.net/forum?id=RAA96LpIxJ",
    "thumb": "assets/img/corl2026/fingereye-learning-dexterous-manipulation-with-continuous-vi.webp",
-   "reel": "assets/img/corl2026/reel/fingereye-learning-dexterous-manipulation-with-continuous-vi.webp"
+   "reel": "assets/img/corl2026/strip/fingereye-learning-dexterous-manipulation-with-continuous-vi.webp"
   },
   {
    "session": "S4",
@@ -2827,7 +2827,7 @@
    ],
    "paper_url": "https://openreview.net/forum?id=hSRtOgnkTM",
    "thumb": "assets/img/corl2026/davatar-depth-aware-visually-augmented-tactile-learning-acro.webp",
-   "reel": "assets/img/corl2026/reel/davatar-depth-aware-visually-augmented-tactile-learning-acro.webp"
+   "reel": "assets/img/corl2026/strip/davatar-depth-aware-visually-augmented-tactile-learning-acro.webp"
   },
   {
    "session": "S4",
@@ -2862,7 +2862,7 @@
    "website": "https://visibletouch.github.io/",
    "paper_url": "https://openreview.net/forum?id=ult1vxdeUb",
    "thumb": "assets/img/corl2026/visible-touch-rendering-contact-for-visuomotor-policies.webp",
-   "reel": "assets/img/corl2026/reel/visible-touch-rendering-contact-for-visuomotor-policies.webp"
+   "reel": "assets/img/corl2026/strip/visible-touch-rendering-contact-for-visuomotor-policies.webp"
   },
   {
    "session": "S4",
@@ -2895,7 +2895,7 @@
    "arxiv_url": "https://arxiv.org/abs/2608.01402",
    "paper_url": "https://openreview.net/forum?id=BV0T1o1ZIL",
    "thumb": "assets/img/corl2026/demystifying-when-and-why-vlas-fail-in-contact-rich-tasks-an.webp",
-   "reel": "assets/img/corl2026/reel/demystifying-when-and-why-vlas-fail-in-contact-rich-tasks-an.webp"
+   "reel": "assets/img/corl2026/strip/demystifying-when-and-why-vlas-fail-in-contact-rich-tasks-an.webp"
   },
   {
    "session": "S4",
@@ -2933,7 +2933,7 @@
    "website": "https://lift-policy.github.io/",
    "paper_url": "https://openreview.net/forum?id=19iADsbO9A",
    "thumb": "assets/img/corl2026/never-too-late-for-force-accelerating-vla-post-training-with.webp",
-   "reel": "assets/img/corl2026/reel/never-too-late-for-force-accelerating-vla-post-training-with.webp"
+   "reel": "assets/img/corl2026/strip/never-too-late-for-force-accelerating-vla-post-training-with.webp"
   },
   {
    "session": "S4",
@@ -2965,7 +2965,7 @@
    "website": "https://erickun0125.github.io/constraint-decomposed-impedance/",
    "paper_url": "https://openreview.net/forum?id=MjpidVjNMS",
    "thumb": "assets/img/corl2026/constraint-decomposed-impedance-control-from-generative-poli.webp",
-   "reel": "assets/img/corl2026/reel/constraint-decomposed-impedance-control-from-generative-poli.webp"
+   "reel": "assets/img/corl2026/strip/constraint-decomposed-impedance-control-from-generative-poli.webp"
   },
   {
    "session": "S4",
@@ -2998,7 +2998,7 @@
    "website": "https://dongwon-son.github.io/tam-project-page/",
    "paper_url": "https://openreview.net/forum?id=Ti3oK55n1H",
    "thumb": "assets/img/corl2026/tam-torque-adaptation-module-for-robust-motion-transfer-in-m.webp",
-   "reel": "assets/img/corl2026/reel/tam-torque-adaptation-module-for-robust-motion-transfer-in-m.webp"
+   "reel": "assets/img/corl2026/strip/tam-torque-adaptation-module-for-robust-motion-transfer-in-m.webp"
   },
   {
    "session": "S4",
@@ -3034,7 +3034,7 @@
    "website": "https://www.user.tu-berlin.de/mtoussai/26-CSRL/",
    "paper_url": "https://openreview.net/forum?id=cJGMjQlgz5",
    "thumb": "assets/img/corl2026/combining-constrained-sampling-and-reinforcement-learning-fo.webp",
-   "reel": "assets/img/corl2026/reel/combining-constrained-sampling-and-reinforcement-learning-fo.webp"
+   "reel": "assets/img/corl2026/strip/combining-constrained-sampling-and-reinforcement-learning-fo.webp"
   },
   {
    "session": "S5",
@@ -3068,7 +3068,7 @@
    "website": "https://pgrd-robot.github.io/",
    "paper_url": "https://openreview.net/forum?id=3hsq75Gmr9",
    "thumb": "assets/img/corl2026/learning-physics-guided-residual-dynamics-for-deformable-obj.webp",
-   "reel": "assets/img/corl2026/reel/learning-physics-guided-residual-dynamics-for-deformable-obj.webp"
+   "reel": "assets/img/corl2026/strip/learning-physics-guided-residual-dynamics-for-deformable-obj.webp"
   },
   {
    "session": "S5",
@@ -3102,7 +3102,7 @@
    "arxiv_url": "https://arxiv.org/abs/2606.18097",
    "paper_url": "https://openreview.net/forum?id=cQPnBRGgWM",
    "thumb": "assets/img/corl2026/wirecraft-a-simulation-benchmark-for-industrial-dlo-manipula.webp",
-   "reel": "assets/img/corl2026/reel/wirecraft-a-simulation-benchmark-for-industrial-dlo-manipula.webp"
+   "reel": "assets/img/corl2026/strip/wirecraft-a-simulation-benchmark-for-industrial-dlo-manipula.webp"
   },
   {
    "session": "S5",
@@ -3140,7 +3140,7 @@
    "website": "https://silr-cloth.github.io/",
    "paper_url": "https://openreview.net/forum?id=nzYChkCtvT",
    "thumb": "assets/img/corl2026/enabling-robust-cloth-manipulation-via-inference-time-simula.webp",
-   "reel": "assets/img/corl2026/reel/enabling-robust-cloth-manipulation-via-inference-time-simula.webp"
+   "reel": "assets/img/corl2026/strip/enabling-robust-cloth-manipulation-via-inference-time-simula.webp"
   },
   {
    "session": "S5",
@@ -3172,7 +3172,7 @@
    "arxiv_url": "https://arxiv.org/abs/2606.14188",
    "paper_url": "https://openreview.net/forum?id=UVJPDRCmlf",
    "thumb": "assets/img/corl2026/robustness-without-wrinkles-parallel-simulation-and-robust-m.webp",
-   "reel": "assets/img/corl2026/reel/robustness-without-wrinkles-parallel-simulation-and-robust-m.webp"
+   "reel": "assets/img/corl2026/strip/robustness-without-wrinkles-parallel-simulation-and-robust-m.webp"
   },
   {
    "session": "S5",
@@ -3204,7 +3204,7 @@
    ],
    "paper_url": "https://openreview.net/forum?id=r8MOxo93Mv",
    "thumb": "assets/img/corl2026/noise-invariant-spatial-encoding-for-3d-manipulation-policie.webp",
-   "reel": "assets/img/corl2026/reel/noise-invariant-spatial-encoding-for-3d-manipulation-policie.webp"
+   "reel": "assets/img/corl2026/strip/noise-invariant-spatial-encoding-for-3d-manipulation-policie.webp"
   },
   {
    "session": "S5",
@@ -3235,7 +3235,7 @@
    ],
    "paper_url": "https://openreview.net/forum?id=nIbnBCtz79",
    "thumb": "assets/img/corl2026/serf-spatiotemporal-environment-and-robot-feature-map-for-lo.webp",
-   "reel": "assets/img/corl2026/reel/serf-spatiotemporal-environment-and-robot-feature-map-for-lo.webp"
+   "reel": "assets/img/corl2026/strip/serf-spatiotemporal-environment-and-robot-feature-map-for-lo.webp"
   },
   {
    "session": "S5",
@@ -3270,7 +3270,7 @@
    ],
    "paper_url": "https://openreview.net/forum?id=FKKr8jKS29",
    "thumb": "assets/img/corl2026/articulated-3d-scene-graphs-for-open-world-mobile-manipulati.webp",
-   "reel": "assets/img/corl2026/reel/articulated-3d-scene-graphs-for-open-world-mobile-manipulati.webp"
+   "reel": "assets/img/corl2026/strip/articulated-3d-scene-graphs-for-open-world-mobile-manipulati.webp"
   },
   {
    "session": "S5",
@@ -3301,7 +3301,7 @@
    "website": "https://timwalter.github.io/ram",
    "paper_url": "https://openreview.net/forum?id=SaMjmUr6xC",
    "thumb": "assets/img/corl2026/ram-reachability-across-morphologies.webp",
-   "reel": "assets/img/corl2026/reel/ram-reachability-across-morphologies.webp"
+   "reel": "assets/img/corl2026/strip/ram-reachability-across-morphologies.webp"
   },
   {
    "session": "S5",
@@ -3328,7 +3328,7 @@
    ],
    "paper_url": "https://openreview.net/forum?id=xhO9wj1gGt",
    "thumb": "assets/img/corl2026/shape-your-body-value-gradients-for-multi-embodiment-robot-d.webp",
-   "reel": "assets/img/corl2026/reel/shape-your-body-value-gradients-for-multi-embodiment-robot-d.webp"
+   "reel": "assets/img/corl2026/strip/shape-your-body-value-gradients-for-multi-embodiment-robot-d.webp"
   },
   {
    "session": "K2",
@@ -3356,7 +3356,7 @@
     "He sees manufacturing robots at scale, not AI, as the current bottleneck, and pursues it by having robots build robots and partnering with Toyota for mass production."
    ],
    "thumb": "assets/img/corl2026/learning-in-the-factories.webp",
-   "reel": "assets/img/corl2026/reel/learning-in-the-factories.webp"
+   "reel": "assets/img/corl2026/strip/learning-in-the-factories.webp"
   },
   {
    "session": "SP4",
@@ -3382,7 +3382,7 @@
     "Meta is feeding robotics data into its frontier model and doing RL post-training to improve agentic tool calling for robot tasks."
    ],
    "thumb": "assets/img/corl2026/building-an-autonomous-humanoid-for-the-home.webp",
-   "reel": "assets/img/corl2026/reel/building-an-autonomous-humanoid-for-the-home.webp"
+   "reel": "assets/img/corl2026/strip/building-an-autonomous-humanoid-for-the-home.webp"
   },
   {
    "session": "SP4",
@@ -3407,7 +3407,7 @@
     "The benchmark's simulation assets are tuned to match the real world so that sim-to-real gaps can be measured, and it has around 20 contributing institutions and more than 190 teams using it."
    ],
    "thumb": "assets/img/corl2026/scaling-robot-intelligence-from-human-experience-to-self-imp.webp",
-   "reel": "assets/img/corl2026/reel/scaling-robot-intelligence-from-human-experience-to-self-imp.webp"
+   "reel": "assets/img/corl2026/strip/scaling-robot-intelligence-from-human-experience-to-self-imp.webp"
   },
   {
    "session": "SP4",
@@ -3433,7 +3433,7 @@
     "The world models are trained from scratch in-house so that they work like general video generators conditioned on the car's or robot's actual actions."
    ],
    "thumb": "assets/img/corl2026/building-foundational-models-for-robotics-at-tesla.webp",
-   "reel": "assets/img/corl2026/reel/building-foundational-models-for-robotics-at-tesla.webp"
+   "reel": "assets/img/corl2026/strip/building-foundational-models-for-robotics-at-tesla.webp"
   },
   {
    "session": "S6",
@@ -3467,7 +3467,7 @@
    ],
    "paper_url": "https://openreview.net/forum?id=xfZJ2GKrZG",
    "thumb": "assets/img/corl2026/robokit-accelerating-parallel-differentiable-optimization-fo.webp",
-   "reel": "assets/img/corl2026/reel/robokit-accelerating-parallel-differentiable-optimization-fo.webp"
+   "reel": "assets/img/corl2026/strip/robokit-accelerating-parallel-differentiable-optimization-fo.webp"
   },
   {
    "session": "S6",
@@ -3502,7 +3502,7 @@
    ],
    "paper_url": "https://openreview.net/forum?id=c9tCcHtVcS",
    "thumb": "assets/img/corl2026/control-ready-uncertainty-for-trajectory-diffusion.webp",
-   "reel": "assets/img/corl2026/reel/control-ready-uncertainty-for-trajectory-diffusion.webp"
+   "reel": "assets/img/corl2026/strip/control-ready-uncertainty-for-trajectory-diffusion.webp"
   },
   {
    "session": "S6",
@@ -3531,7 +3531,7 @@
    ],
    "paper_url": "https://openreview.net/forum?id=XY8QpMSxvq",
    "thumb": "assets/img/corl2026/emergent-control-via-prior-based-free-energy-minimization.webp",
-   "reel": "assets/img/corl2026/reel/emergent-control-via-prior-based-free-energy-minimization.webp"
+   "reel": "assets/img/corl2026/strip/emergent-control-via-prior-based-free-energy-minimization.webp"
   },
   {
    "session": "S6",
@@ -3581,7 +3581,7 @@
    ],
    "paper_url": "https://openreview.net/forum?id=C96z0RnFh8",
    "thumb": "assets/img/corl2026/gap-a-graph-as-policy-multi-agent-self-learning-harness-for-.webp",
-   "reel": "assets/img/corl2026/reel/gap-a-graph-as-policy-multi-agent-self-learning-harness-for-.webp"
+   "reel": "assets/img/corl2026/strip/gap-a-graph-as-policy-multi-agent-self-learning-harness-for-.webp"
   },
   {
    "session": "S6",
@@ -3630,7 +3630,7 @@
    "website": "https://playful-rats.github.io/",
    "paper_url": "https://openreview.net/forum?id=GeL3GdwSYo",
    "thumb": "assets/img/corl2026/playful-agentic-robot-learning.webp",
-   "reel": "assets/img/corl2026/reel/playful-agentic-robot-learning.webp"
+   "reel": "assets/img/corl2026/strip/playful-agentic-robot-learning.webp"
   },
   {
    "session": "S6",
@@ -3665,7 +3665,7 @@
    ],
    "paper_url": "https://openreview.net/forum?id=qQs6JndxfZ",
    "thumb": "assets/img/corl2026/meta-ctrl-guaranteed-plan-generation-by-decoupling-syntactic.webp",
-   "reel": "assets/img/corl2026/reel/meta-ctrl-guaranteed-plan-generation-by-decoupling-syntactic.webp"
+   "reel": "assets/img/corl2026/strip/meta-ctrl-guaranteed-plan-generation-by-decoupling-syntactic.webp"
   },
   {
    "session": "S6",
@@ -3697,7 +3697,7 @@
    ],
    "paper_url": "https://openreview.net/forum?id=El4EDBhqCG",
    "thumb": "assets/img/corl2026/bayesian-active-learning-for-intent-disambiguation-in-intera.webp",
-   "reel": "assets/img/corl2026/reel/bayesian-active-learning-for-intent-disambiguation-in-intera.webp"
+   "reel": "assets/img/corl2026/strip/bayesian-active-learning-for-intent-disambiguation-in-intera.webp"
   },
   {
    "session": "S6",
@@ -3736,7 +3736,7 @@
    ],
    "paper_url": "https://openreview.net/forum?id=DpOVq6nE2d",
    "thumb": "assets/img/corl2026/atom-bench-a-real-world-benchmark-for-atomic-skills-and-comp.webp",
-   "reel": "assets/img/corl2026/reel/atom-bench-a-real-world-benchmark-for-atomic-skills-and-comp.webp"
+   "reel": "assets/img/corl2026/strip/atom-bench-a-real-world-benchmark-for-atomic-skills-and-comp.webp"
   },
   {
    "session": "S7",
@@ -3771,7 +3771,7 @@
    ],
    "paper_url": "https://openreview.net/forum?id=aKjXDWnmzc",
    "thumb": "assets/img/corl2026/kamino-gpu-based-simulation-of-rigid-multi-body-physics-with.webp",
-   "reel": "assets/img/corl2026/reel/kamino-gpu-based-simulation-of-rigid-multi-body-physics-with.webp"
+   "reel": "assets/img/corl2026/strip/kamino-gpu-based-simulation-of-rigid-multi-body-physics-with.webp"
   },
   {
    "session": "S7",
@@ -3808,7 +3808,7 @@
    "website": "https://davian-robotics.github.io/PHUMA",
    "paper_url": "https://openreview.net/forum?id=lY47GBfn32",
    "thumb": "assets/img/corl2026/phuma-physically-reliable-humanoid-locomotion-dataset.webp",
-   "reel": "assets/img/corl2026/reel/phuma-physically-reliable-humanoid-locomotion-dataset.webp"
+   "reel": "assets/img/corl2026/strip/phuma-physically-reliable-humanoid-locomotion-dataset.webp"
   },
   {
    "session": "S7",
@@ -3845,7 +3845,7 @@
    "website": "https://ladderman-robot.github.io",
    "paper_url": "https://openreview.net/forum?id=PLNJ3a6Yht",
    "thumb": "assets/img/corl2026/ladderman-learning-humanoid-perceptive-ladder-climbing.webp",
-   "reel": "assets/img/corl2026/reel/ladderman-learning-humanoid-perceptive-ladder-climbing.webp"
+   "reel": "assets/img/corl2026/strip/ladderman-learning-humanoid-perceptive-ladder-climbing.webp"
   },
   {
    "session": "S7",
@@ -3878,7 +3878,7 @@
    ],
    "paper_url": "https://openreview.net/forum?id=aGLO1l8SNB",
    "thumb": "assets/img/corl2026/tactilestep-sole-tactile-learning-for-regulating-foot-terrai.webp",
-   "reel": "assets/img/corl2026/reel/tactilestep-sole-tactile-learning-for-regulating-foot-terrai.webp"
+   "reel": "assets/img/corl2026/strip/tactilestep-sole-tactile-learning-for-regulating-foot-terrai.webp"
   },
   {
    "session": "S7",
@@ -3914,7 +3914,7 @@
    ],
    "paper_url": "https://openreview.net/forum?id=TTFZrb0Hw3",
    "thumb": "assets/img/corl2026/openhlm-an-empirical-recipe-for-whole-body-humanoid-loco-man.webp",
-   "reel": "assets/img/corl2026/reel/openhlm-an-empirical-recipe-for-whole-body-humanoid-loco-man.webp"
+   "reel": "assets/img/corl2026/strip/openhlm-an-empirical-recipe-for-whole-body-humanoid-loco-man.webp"
   },
   {
    "session": "S7",
@@ -3949,7 +3949,7 @@
    ],
    "paper_url": "https://openreview.net/forum?id=5b4j0e21aJ",
    "thumb": "assets/img/corl2026/learning-loco-manipulation-from-smpc-demonstrations-with-spa.webp",
-   "reel": "assets/img/corl2026/reel/learning-loco-manipulation-from-smpc-demonstrations-with-spa.webp"
+   "reel": "assets/img/corl2026/strip/learning-loco-manipulation-from-smpc-demonstrations-with-spa.webp"
   },
   {
    "session": "S7",
@@ -3983,7 +3983,7 @@
    ],
    "paper_url": "https://openreview.net/forum?id=yyitbtz7rQ",
    "thumb": "assets/img/corl2026/cmp-robust-whole-body-tracking-for-loco-manipulation-via-com.webp",
-   "reel": "assets/img/corl2026/reel/cmp-robust-whole-body-tracking-for-loco-manipulation-via-com.webp"
+   "reel": "assets/img/corl2026/strip/cmp-robust-whole-body-tracking-for-loco-manipulation-via-com.webp"
   },
   {
    "session": "S7",
@@ -4017,7 +4017,7 @@
    ],
    "paper_url": "https://openreview.net/forum?id=rEmMzoUnpn",
    "thumb": "assets/img/corl2026/ressafe-learning-safety-filtering-with-residual-reinforcemen.webp",
-   "reel": "assets/img/corl2026/reel/ressafe-learning-safety-filtering-with-residual-reinforcemen.webp"
+   "reel": "assets/img/corl2026/strip/ressafe-learning-safety-filtering-with-residual-reinforcemen.webp"
   },
   {
    "session": "S7",
@@ -4051,7 +4051,7 @@
    ],
    "paper_url": "https://openreview.net/forum?id=2Z9666X2B7",
    "thumb": "assets/img/corl2026/humanoid-navigation-in-cluttered-environments-with-a-whole-b.webp",
-   "reel": "assets/img/corl2026/reel/humanoid-navigation-in-cluttered-environments-with-a-whole-b.webp"
+   "reel": "assets/img/corl2026/strip/humanoid-navigation-in-cluttered-environments-with-a-whole-b.webp"
   },
   {
    "session": "S8",
@@ -4086,7 +4086,7 @@
    ],
    "paper_url": "https://openreview.net/forum?id=dE7KjOl8yu",
    "thumb": "assets/img/corl2026/visionsim-beyond-idealized-sensors-a-multi-modal-simulator-f.webp",
-   "reel": "assets/img/corl2026/reel/visionsim-beyond-idealized-sensors-a-multi-modal-simulator-f.webp"
+   "reel": "assets/img/corl2026/strip/visionsim-beyond-idealized-sensors-a-multi-modal-simulator-f.webp"
   },
   {
    "session": "S8",
@@ -4120,7 +4120,7 @@
    ],
    "paper_url": "https://openreview.net/forum?id=k2QZxbcSbQ",
    "thumb": "assets/img/corl2026/mosaicimu-composing-carrier-experts-for-generalizable-neural.webp",
-   "reel": "assets/img/corl2026/reel/mosaicimu-composing-carrier-experts-for-generalizable-neural.webp"
+   "reel": "assets/img/corl2026/strip/mosaicimu-composing-carrier-experts-for-generalizable-neural.webp"
   },
   {
    "session": "S8",
@@ -4157,7 +4157,7 @@
    ],
    "paper_url": "https://openreview.net/forum?id=Q53ayGo2IE",
    "thumb": "assets/img/corl2026/anchor3r-streaming-3d-reconstruction-with-transient-anchors-.webp",
-   "reel": "assets/img/corl2026/reel/anchor3r-streaming-3d-reconstruction-with-transient-anchors-.webp"
+   "reel": "assets/img/corl2026/strip/anchor3r-streaming-3d-reconstruction-with-transient-anchors-.webp"
   },
   {
    "session": "S8",
@@ -4192,7 +4192,7 @@
    "website": "https://vail-ucla.github.io/SidewalkBench/",
    "paper_url": "https://openreview.net/forum?id=wBzyyPlFs6",
    "thumb": "assets/img/corl2026/sidewalkbench-benchmarking-visual-navigation-on-urban-sidewa.webp",
-   "reel": "assets/img/corl2026/reel/sidewalkbench-benchmarking-visual-navigation-on-urban-sidewa.webp"
+   "reel": "assets/img/corl2026/strip/sidewalkbench-benchmarking-visual-navigation-on-urban-sidewa.webp"
   },
   {
    "session": "S8",
@@ -4226,7 +4226,7 @@
    "arxiv_url": "https://arxiv.org/abs/2607.03792",
    "paper_url": "https://openreview.net/forum?id=RwGNm8fUxX",
    "thumb": "assets/img/corl2026/from-region-arrival-to-instance-level-grounding-in-vision-an.webp",
-   "reel": "assets/img/corl2026/reel/from-region-arrival-to-instance-level-grounding-in-vision-an.webp"
+   "reel": "assets/img/corl2026/strip/from-region-arrival-to-instance-level-grounding-in-vision-an.webp"
   },
   {
    "session": "S8",
@@ -4256,7 +4256,7 @@
    ],
    "paper_url": "https://openreview.net/forum?id=hr2FYFod4n",
    "thumb": "assets/img/corl2026/oscar-obstacle-survival-curves-for-adaptive-robot-navigation.webp",
-   "reel": "assets/img/corl2026/reel/oscar-obstacle-survival-curves-for-adaptive-robot-navigation.webp"
+   "reel": "assets/img/corl2026/strip/oscar-obstacle-survival-curves-for-adaptive-robot-navigation.webp"
   },
   {
    "session": "S8",
@@ -4285,7 +4285,7 @@
    ],
    "paper_url": "https://openreview.net/forum?id=98pbD92mEI",
    "thumb": "assets/img/corl2026/triad-planner-three-level-robust-imitation-learning-for-auto.webp",
-   "reel": "assets/img/corl2026/reel/triad-planner-three-level-robust-imitation-learning-for-auto.webp"
+   "reel": "assets/img/corl2026/strip/triad-planner-three-level-robust-imitation-learning-for-auto.webp"
   },
   {
    "session": "S8",
@@ -4318,7 +4318,7 @@
    ],
    "paper_url": "https://openreview.net/forum?id=lSrxDURLdG",
    "thumb": "assets/img/corl2026/collaborative-planning-for-uav-ugv-teams-under-operational-c.webp",
-   "reel": "assets/img/corl2026/reel/collaborative-planning-for-uav-ugv-teams-under-operational-c.webp"
+   "reel": "assets/img/corl2026/strip/collaborative-planning-for-uav-ugv-teams-under-operational-c.webp"
   },
   {
    "session": "S8",
@@ -4349,7 +4349,7 @@
    ],
    "paper_url": "https://openreview.net/forum?id=SUV5PudsyI",
    "thumb": "assets/img/corl2026/scocat-success-conditioned-constrained-reinforcement-learnin.webp",
-   "reel": "assets/img/corl2026/reel/scocat-success-conditioned-constrained-reinforcement-learnin.webp"
+   "reel": "assets/img/corl2026/strip/scocat-success-conditioned-constrained-reinforcement-learnin.webp"
   },
   {
    "session": "K3",
@@ -4376,7 +4376,7 @@
     "A distilled real-time version runs at 15 fps, and World Labs is testing Atlas worlds for training navigation and manipulation robots with zero-shot real deployment."
    ],
    "thumb": "assets/img/corl2026/atlas-a-unified-world-model-for-generation-and-reconstructio.webp",
-   "reel": "assets/img/corl2026/reel/atlas-a-unified-world-model-for-generation-and-reconstructio.webp"
+   "reel": "assets/img/corl2026/strip/atlas-a-unified-world-model-for-generation-and-reconstructio.webp"
   },
   {
    "session": "FIRESIDE",
@@ -4405,7 +4405,7 @@
     "Their parting advice was to hold onto timeless values like curiosity, integrity and fearlessness (Li) and to run toward the hardest problems (Su)."
    ],
    "thumb": "assets/img/corl2026/fireside-chat-fei-fei-li-lisa-su.webp",
-   "reel": "assets/img/corl2026/reel/fireside-chat-fei-fei-li-lisa-su.webp"
+   "reel": "assets/img/corl2026/strip/fireside-chat-fei-fei-li-lisa-su.webp"
   },
   {
    "session": "PANEL",
@@ -4438,7 +4438,7 @@
     "Much of the debate turned on definitions, such as whether simulation and RL fine-tuning count as part of 'the current recipe'."
    ],
    "thumb": "assets/img/corl2026/debate-the-current-recipe-of-behavior-cloning-pre-training-a.webp",
-   "reel": "assets/img/corl2026/reel/debate-the-current-recipe-of-behavior-cloning-pre-training-a.webp"
+   "reel": "assets/img/corl2026/strip/debate-the-current-recipe-of-behavior-cloning-pre-training-a.webp"
   },
   {
    "session": "CLOSING",
@@ -4461,7 +4461,7 @@
     "The interlude led directly into the closing ceremony and best paper awards."
    ],
    "thumb": "assets/img/corl2026/musical-interlude-robot-conducted-string-quartet.webp",
-   "reel": "assets/img/corl2026/reel/musical-interlude-robot-conducted-string-quartet.webp"
+   "reel": "assets/img/corl2026/strip/musical-interlude-robot-conducted-string-quartet.webp"
   },
   {
    "session": "CLOSING",
@@ -4490,7 +4490,7 @@
     "Goldberg argues the field must now deliver reliability, throughput and interpretability to earn revenue, and announces CoRL 2027 in Paris."
    ],
    "thumb": "assets/img/corl2026/closing-remarks-awards-farewell.webp",
-   "reel": "assets/img/corl2026/reel/closing-remarks-awards-farewell.webp"
+   "reel": "assets/img/corl2026/strip/closing-remarks-awards-farewell.webp"
   }
  ]
 }

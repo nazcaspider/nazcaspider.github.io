@@ -5,7 +5,7 @@
 (function () {
   "use strict";
 
-  const DATA_URL = "assets/data/corl2026.json?v=7";
+  const DATA_URL = "assets/data/corl2026.json?v=8";
 
   const DAY_OF_VIDEO = { d1: "1", d2: "2", d3a: "3", d3b: "3" };
   const DAY_LABEL = { "1": "Day 1 · Mon Nov 9", "2": "Day 2 · Tue Nov 10", "3": "Day 3 · Wed Nov 11" };
@@ -324,42 +324,71 @@
 
   /* ---------- Keyframe reel + progress breadcrumbs ---------- */
 
-  // Where each GIF frame was captured, as a fraction of the talk (in frame order),
-  // and how long each frame is shown. Must match the GIF builder.
+  // Each reel is a still strip of keyframes stacked vertically; the page steps
+  // through it, so the breadcrumbs always match the visible frame. (An animated
+  // image drifts: iOS Safari pauses animations offscreen and in Low Power Mode.)
+  // Where each keyframe was captured, as a fraction of the talk (strip order).
   const REEL_FRACS = [0.10, 0.22, 0.35, 0.60, 0.80, 0.92];
   const REEL_FRAME_MS = 1200;
-  const liveReels = new Set();
+  const liveReels = new Set();   // loaded and on screen
   let reelTimer = null;
+
+  function showFrame(r, idx) {
+    r.idx = idx;
+    r.frame.style.backgroundPosition = `0 ${(idx / (REEL_FRACS.length - 1)) * 100}%`;
+    r.dots.forEach((d, n) => d.classList.toggle("active", n === idx));
+    r.fill.style.width = (REEL_FRACS[idx] * 100) + "%";
+    r.label.textContent = r.labels[idx];
+  }
 
   function tickReels() {
     const now = performance.now();
     for (const r of liveReels) {
       if (!r.root.isConnected) { liveReels.delete(r); continue; }
-      const idx = Math.floor((now - r.t0) / REEL_FRAME_MS) % REEL_FRACS.length;
-      if (idx === r.idx) continue;
-      r.idx = idx;
-      r.dots.forEach((d, n) => d.classList.toggle("active", n === idx));
-      r.fill.style.width = (REEL_FRACS[idx] * 100) + "%";
-      r.label.textContent = r.labels[idx];
+      if (now - r.shownAt < REEL_FRAME_MS) continue;
+      r.shownAt = now;
+      showFrame(r, (r.idx + 1) % REEL_FRACS.length);
     }
     if (!liveReels.size) { clearInterval(reelTimer); reelTimer = null; }
   }
 
-  function startReel(r) {
-    r.t0 = performance.now();
-    r.idx = -1;
+  function setLive(r, on) {
+    if (!on || !r.loaded) { liveReels.delete(r); return; }
+    r.shownAt = performance.now();
     liveReels.add(r);
     if (!reelTimer) reelTimer = setInterval(tickReels, 100);
-    tickReels();
   }
 
-  // Looping keyframe animation (a quick visual summary of the talk) with a
-  // progress track showing how far into the talk the current frame is.
+  // Load strips shortly before they scroll into view, and only animate visible ones.
+  const reelObserver = "IntersectionObserver" in window ? new IntersectionObserver((entries) => {
+    for (const e of entries) {
+      const r = e.target._reel;
+      r.visible = e.isIntersecting;
+      if (r.visible && !r.requested) loadReel(r);
+      setLive(r, r.visible);
+    }
+  }, { rootMargin: "300px 0px" }) : null;
+
+  function loadReel(r) {
+    r.requested = true;
+    const img = new Image();
+    img.onload = () => {
+      r.frame.style.backgroundImage = `url("${r.src}")`;
+      r.root.classList.add("is-loaded");
+      r.loaded = true;
+      showFrame(r, 0);
+      setLive(r, r.visible);
+    };
+    img.src = r.src;
+  }
+
+  // Keyframe slideshow (a quick visual summary of the talk) with a progress
+  // track showing how far into the talk the current frame is.
   function appendReel(wrap, t, playAt) {
     if (!t.reel) return;
     const dur = Math.max(1, t.end - t.start);
     const total = fmtTime(dur);
-    const r = { labels: REEL_FRACS.map((f) => `${fmtTime(f * dur)} / ${total}`) };
+    const r = { src: t.reel, idx: 0, labels: REEL_FRACS.map((f) => `${fmtTime(f * dur)} / ${total}`) };
     r.fill = el("span", { class: "corl-crumb-fill" });
     r.dots = REEL_FRACS.map((f, n) => el("button", {
       type: "button",
@@ -370,14 +399,14 @@
       onclick: () => playAt(Math.floor(t.start + f * dur))
     }));
     r.label = el("span", { class: "corl-crumb-label", text: r.labels[0] });
-    const img = el("img", { src: t.reel, alt: `Keyframes from "${t.title}"`, loading: "lazy", width: "440", height: "248" });
+    r.frame = el("div", { class: "corl-reel-frame", role: "img", "aria-label": `Keyframes from "${t.title}"` });
     r.root = el("figure", { class: "corl-reel" },
-      img,
+      r.frame,
       el("div", { class: "corl-crumbs" }, el("span", { class: "corl-crumb-track" }, r.fill), r.dots),
       el("figcaption", null, el("span", { text: "Keyframes" }), r.label));
-    // The GIF starts animating when it has loaded; start the breadcrumbs then.
-    if (img.complete && img.naturalWidth) startReel(r);
-    else img.addEventListener("load", () => startReel(r), { once: true });
+    r.root._reel = r;
+    if (reelObserver) reelObserver.observe(r.root);
+    else { r.visible = true; loadReel(r); }
     wrap.append(r.root);
   }
 
@@ -443,6 +472,8 @@
 
   function render() {
     const list = $("#corl-list");
+    if (reelObserver) reelObserver.disconnect();
+    liveReels.clear();
     list.textContent = "";
     const visible = talks.filter((t) => matches(t));
     $("#corl-count").textContent = `${visible.length} of ${talks.length} presentations`;
