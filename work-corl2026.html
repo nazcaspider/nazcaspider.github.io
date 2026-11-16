@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Renato Salas - CoRL 2026 Talks</title>
+  <meta content="Every presentation from the CoRL 2026 livestream recordings, with summaries, key takeaways and a player cued to each talk." name="description">
+  <meta content="CoRL 2026, robot learning, robotics, conference talks" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=https://fonts.googleapis.com/css?family=Inconsolata:400,500,600,700|Raleway:400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css?v=7" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- ======= Navbar ======= -->
+  <div class="collapse navbar-collapse custom-navmenu" id="main-navbar">
+    <div class="container py-2 py-md-5">
+      <div class="row align-items-start">
+        <div class="col-md-2">
+          <ul class="custom-menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <nav class="navbar navbar-light custom-navbar">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">MyWork.</a>
+      <a href="#" class="burger" data-bs-toggle="collapse" data-bs-target="#main-navbar">
+        <span></span>
+      </a>
+    </div>
+  </nav>
+
+  <main id="main">
+
+    <section class="section corl-page">
+      <div class="container">
+        <div class="row mb-4 align-items-center">
+          <div class="col-lg-8" data-aos="fade-up">
+            <h2>CoRL 2026 &mdash; Every Talk, Indexed by AI</h2>
+            <p>The <a href="https://www.corl.org/program">Conference on Robot Learning 2026</a> (Austin, Texas, Nov 9&ndash;12) streamed its whole
+              main program in four long recordings. These are broken into individual presentations: keynotes, orals, spotlights,
+              sponsor talks and the debate panel. Each entry has a short summary, key takeaways and a player that starts and stops on that talk.</p>
+            <p class="corl-note mb-0">Summaries are written from the livestream captions and the paper abstracts. Each paper links to arXiv and its project page where available, and to OpenReview.
+              Recordings &copy; CoRL 2026.</p>
+          </div>
+        </div>
+
+        <!-- Conference overview (rendered from assets/data/corl2026.json) -->
+        <section id="corl-overview" class="corl-overview" aria-labelledby="corl-overview-title" hidden></section>
+
+        <!-- Filters -->
+        <div class="corl-filters" id="corl-filters" aria-label="Filter presentations">
+          <div class="corl-search">
+            <i class="bi bi-search" aria-hidden="true"></i>
+            <input type="search" id="corl-q" placeholder="Search titles, presenters, summaries&hellip;" aria-label="Search presentations">
+          </div>
+          <div class="corl-group" data-group="day"><span class="corl-label">Day</span><div class="corl-chips"></div></div>
+          <div class="corl-group" data-group="type"><span class="corl-label">Type</span><div class="corl-chips"></div></div>
+          <div class="corl-group" data-group="topic"><span class="corl-label">Topic</span><div class="corl-chips"></div></div>
+          <div class="corl-group" data-group="award"><span class="corl-label">Awards</span><div class="corl-chips"></div></div>
+          <div class="corl-group corl-group-row">
+            <span class="corl-label">Session</span>
+            <select id="corl-session" aria-label="Session"><option value="">All sessions</option></select>
+            <span class="corl-count" id="corl-count" aria-live="polite"></span>
+            <button type="button" class="corl-clear" id="corl-clear">Clear filters</button>
+          </div>
+        </div>
+
+        <div id="corl-list" class="corl-list">
+          <p class="corl-loading">Loading presentations&hellip;</p>
+        </div>
+      </div>
+    </section>
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6">
+          <p class="mb-1">&copy; Copyright Renato F. Salas-Moreno. All Rights Reserved</p>
+        </div>
+        <div class="col-sm-6 social text-md-end">
+          <a href="https://www.linkedin.com/in/renatosalas"><span class="bi bi-linkedin"></span></a>
+          <a href="https://www.instagram.com/piloto_tatito/"><span class="bi bi-instagram"></span></a>
+          <a href="https://twitter.com/nazcaspider"><span class="bi bi-twitter"></span></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/corl2026.js?v=7"></script>
+
+  <!-- GoatCounter: cookie-free analytics -->
+  <script data-goatcounter="https://nazcaspider.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+
+</body>
+
+</html>
