@@ -75,6 +75,30 @@
           AOS.refresh()
         });
       }, true);
+
+      // Menu links like index.html#robotics open the grid pre-filtered;
+      // #work shows everything.
+      const applyHashFilter = () => {
+        const key = location.hash.slice(1);
+        if (!['work', 'robotics', 'startups', 'aviation'].includes(key)) return;
+        const link = select(`#filters a[data-filter="${key === 'work' ? '*' : '.' + key}"]`);
+        if (link) link.click();
+        const navbar = select('#main-navbar');
+        if (navbar && navbar.classList.contains('show')) {
+          bootstrap.Collapse.getOrCreateInstance(navbar).hide();
+          burgerMenu.classList.remove('active');
+        }
+        // offsetTop ignores the AOS fade-up transform that is still running.
+        let top = 0;
+        for (let n = select('#filters'); n; n = n.offsetParent) top += n.offsetTop;
+        window.scrollTo({ top: Math.max(0, top - 20), behavior: 'instant' });
+      };
+      applyHashFilter();
+      window.addEventListener('hashchange', applyHashFilter);
+      // Picking the filter that is already in the URL fires no hashchange.
+      on('click', '.custom-menu a[href^="index.html#"]', function() {
+        if (this.hash === location.hash) applyHashFilter();
+      }, true);
     }
 
   });

@@ -29,6 +29,9 @@
 
   let data = null;
   let talks = [];
+  // Sessions the visitor opened or closed by hand (id -> open?). Without an
+  // entry, a session starts closed, or open while filters or a search are active.
+  const sessionOpen = new Map();
 
   const $ = (sel, root = document) => root.querySelector(sel);
 
@@ -232,8 +235,19 @@
     $("#corl-session").value = state.session;
     const q = $("#corl-q");
     if (document.activeElement !== q) q.value = state.q;
-    const any = GROUPS.some((g) => state[g].size) || state.session || state.q;
-    $("#corl-clear").hidden = !any;
+    $("#corl-clear").hidden = !filtering();
+  }
+
+  function filtering() {
+    return Boolean(GROUPS.some((g) => state[g].size) || state.session || state.q);
+  }
+
+  function setAllSessions(open) {
+    document.querySelectorAll("details.corl-session").forEach((d) => {
+      sessionOpen.set(d.dataset.session, open);
+      d.open = open;
+    });
+    track(open ? "expand-all" : "collapse-all", open ? "Expand all sessions" : "Collapse all sessions");
   }
 
   /* ---------- Rendering ---------- */
@@ -439,6 +453,16 @@
       return;
     }
 
+    list.append(el("div", { class: "corl-toggle-all" },
+      el("button", { type: "button", onclick: () => setAllSessions(true) },
+        el("i", { class: "bi bi-arrows-expand", "aria-hidden": "true" }), " Expand all"),
+      el("button", { type: "button", onclick: () => setAllSessions(false) },
+        el("i", { class: "bi bi-arrows-collapse", "aria-hidden": "true" }), " Collapse all")));
+
+    const perSession = {};
+    for (const t of visible) perSession[t.session] = (perSession[t.session] || 0) + 1;
+    const openByDefault = filtering();
+
     let lastDay = null;
     let lastSession = null;
     let sessionBox = null;
@@ -450,10 +474,24 @@
       }
       if (t.session !== lastSession) {
         const s = data._sessionById[t.session] || { title: t.session };
-        sessionBox = el("section", { class: "corl-session" },
-          el("header", { class: "corl-session-head" },
-            el("h4", { text: s.title }),
-            (s.chair || s.venue) && el("p", { text: [s.time, s.venue, s.chair && "Chair: " + s.chair].filter(Boolean).join(" · ") })));
+        const n = perSession[t.session];
+        const sid = t.session;
+        const box = el("details", { class: "corl-session", "data-session": sid },
+          el("summary", { class: "corl-session-head" },
+            el("i", { class: "bi bi-chevron-right corl-session-caret", "aria-hidden": "true" }),
+            el("div", { class: "corl-session-text" },
+              el("h4", { text: s.title }),
+              (s.chair || s.venue) && el("p", { text: [s.time, s.venue, s.chair && "Chair: " + s.chair].filter(Boolean).join(" · ") })),
+            el("span", { class: "corl-session-n", text: n === 1 ? "1 talk" : `${n} talks` })));
+        box.open = sessionOpen.has(sid) ? sessionOpen.get(sid) : openByDefault;
+        let initial = box.open; // opening at render fires one "toggle"; skip it
+        box.addEventListener("toggle", () => {
+          if (initial) { initial = false; return; }
+          if (sessionOpen.get(sid) === box.open) return; // set by code, not a click
+          sessionOpen.set(sid, box.open);
+          if (box.open) track(`open-session/${sid}`, `Open: ${s.title}`);
+        });
+        sessionBox = box;
         list.append(sessionBox);
         lastSession = t.session;
       }
@@ -504,6 +542,13 @@
       el("h4", { text: heading }),
       list.map((x) => el("div", { class: "corl-ov-item" }, el("h5", { text: x.title }), el("p", { text: x.body }))));
 
+    // Headline, numbers and summary stay visible; the long tail folds away.
+    const more = el("details", { class: "corl-ov-more" },
+      el("summary", null, el("span", { class: "corl-ov-more-open", text: "Read the full overview" }),
+        el("span", { class: "corl-ov-more-close", text: "Hide the full overview" }),
+        el("i", { class: "bi bi-chevron-down", "aria-hidden": "true" })));
+    more.addEventListener("toggle", () => { if (more.open) track("overview-more", "Read full overview"); });
+
     box.append(
       el("p", { class: "corl-ov-kicker", text: "Conference overview" }),
       el("h3", { id: "corl-overview-title", class: "corl-ov-headline", text: o.headline }),
@@ -511,6 +556,9 @@
         o.stats.map((s) => el("div", { class: "corl-ov-stat" },
           el("dt", { text: s.label }), el("dd", { text: s.value }), s.note ? el("span", { text: s.note }) : null))),
       el("div", { class: "corl-ov-summary" }, (o.summary || []).map((p) => el("p", { text: p }))),
+      more
+    );
+    more.append(
       (o.themes || []).length > 0 && el("div", { class: "corl-ov-themes" },
         el("h4", { text: "Themes" }),
         el("div", { class: "corl-ov-grid" }, o.themes.map((th) => el("article", { class: "corl-ov-theme" },
@@ -552,8 +600,13 @@
   function focusTalk(id) {
     const node = document.getElementById(id);
     if (!node) return;
+    const box = node.closest("details.corl-session");
+    if (box && !box.open) {
+      sessionOpen.set(box.dataset.session, true);
+      box.open = true;
+    }
     node.classList.add("is-focused");
-    node.scrollIntoView({ block: "start" });
+    node.scrollIntoView({ block: "start", behavior: "instant" });
   }
 
   document.addEventListener("DOMContentLoaded", () => {
