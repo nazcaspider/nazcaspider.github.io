@@ -763,6 +763,40 @@ h6,
   gap: 6px;
 }
 
+/* Language switch above the page title */
+.corl-lang {
+  display: inline-flex;
+  margin-bottom: 14px;
+  border: 1px solid var(--corl-line);
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.corl-lang button {
+  border: 0;
+  border-left: 1px solid var(--corl-line);
+  background: #fff;
+  color: #000;
+  padding: 3px 12px;
+  font-family: inherit;
+  font-size: 0.85rem;
+  line-height: 1.6;
+  cursor: pointer;
+}
+
+.corl-lang button:first-child {
+  border-left: 0;
+}
+
+.corl-lang button:hover {
+  background: var(--corl-soft);
+}
+
+.corl-lang button.active {
+  background: #000;
+  color: #fff;
+}
+
 .corl-chip {
   border: 1px solid var(--corl-line);
   background: #fff;

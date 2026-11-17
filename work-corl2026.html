@@ -42,7 +42,7 @@
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
   <!-- Template Main CSS File -->
-  <link href="assets/css/style.css?v=11" rel="stylesheet">
+  <link href="assets/css/style.css?v=12" rel="stylesheet">
 </head>
 
 <body>
@@ -85,13 +85,17 @@
       <div class="container">
         <div class="row mb-4 align-items-center">
           <div class="col-lg-8" data-aos="fade-up">
-            <h2>CoRL 2026 &mdash; Every Talk, Dissected by AI</h2>
-            <p>The <a href="https://www.corl.org/program">Conference on Robot Learning 2026</a> (Austin, Texas, Nov 9&ndash;12) streamed its whole
+            <div class="corl-lang" role="group" aria-label="Language / Idioma">
+              <button type="button" data-lang="en" lang="en" aria-pressed="true" class="active">English</button>
+              <button type="button" data-lang="es" lang="es" aria-pressed="false">Español</button>
+            </div>
+            <h2 data-i18n="title">CoRL 2026 &mdash; Every Talk, Dissected by AI</h2>
+            <p data-i18n="intro">The <a href="https://www.corl.org/program">Conference on Robot Learning 2026</a> (Austin, Texas, Nov 9&ndash;12) streamed its whole
               main program in four long recordings. These are broken into individual presentations: keynotes, orals, spotlights,
               sponsor talks and the debate panel. Each entry has a short summary, key takeaways and a player that starts and stops on that talk.</p>
-            <p class="corl-note mb-0">Summaries are written from the livestream captions and the paper abstracts. Each paper links to arXiv and its project page where available, and to OpenReview.</p>
-            <p class="corl-note mt-2 mb-0"><strong>Disclaimer:</strong> This page was generated with Claude Opus 5.5 and has not been fully reviewed,
-              so it may contain errors. Details should be checked against the original recording or paper.
+            <p class="corl-note mb-0" data-i18n="note">Summaries are written from the livestream captions and the paper abstracts. Each paper links to arXiv and its project page where available, and to OpenReview.</p>
+            <p class="corl-note mt-2 mb-0" data-i18n="disclaimer"><strong>Disclaimer:</strong> This page was generated with Claude Opus 5.5 and has not been fully reviewed,
+              so it may contain errors. The translations were also made with AI. Details should be checked against the original recording or paper.
               All talks, papers, slides and recordings belong to their authors and to CoRL 2026.</p>
           </div>
         </div>
@@ -100,25 +104,25 @@
         <section id="corl-overview" class="corl-overview" aria-labelledby="corl-overview-title" hidden></section>
 
         <!-- Filters -->
-        <div class="corl-filters" id="corl-filters" aria-label="Filter presentations">
+        <div class="corl-filters" id="corl-filters" aria-label="Filter presentations" data-i18n-attr="aria-label:filtersAria">
           <div class="corl-search">
             <i class="bi bi-search" aria-hidden="true"></i>
-            <input type="search" id="corl-q" placeholder="Search titles, presenters, summaries&hellip;" aria-label="Search presentations">
+            <input type="search" id="corl-q" placeholder="Search titles, presenters, summaries&hellip;" aria-label="Search presentations" data-i18n-attr="placeholder:search;aria-label:searchAria">
           </div>
-          <div class="corl-group" data-group="day"><span class="corl-label">Day</span><div class="corl-chips"></div></div>
-          <div class="corl-group" data-group="type"><span class="corl-label">Type</span><div class="corl-chips"></div></div>
-          <div class="corl-group" data-group="topic"><span class="corl-label">Topic</span><div class="corl-chips"></div></div>
-          <div class="corl-group" data-group="award"><span class="corl-label">Awards</span><div class="corl-chips"></div></div>
+          <div class="corl-group" data-group="day"><span class="corl-label" data-i18n="day">Day</span><div class="corl-chips"></div></div>
+          <div class="corl-group" data-group="type"><span class="corl-label" data-i18n="type">Type</span><div class="corl-chips"></div></div>
+          <div class="corl-group" data-group="topic"><span class="corl-label" data-i18n="topic">Topic</span><div class="corl-chips"></div></div>
+          <div class="corl-group" data-group="award"><span class="corl-label" data-i18n="award">Awards</span><div class="corl-chips"></div></div>
           <div class="corl-group corl-group-row">
-            <span class="corl-label">Session</span>
-            <select id="corl-session" aria-label="Session"><option value="">All sessions</option></select>
+            <span class="corl-label" data-i18n="session">Session</span>
+            <select id="corl-session" aria-label="Session" data-i18n-attr="aria-label:session"><option value="" data-i18n="allSessions">All sessions</option></select>
             <span class="corl-count" id="corl-count" aria-live="polite"></span>
-            <button type="button" class="corl-clear" id="corl-clear">Clear filters</button>
+            <button type="button" class="corl-clear" id="corl-clear" data-i18n="clear">Clear filters</button>
           </div>
         </div>
 
         <div id="corl-list" class="corl-list">
-          <p class="corl-loading">Loading presentations&hellip;</p>
+          <p class="corl-loading" data-i18n="loading">Loading presentations&hellip;</p>
         </div>
       </div>
     </section>
@@ -151,7 +155,7 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js?v=2"></script>
-  <script src="assets/js/corl2026.js?v=12"></script>
+  <script src="assets/js/corl2026.js?v=14"></script>
 
   <!-- GoatCounter: cookie-free analytics -->
   <script data-goatcounter="https://nazcaspider.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
