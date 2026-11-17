@@ -5,7 +5,7 @@
 (function () {
   "use strict";
 
-  const DATA_URL = "assets/data/corl2026.json?v=10";
+  const DATA_URL = "assets/data/corl2026.json?v=12";
 
   const DAY_OF_VIDEO = { d1: "1", d2: "2", d3a: "3", d3b: "3" };
   const TYPE_ORDER = ["keynote", "early-career-keynote", "oral", "spotlight", "sponsor", "panel", "fireside", "welcome", "closing"];
@@ -259,57 +259,57 @@
   /* ---------- Acronyms ----------
    * Underlined, with the meaning in a tooltip on hover or tap. Names of methods,
    * products and benchmarks (LIBERO, SAM, GRAIL…) and everyday terms (AI, GPU) are left out.
-   * [English, English plural, Spanish] */
+   * [English, English plural, Spanish, Chinese, Japanese] */
   const ACRONYMS = {
-    AV: ["audio-visual", null, "audiovisual"],
-    ATE: ["absolute trajectory error", null, "error absoluto de trayectoria"],
-    BC: ["behavior cloning", null, "clonación de comportamiento"],
-    CAD: ["computer-aided design", null, "diseño asistido por computadora"],
-    DAgger: ["Dataset Aggregation, an interactive imitation-learning method", null, "Dataset Aggregation, un método de aprendizaje por imitación interactivo"],
-    DAGGER: ["Dataset Aggregation, an interactive imitation-learning method", null, "Dataset Aggregation, un método de aprendizaje por imitación interactivo"],
-    DiT: ["diffusion transformer", null, "transformer de difusión"],
-    DoF: ["degrees of freedom", null, "grados de libertad"],
-    EKF: ["extended Kalman filter", null, "filtro de Kalman extendido"],
-    ELBO: ["evidence lower bound", null, "cota inferior de la evidencia"],
-    FEM: ["finite element method", null, "método de elementos finitos"],
-    GAE: ["generalized advantage estimation", null, "estimación de ventaja generalizada"],
-    HRI: ["human-robot interaction", null, "interacción humano-robot"],
-    HSR: ["Human Support Robot (Toyota)", null, "Human Support Robot (Toyota)"],
-    IK: ["inverse kinematics", null, "cinemática inversa"],
-    KV: ["key-value (attention cache)", null, "clave-valor, de la caché de atención"],
-    LiDAR: ["laser-based 3D range sensor", null, "sensor de distancia 3D por láser"],
-    LLM: ["large language model", "large language models", "modelo de lenguaje grande"],
-    LoRA: ["low-rank adaptation, a light fine-tuning method", null, "adaptación de bajo rango, un método ligero de ajuste fino"],
-    LSTM: ["long short-term memory network", null, "red de memoria a corto y largo plazo"],
-    MCTS: ["Monte Carlo tree search", null, "búsqueda de árbol de Monte Carlo"],
-    MDP: ["Markov decision process", null, "proceso de decisión de Markov"],
-    MLP: ["multilayer perceptron", null, "perceptrón multicapa"],
-    MPC: ["model predictive control", null, "control predictivo basado en modelo"],
-    MPPI: ["model predictive path integral control", null, "control predictivo por integral de trayectorias"],
-    NAIRR: ["National AI Research Resource (US)", null, "National AI Research Resource (EE. UU.)"],
-    OOD: ["out-of-distribution", null, "fuera de distribución"],
-    PCA: ["principal component analysis", null, "análisis de componentes principales"],
-    PI: ["Physical Intelligence, the company", null, "Physical Intelligence, la empresa"],
-    PPO: ["Proximal Policy Optimization, an RL algorithm", null, "Proximal Policy Optimization, un algoritmo de RL"],
-    QA: ["quality assurance", null, "control de calidad"],
-    RL: ["reinforcement learning", null, "aprendizaje por refuerzo"],
-    RNN: ["recurrent neural network", "recurrent neural networks", "red neuronal recurrente"],
-    ROS: ["Robot Operating System", null, "Robot Operating System"],
-    RTC: ["real-time chunking", null, "real-time chunking (fragmentación en tiempo real)"],
-    RTE: ["relative trajectory error", null, "error relativo de trayectoria"],
-    SAC: ["Soft Actor-Critic, an RL algorithm", null, "Soft Actor-Critic, un algoritmo de RL"],
-    SFT: ["supervised fine-tuning", null, "ajuste fino supervisado"],
-    SLAM: ["simultaneous localization and mapping", null, "localización y mapeo simultáneos"],
-    SMPL: ["a standard parametric 3D human body model", null, "un modelo paramétrico estándar del cuerpo humano en 3D"],
-    SPAD: ["single-photon avalanche diode", null, "diodo de avalancha de fotón único"],
-    STL: ["signal temporal logic", null, "lógica temporal de señales"],
-    ToF: ["time-of-flight", null, "tiempo de vuelo"],
-    UAV: ["unmanned aerial vehicle", "unmanned aerial vehicles", "vehículo aéreo no tripulado"],
-    UGV: ["unmanned ground vehicle", "unmanned ground vehicles", "vehículo terrestre no tripulado"],
-    UMI: ["Universal Manipulation Interface, a handheld data-collection gripper", null, "Universal Manipulation Interface, una pinza manual para recopilar datos"],
-    VLA: ["vision-language-action model", "vision-language-action models", "modelo de visión-lenguaje-acción"],
-    VLM: ["vision-language model", "vision-language models", "modelo de visión y lenguaje"],
-    XPBD: ["extended position-based dynamics", null, "dinámica basada en posiciones extendida"]
+    AV: ["audio-visual", null, "audiovisual", "视听", "音響・映像"],
+    ATE: ["absolute trajectory error", null, "error absoluto de trayectoria", "绝对轨迹误差", "絶対軌跡誤差"],
+    BC: ["behavior cloning", null, "clonación de comportamiento", "行为克隆", "行動クローニング"],
+    CAD: ["computer-aided design", null, "diseño asistido por computadora", "计算机辅助设计", "コンピュータ支援設計"],
+    DAgger: ["Dataset Aggregation, an interactive imitation-learning method", null, "Dataset Aggregation, un método de aprendizaje por imitación interactivo", "数据集聚合（Dataset Aggregation），一种交互式模仿学习方法", "データセット集約（Dataset Aggregation）、対話型の模倣学習手法"],
+    DAGGER: ["Dataset Aggregation, an interactive imitation-learning method", null, "Dataset Aggregation, un método de aprendizaje por imitación interactivo", "数据集聚合（Dataset Aggregation），一种交互式模仿学习方法", "データセット集約（Dataset Aggregation）、対話型の模倣学習手法"],
+    DiT: ["diffusion transformer", null, "transformer de difusión", "扩散 Transformer", "拡散Transformer"],
+    DoF: ["degrees of freedom", null, "grados de libertad", "自由度", "自由度"],
+    EKF: ["extended Kalman filter", null, "filtro de Kalman extendido", "扩展卡尔曼滤波器", "拡張カルマンフィルタ"],
+    ELBO: ["evidence lower bound", null, "cota inferior de la evidencia", "证据下界", "エビデンス下界"],
+    FEM: ["finite element method", null, "método de elementos finitos", "有限元方法", "有限要素法"],
+    GAE: ["generalized advantage estimation", null, "estimación de ventaja generalizada", "广义优势估计", "一般化アドバンテージ推定"],
+    HRI: ["human-robot interaction", null, "interacción humano-robot", "人机交互", "人間とロボットのインタラクション"],
+    HSR: ["Human Support Robot (Toyota)", null, "Human Support Robot (Toyota)", "Human Support Robot（丰田）", "Human Support Robot（トヨタ）"],
+    IK: ["inverse kinematics", null, "cinemática inversa", "逆运动学", "逆運動学"],
+    KV: ["key-value (attention cache)", null, "clave-valor, de la caché de atención", "键值，用于注意力缓存", "キー・バリュー、アテンションキャッシュ用"],
+    LiDAR: ["laser-based 3D range sensor", null, "sensor de distancia 3D por láser", "激光三维测距传感器", "レーザー式3次元測距センサー"],
+    LLM: ["large language model", "large language models", "modelo de lenguaje grande", "大语言模型", "大規模言語モデル"],
+    LoRA: ["low-rank adaptation, a light fine-tuning method", null, "adaptación de bajo rango, un método ligero de ajuste fino", "低秩适配，一种轻量微调方法", "低ランク適応、軽量なファインチューニング手法"],
+    LSTM: ["long short-term memory network", null, "red de memoria a corto y largo plazo", "长短期记忆网络", "長短期記憶ネットワーク"],
+    MCTS: ["Monte Carlo tree search", null, "búsqueda de árbol de Monte Carlo", "蒙特卡洛树搜索", "モンテカルロ木探索"],
+    MDP: ["Markov decision process", null, "proceso de decisión de Markov", "马尔可夫决策过程", "マルコフ決定過程"],
+    MLP: ["multilayer perceptron", null, "perceptrón multicapa", "多层感知机", "多層パーセプトロン"],
+    MPC: ["model predictive control", null, "control predictivo basado en modelo", "模型预测控制", "モデル予測制御"],
+    MPPI: ["model predictive path integral control", null, "control predictivo por integral de trayectorias", "模型预测路径积分控制", "モデル予測経路積分制御"],
+    NAIRR: ["National AI Research Resource (US)", null, "National AI Research Resource (EE. UU.)", "美国国家人工智能研究资源（National AI Research Resource）", "米国の国家AI研究リソース（National AI Research Resource）"],
+    OOD: ["out-of-distribution", null, "fuera de distribución", "分布外", "分布外"],
+    PCA: ["principal component analysis", null, "análisis de componentes principales", "主成分分析", "主成分分析"],
+    PI: ["Physical Intelligence, the company", null, "Physical Intelligence, la empresa", "Physical Intelligence 公司", "Physical Intelligence社"],
+    PPO: ["Proximal Policy Optimization, an RL algorithm", null, "Proximal Policy Optimization, un algoritmo de RL", "近端策略优化（Proximal Policy Optimization），一种强化学习算法", "近接方策最適化（Proximal Policy Optimization）、強化学習アルゴリズム"],
+    QA: ["quality assurance", null, "control de calidad", "质量保证", "品質保証"],
+    RL: ["reinforcement learning", null, "aprendizaje por refuerzo", "强化学习", "強化学習"],
+    RNN: ["recurrent neural network", "recurrent neural networks", "red neuronal recurrente", "循环神经网络", "再帰型ニューラルネットワーク"],
+    ROS: ["Robot Operating System", null, "Robot Operating System", "机器人操作系统（Robot Operating System）", "ロボットオペレーティングシステム（Robot Operating System）"],
+    RTC: ["real-time chunking", null, "real-time chunking (fragmentación en tiempo real)", "实时分块（real-time chunking）", "リアルタイムチャンキング（real-time chunking）"],
+    RTE: ["relative trajectory error", null, "error relativo de trayectoria", "相对轨迹误差", "相対軌跡誤差"],
+    SAC: ["Soft Actor-Critic, an RL algorithm", null, "Soft Actor-Critic, un algoritmo de RL", "软演员-评论家（Soft Actor-Critic），一种强化学习算法", "ソフトアクター・クリティック（Soft Actor-Critic）、強化学習アルゴリズム"],
+    SFT: ["supervised fine-tuning", null, "ajuste fino supervisado", "监督微调", "教師ありファインチューニング"],
+    SLAM: ["simultaneous localization and mapping", null, "localización y mapeo simultáneos", "同时定位与建图", "自己位置推定と地図作成の同時実行"],
+    SMPL: ["a standard parametric 3D human body model", null, "un modelo paramétrico estándar del cuerpo humano en 3D", "一种标准的参数化三维人体模型", "標準的なパラメトリック3D人体モデル"],
+    SPAD: ["single-photon avalanche diode", null, "diodo de avalancha de fotón único", "单光子雪崩二极管", "単一光子アバランシェダイオード"],
+    STL: ["signal temporal logic", null, "lógica temporal de señales", "信号时序逻辑", "信号時相論理"],
+    ToF: ["time-of-flight", null, "tiempo de vuelo", "飞行时间", "飛行時間"],
+    UAV: ["unmanned aerial vehicle", "unmanned aerial vehicles", "vehículo aéreo no tripulado", "无人机", "無人航空機"],
+    UGV: ["unmanned ground vehicle", "unmanned ground vehicles", "vehículo terrestre no tripulado", "无人地面车辆", "無人地上車両"],
+    UMI: ["Universal Manipulation Interface, a handheld data-collection gripper", null, "Universal Manipulation Interface, una pinza manual para recopilar datos", "Universal Manipulation Interface，一种用于采集数据的手持夹爪", "Universal Manipulation Interface、データ収集用のハンディグリッパー"],
+    VLA: ["vision-language-action model", "vision-language-action models", "modelo de visión-lenguaje-acción", "视觉-语言-动作模型", "視覚・言語・行動モデル"],
+    VLM: ["vision-language model", "vision-language models", "modelo de visión y lenguaje", "视觉语言模型", "視覚言語モデル"],
+    XPBD: ["extended position-based dynamics", null, "dinámica basada en posiciones extendida", "扩展的基于位置的动力学", "拡張位置ベース動力学"]
   };
   // ACRONYM, optional plural "s", then any hyphenated continuation ("BC-pretrained").
   const ACR_RE = new RegExp("\\b(" + Object.keys(ACRONYMS).sort((a, b) => b.length - a.length).join("|") +
@@ -321,18 +321,22 @@
   // The English term behind an acronym, where the English entry is a description.
   const ACR_ORIGINAL = { LiDAR: "light detection and ranging", SMPL: "Skinned Multi-Person Linear model" };
 
+  // Chinese and Japanese text uses full-width brackets.
+  const bracketsFor = (lang) => (lang === "zh" || lang === "ja" ? ["（", "）"] : [" (", ")"]);
+
   // Translated tooltips also show the original English term in brackets,
   // unless the translation already contains it or is practically the same.
   function acrMeaning(acr, plural) {
     const g = ACRONYMS[acr];
     if (LANG === "en") return plural && g[1] ? g[1] : g[0];
-    const local = g[2];
+    const local = g[{ es: 2, zh: 3, ja: 4 }[LANG]] || g[2];
     const original = ACR_ORIGINAL[acr] || g[0].split(",")[0].replace(/\s*\(.*\)$/, "");
     const norm = (x) => x.toLowerCase().replace(/[^a-z]/g, "");
     if (norm(local).includes(norm(original))) return local;
     // Right after the term itself: "adaptación de bajo rango (low-rank adaptation), un método…"
-    const cut = local.indexOf(", ");
-    return cut < 0 ? `${local} (${original})` : `${local.slice(0, cut)} (${original})${local.slice(cut)}`;
+    const [open, close] = bracketsFor(LANG);
+    const cut = local.search(/, |，|、/);
+    return cut < 0 ? `${local}${open}${original}${close}` : `${local.slice(0, cut)}${open}${original}${close}${local.slice(cut)}`;
   }
 
   // One shared tooltip, kept inside the viewport: centered on the acronym when it
@@ -811,6 +815,12 @@
     return [names, legend];
   }
 
+  // Translated title with the original English in brackets, or just the English.
+  function titleNodes(en, translated) {
+    const [open, close] = bracketsFor(LANG);
+    return translated ? [translated, el("span", { class: "corl-title-orig", lang: "en", text: `${open}${en}${close}` })] : [en];
+  }
+
   function card(t) {
     const kind = awardKind(t);
     const people = (t.presenters || []).join(", ");
@@ -841,7 +851,7 @@
     return el("article", { class: `corl-card${kind ? " is-" + kind : ""}`, id: t._id },
       el("div", { class: "corl-body" },
         badges,
-        el("h4", { class: "corl-title", text: t.title }),
+        el("h4", { class: "corl-title" }, titleNodes(t.title, t._titleTr)),
         people && el("p", { class: "corl-presenters" },
           el("i", { class: "bi bi-person", "aria-hidden": "true" }), " ",
           // Several speakers: each name followed by its own affiliation.
@@ -974,8 +984,9 @@
     for (const t of talks) {
       const x = d && d.talks && d.talks[t.title];
       t.summary = (x && x.summary) || t._en.summary;
+      t._titleTr = (x && x.title && x.title !== t.title) ? x.title : null;
       t.takeaways = (x && x.takeaways && x.takeaways.length) ? x.takeaways : t._en.takeaways;
-      t._search = !d ? t._searchEn : [t._searchEn, x && x.summary, x && (x.takeaways || []).join(" "),
+      t._search = !d ? t._searchEn : [t._searchEn, t._titleTr, x && x.summary, x && (x.takeaways || []).join(" "),
         (t.topics || []).map(topicLabel).join(" "), typeLabel(t.type), data._sessionById[t.session] && sessionTitle(data._sessionById[t.session])]
         .filter(Boolean).join(" ").toLowerCase();
     }
@@ -1007,8 +1018,9 @@
     const wasOpen = Boolean(box.querySelector("details.corl-ov-more[open]"));
     box.textContent = "";
     const idByTitle = Object.fromEntries(talks.map((t) => [t.title, t._id]));
+    const trTitle = (title) => { const x = trData() && trData().talks && trData().talks[title]; return x && x.title && x.title !== title ? x.title : null; };
     const talkLink = (title) => idByTitle[title]
-      ? el("a", { href: `#talk=${idByTitle[title]}`, class: "corl-ov-talk" }, title)
+      ? el("a", { href: `#talk=${idByTitle[title]}`, class: "corl-ov-talk" }, titleNodes(title, trTitle(title)))
       : null;
     const g = gloss;
     const items = (list, heading, cls) => (list || []).length > 0 && el("div", { class: cls },
@@ -1189,11 +1201,13 @@
       const id = card ? card.id : "";
       const href = a.getAttribute("href") || "";
       if (a.classList.contains("corl-ov-talk")) {
-        track(`overview-link/${href.replace(/^#talk=/, "")}`, `Overview → ${a.textContent}`);
+        const tid = href.replace(/^#talk=/, "");
+        track(`overview-link/${tid}`, `Overview → ${(talks.find((x) => x._id === tid) || {}).title || tid}`);
       } else if (card && a.target === "_blank") {
         const kind = /arxiv\.org/.test(href) ? "arxiv" : /openreview\.net/.test(href) ? "openreview"
           : /youtu/.test(href) ? "youtube" : /github\.com\//.test(href) ? "code" : "project";
-        track(`outbound/${kind}/${id}`, `${kind}: ${card.querySelector(".corl-title").textContent}`);
+        const en = (talks.find((x) => x._id === id) || {}).title || id;
+        track(`outbound/${kind}/${id}`, `${kind}: ${en}`);
       } else if (a.classList.contains("corl-permalink")) {
         track(`share/${id}`, "Copy link");
       }

@@ -4,7 +4,7 @@
   "headline": "CoRL 2026 tripled in size and largely converged on its ingredients (large pretrained policies, human video, world models, frontier-model planners) while openly disputing whether that recipe produces robots anyone will pay for.",
   "summary": [
    "The tenth CoRL drew 2,094 submissions, about three times the roughly 700 of 2025, and around 4,800 attendees across three Austin venues. Program chairs kept the 32.8% acceptance rate and a single track by adding a poster-only tier and 3-minute spotlights. The top submission keywords were manipulation, imitation learning, perception/control representations, RL and robot foundation models, and the accepted papers followed that distribution closely. A new late-breaking track on agentic robotics and real-to-sim-to-real responded to frontier models released only months before.",
-   "On stage, the technical picture was more settled than the strategic one. Physical Intelligence, NVIDIA, Google DeepMind and many academic labs presented the same stack: a large BC-pretrained policy, human egocentric data for scale, world models for data and evaluation, and a frontier model on top for planning. The disagreement was about whether this stack reaches reliable, profitable deployment. Polls before and after the closing debate on that question leaned against the motion and barely moved. Ken Goldberg described the field as being in a 'revenue crisis', meaning it now has to deliver reliability, throughput and interpretability."
+   "On stage, the technical picture was more settled than the strategic one. Physical Intelligence, NVIDIA, Google DeepMind and many academic labs presented the same stack: a large BC-pretrained policy, human egocentric data for scale, world models for data and evaluation, and a frontier model on top for planning. The disagreement was about whether this stack reaches reliable, profitable deployment. Polls before and after the closing debate on that question leaned against the motion and barely moved. Ken Goldberg (UC Berkeley) described the field as being in a 'revenue crisis', meaning it now has to deliver reliability, throughput and interpretability."
   ],
   "stats": [
    {
@@ -41,7 +41,7 @@
   "themes": [
    {
     "title": "Frontier models on top, fast policies underneath",
-    "body": "Most systems put a slow reasoner over a fast learned controller. Hang Zhao reported that frontier models used as step-by-step policies under a real clock fell to 15-20% success on RoboCasa, and argued that most failures happen at the handoffs between layers. Boston Dynamics said no off-the-shelf VLM was reliable enough to check task completion without fine-tuning. In the debate, Vanhoucke said general-purpose models were beating the conference's robot models on some robotics benchmarks; Agrawal answered that contact-rich System 1 data is still missing from those models.",
+    "body": "Most systems put a slow reasoner over a fast learned controller. Hang Zhao (Tsinghua University / Galaxea AI) reported that frontier models used as step-by-step policies under a real clock fell to 15-20% success on RoboCasa, and argued that most failures happen at the handoffs between layers. Boston Dynamics said no off-the-shelf VLM was reliable enough to check task completion without fine-tuning. In the debate, Vincent Vanhoucke (Waymo) said general-purpose models were beating the conference's robot models on some robotics benchmarks; Pulkit Agrawal (MIT / Eka Robotics) answered that contact-rich System 1 data is still missing from those models.",
     "talks": [
      "Organizing Physical AI Across Timescales",
      "From Dreaming to Doing: World Action Models and Agentic Robotics",
@@ -73,7 +73,7 @@
    },
    {
     "title": "Force and touch are being added to VLAs",
-    "body": "Several papers traced VLA failures in contact-rich tasks to missing force signals or to flow-matching noise schedules that underweight small near-contact actions. The fixes are cheap: learned torque estimates for commodity arms, tactile arrows drawn on images, and force experts added late in post-training. Burgard and Sharpa both argued that robot foundation models need force and touch.",
+    "body": "Several papers traced VLA failures in contact-rich tasks to missing force signals or to flow-matching noise schedules that underweight small near-contact actions. The fixes are cheap: learned torque estimates for commodity arms, tactile arrows drawn on images, and force experts added late in post-training. Wolfram Burgard (University of Technology Nuremberg) and Sharpa both argued that robot foundation models need force and touch.",
     "talks": [
      "FACTR 2: Learning External Force Sensing for Commodity Robot Arms Improves Policy Learning",
      "PACE: Temporal-Role Tactile Conditioning for Chunk-Based Insertion Policies",

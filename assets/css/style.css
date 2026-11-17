@@ -763,6 +763,13 @@ h6,
   gap: 6px;
 }
 
+/* Original English title next to a translated one */
+.corl-title-orig {
+  font-weight: 400;
+  font-size: 0.85em;
+  color: var(--corl-muted);
+}
+
 /* Acronyms: dotted underline, meaning in a tooltip on hover/tap */
 .corl-abbr {
   position: relative;
