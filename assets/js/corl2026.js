@@ -5,7 +5,7 @@
 (function () {
   "use strict";
 
-  const DATA_URL = "assets/data/corl2026.json?v=8";
+  const DATA_URL = "assets/data/corl2026.json?v=10";
 
   const DAY_OF_VIDEO = { d1: "1", d2: "2", d3a: "3", d3b: "3" };
   const DAY_LABEL = { "1": "Day 1 · Mon Nov 9", "2": "Day 2 · Tue Nov 10", "3": "Day 3 · Wed Nov 11" };
@@ -410,10 +410,31 @@
     wrap.append(r.root);
   }
 
+  // Authors with numbered affiliations, the way papers print them:
+  // "A¹, B¹ ²" then "¹ Univ X  ² Company Y". Plain names if affiliations are unknown.
+  function authorList(t) {
+    const aff = t.author_affiliations || [];
+    if (!aff.some(Boolean)) return [el("p", { text: t.authors.join(", ") })];
+    const inst = [];
+    const marks = aff.map((a) => (a || "").split(" / ").filter(Boolean).map((x) => {
+      if (!inst.includes(x)) inst.push(x);
+      return inst.indexOf(x) + 1;
+    }));
+    const names = el("p");
+    t.authors.forEach((name, n) => {
+      if (n) names.append(", ");
+      names.append(name);
+      if (marks[n] && marks[n].length) names.append(el("sup", { text: marks[n].join(",") }));
+    });
+    const legend = el("p", { class: "corl-affils" });
+    inst.forEach((x, n) => legend.append(el("span", null, el("sup", { text: String(n + 1) }), x)));
+    return [names, legend];
+  }
+
   function card(t) {
     const kind = awardKind(t);
     const people = (t.presenters || []).join(", ");
-    const authors = (t.authors || []).length > 1 ? t.authors.join(", ") : "";
+    const authors = (t.authors || []).length > 1 ? authorList(t) : null;
 
     const badges = el("div", { class: "corl-badges" },
       el("span", { class: `corl-badge type-${t.type}`, text: TYPE_LABEL[t.type] || t.type }),
@@ -442,10 +463,15 @@
         badges,
         el("h4", { class: "corl-title", text: t.title }),
         people && el("p", { class: "corl-presenters" },
-          el("i", { class: "bi bi-person", "aria-hidden": "true" }), " ", people,
-          t.presenter_inferred ? el("span", { class: "corl-affil", title: "The presenter was not named in the recording", text: " · first author" }) : null,
-          t.affiliation ? el("span", { class: "corl-affil", text: " · " + t.affiliation }) : null),
-        authors && el("details", { class: "corl-authors" }, el("summary", { text: "All authors" }), el("p", { text: authors })),
+          el("i", { class: "bi bi-person", "aria-hidden": "true" }), " ",
+          // Several speakers: each name followed by its own affiliation.
+          t.presenter_affiliations
+            ? t.presenters.map((name, n) => [n ? ", " : "", name,
+                t.presenter_affiliations[n] ? el("span", { class: "corl-affil", text: ` (${t.presenter_affiliations[n]})` }) : null]).flat()
+            : people,
+          t.affiliation ? el("span", { class: "corl-affil", text: " · " + t.affiliation }) : null,
+          t.presenter_inferred ? el("span", { class: "corl-affil", title: "The presenter was not named in the recording, so the paper's first author is shown", text: " (presenter not named; first author shown)" }) : null),
+        authors && el("details", { class: "corl-authors" }, el("summary", { text: "All authors" }), ...authors),
         t.summary && el("p", { class: "corl-summary", text: t.summary }),
         (t.takeaways || []).length > 0 && el("div", { class: "corl-takeaways" },
           el("h5", { text: "Key takeaways" }),
@@ -551,7 +577,7 @@
       return Object.assign({}, t, {
         _id: id,
         _day: DAY_OF_VIDEO[t.video],
-        _search: [t.title, (t.presenters || []).join(" "), (t.authors || []).join(" "), t.affiliation, t.summary, (t.takeaways || []).join(" "), (t.topics || []).join(" "), t.session]
+        _search: [t.title, (t.presenters || []).join(" "), (t.authors || []).join(" "), t.affiliation, (t.author_affiliations || []).join(" "), (t.presenter_affiliations || []).join(" "), t.summary, (t.takeaways || []).join(" "), (t.topics || []).join(" "), t.session]
           .filter(Boolean).join(" ").toLowerCase()
       });
     });

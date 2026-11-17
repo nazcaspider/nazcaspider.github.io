@@ -454,7 +454,14 @@
     "Workshops were made half-day to encourage interactive discussion over mini-conference talk lineups, with 32 of 78 valid proposals accepted."
    ],
    "thumb": "assets/img/corl2026/welcome-and-opening-remarks.webp",
-   "reel": "assets/img/corl2026/strip/welcome-and-opening-remarks.webp"
+   "reel": "assets/img/corl2026/strip/welcome-and-opening-remarks.webp",
+   "presenter_affiliations": [
+    "UT Austin / NVIDIA",
+    "UT Austin / Sony AI",
+    "TU Darmstadt",
+    "Princeton University",
+    "UT Austin"
+   ]
   },
   {
    "session": "S1",
@@ -494,6 +501,7 @@
     "Dieter Fox",
     "Ranjay Krishna"
    ],
+   "affiliation": "Allen Institute for AI / University of Washington / National University of Singapore",
    "video": "d1",
    "start": 3030,
    "end": 3274,
@@ -511,7 +519,38 @@
    "website": "https://allenai.org/blog/molmoact2",
    "paper_url": "https://openreview.net/forum?id=Q6xWLHyg6x",
    "thumb": "assets/img/corl2026/molmoact2-action-reasoning-models-for-real-world-deployment.webp",
-   "reel": "assets/img/corl2026/strip/molmoact2-action-reasoning-models-for-real-world-deployment.webp"
+   "reel": "assets/img/corl2026/strip/molmoact2-action-reasoning-models-for-real-world-deployment.webp",
+   "author_affiliations": [
+    "Allen Institute for AI / University of Washington",
+    "Allen Institute for AI / University of Washington / National University of Singapore",
+    "Allen Institute for AI / University of Washington",
+    "Allen Institute for AI / University of Pennsylvania",
+    "University of Washington",
+    "Allen Institute for AI / University of Washington",
+    "Allen Institute for AI / University of Washington",
+    "University of Washington",
+    "Allen Institute for AI / University of Washington",
+    "Allen Institute for AI / University of Washington",
+    "University of Washington",
+    "Allen Institute for AI / University of Washington / Johns Hopkins University",
+    "Allen Institute for AI",
+    "Allen Institute for AI / University of Washington",
+    "Allen Institute for AI",
+    "Allen Institute for AI",
+    "University of Washington",
+    "Amazon",
+    "Allen Institute for AI",
+    "University of Washington",
+    "Allen Institute for AI",
+    "Allen Institute for AI",
+    "Cortex AI",
+    "Cortex AI",
+    "University of Michigan",
+    "Allen Institute for AI / University of Washington / University of North Carolina at Chapel Hill",
+    "Allen Institute for AI / University of Washington",
+    "Allen Institute for AI / University of Washington",
+    "Allen Institute for AI / University of Washington"
+   ]
   },
   {
    "session": "S1",
@@ -528,6 +567,7 @@
     "Wentao Zhu",
     "Yizhou Wang"
    ],
+   "affiliation": "Peking University",
    "video": "d1",
    "start": 3274,
    "end": 3455,
@@ -545,7 +585,14 @@
    "website": "https://xy02-05.github.io/SemanticMN",
    "paper_url": "https://openreview.net/forum?id=YTw6LOO9C5",
    "thumb": "assets/img/corl2026/semantic-anchoring-for-robotic-action-representations.webp",
-   "reel": "assets/img/corl2026/strip/semantic-anchoring-for-robotic-action-representations.webp"
+   "reel": "assets/img/corl2026/strip/semantic-anchoring-for-robotic-action-representations.webp",
+   "author_affiliations": [
+    "Peking University",
+    "Peking University",
+    "Eastern Institute of Technology, Ningbo / Shanghai Jiao Tong University",
+    "Eastern Institute of Technology, Ningbo",
+    "Peking University"
+   ]
   },
   {
    "session": "S1",
@@ -573,6 +620,7 @@
     "Chelsea Finn",
     "Danny Driess"
    ],
+   "affiliation": "Physical Intelligence / Stanford University",
    "video": "d1",
    "start": 3456,
    "end": 3692,
@@ -590,7 +638,26 @@
    "website": "https://pi.website/research/memory",
    "paper_url": "https://openreview.net/forum?id=5TiiTY1fK3",
    "thumb": "assets/img/corl2026/mem-multi-scale-embodied-memory-for-vision-language-action-m.webp",
-   "reel": "assets/img/corl2026/strip/mem-multi-scale-embodied-memory-for-vision-language-action-m.webp"
+   "reel": "assets/img/corl2026/strip/mem-multi-scale-embodied-memory-for-vision-language-action-m.webp",
+   "author_affiliations": [
+    "Physical Intelligence / Stanford University",
+    "Physical Intelligence",
+    "UC Berkeley",
+    "Physical Intelligence",
+    "Physical Intelligence",
+    "Physical Intelligence",
+    "Physical Intelligence",
+    "Physical Intelligence",
+    "Physical Intelligence / MIT",
+    "Physical Intelligence / UC Berkeley",
+    "Physical Intelligence",
+    "Physical Intelligence",
+    "Physical Intelligence",
+    "Physical Intelligence",
+    "Physical Intelligence",
+    "Physical Intelligence",
+    "Physical Intelligence"
+   ]
   },
   {
    "session": "S1",
@@ -616,6 +683,7 @@
     "Chenjia Bai",
     "Xuelong Li"
    ],
+   "affiliation": "TeleAI, China Telecom / Tsinghua University",
    "video": "d1",
    "start": 3693,
    "end": 3890,
@@ -632,7 +700,23 @@
    "arxiv_url": "https://arxiv.org/abs/2604.27472",
    "paper_url": "https://openreview.net/forum?id=QwpnI3BlwT",
    "thumb": "assets/img/corl2026/prts-a-primitive-reasoning-and-tasking-system-via-contrastiv.webp",
-   "reel": "assets/img/corl2026/strip/prts-a-primitive-reasoning-and-tasking-system-via-contrastiv.webp"
+   "reel": "assets/img/corl2026/strip/prts-a-primitive-reasoning-and-tasking-system-via-contrastiv.webp",
+   "author_affiliations": [
+    "TeleAI, China Telecom / Tsinghua University",
+    "TeleAI, China Telecom / Shanghai Jiao Tong University",
+    "TeleAI, China Telecom / Fudan University",
+    "TeleAI, China Telecom",
+    "TeleAI, China Telecom",
+    "TeleAI, China Telecom",
+    "TeleAI, China Telecom",
+    "TeleAI, China Telecom",
+    "TeleAI, China Telecom",
+    "Shanghai Jiao Tong University",
+    "Tsinghua University",
+    "TeleAI, China Telecom",
+    "TeleAI, China Telecom",
+    "TeleAI, China Telecom"
+   ]
   },
   {
    "session": "S1",
@@ -646,6 +730,7 @@
     "Gokul Swamy",
     "Andrea Bajcsy"
    ],
+   "affiliation": "Carnegie Mellon University",
    "video": "d1",
    "start": 3892,
    "end": 4071,
@@ -662,7 +747,12 @@
    "arxiv_url": "https://arxiv.org/abs/2606.12299",
    "paper_url": "https://openreview.net/forum?id=z47bcul4Zk",
    "thumb": "assets/img/corl2026/learning-what-to-say-to-your-vla-mostly-harmless-vision-lang.webp",
-   "reel": "assets/img/corl2026/strip/learning-what-to-say-to-your-vla-mostly-harmless-vision-lang.webp"
+   "reel": "assets/img/corl2026/strip/learning-what-to-say-to-your-vla-mostly-harmless-vision-lang.webp",
+   "author_affiliations": [
+    "Carnegie Mellon University",
+    "Carnegie Mellon University",
+    "Carnegie Mellon University"
+   ]
   },
   {
    "session": "S1",
@@ -681,6 +771,7 @@
     "Daniel Szafir",
     "Mingyu Ding"
    ],
+   "affiliation": "University of North Carolina at Chapel Hill",
    "video": "d1",
    "start": 4072,
    "end": 4259,
@@ -698,7 +789,17 @@
    "website": "https://vla-cf.github.io/",
    "paper_url": "https://openreview.net/forum?id=HmdwOezjlQ",
    "thumb": "assets/img/corl2026/when-vision-overrides-language-evaluating-and-mitigating-cou.webp",
-   "reel": "assets/img/corl2026/strip/when-vision-overrides-language-evaluating-and-mitigating-cou.webp"
+   "reel": "assets/img/corl2026/strip/when-vision-overrides-language-evaluating-and-mitigating-cou.webp",
+   "author_affiliations": [
+    "University of North Carolina at Chapel Hill",
+    "University of North Carolina at Chapel Hill",
+    "University of North Carolina at Chapel Hill",
+    "University of North Carolina at Chapel Hill",
+    "University of North Carolina at Chapel Hill",
+    "University of North Carolina at Chapel Hill",
+    "University of North Carolina at Chapel Hill",
+    "University of North Carolina at Chapel Hill"
+   ]
   },
   {
    "session": "S1",
@@ -727,6 +828,7 @@
     "Zhizheng Zhang",
     "He Wang"
    ],
+   "affiliation": "Peking University / Galbot",
    "video": "d1",
    "start": 4260,
    "end": 4446,
@@ -743,7 +845,26 @@
    "arxiv_url": "https://arxiv.org/abs/2609.02546",
    "paper_url": "https://openreview.net/forum?id=4RLjGPEfpH",
    "thumb": "assets/img/corl2026/zeta-a-controlled-study-of-zero-shot-cross-embodiment-vla-tr.webp",
-   "reel": "assets/img/corl2026/strip/zeta-a-controlled-study-of-zero-shot-cross-embodiment-vla-tr.webp"
+   "reel": "assets/img/corl2026/strip/zeta-a-controlled-study-of-zero-shot-cross-embodiment-vla-tr.webp",
+   "author_affiliations": [
+    "Peking University / Galbot",
+    "Galbot / Peking University",
+    "Galbot / Peking University",
+    "Galbot / Renmin University of China",
+    "Galbot / Peking University",
+    "Galbot / Peking University",
+    "Galbot / Xiamen University Malaysia",
+    "Galbot / The University of Hong Kong",
+    "Galbot / Beihang University",
+    "Galbot / Peking University",
+    "Peking University / Galbot",
+    "Galbot / Peking University",
+    "Galbot",
+    "Peking University / Galbot",
+    "Peking University / Galbot",
+    "Galbot",
+    "Peking University / Galbot"
+   ]
   },
   {
    "session": "S1",
@@ -758,6 +879,7 @@
     "Mingrui Yu",
     "Xiang Li"
    ],
+   "affiliation": "Tsinghua University",
    "video": "d1",
    "start": 4447,
    "end": 4632,
@@ -775,7 +897,13 @@
    "website": "https://frankwang67.github.io/EmbodiSteer-Page",
    "paper_url": "https://openreview.net/forum?id=2Z8xQxrlsY",
    "thumb": "assets/img/corl2026/embodisteer-steering-embodiment-agnostic-visuomotor-policies.webp",
-   "reel": "assets/img/corl2026/strip/embodisteer-steering-embodiment-agnostic-visuomotor-policies.webp"
+   "reel": "assets/img/corl2026/strip/embodisteer-steering-embodiment-agnostic-visuomotor-policies.webp",
+   "author_affiliations": [
+    "Tsinghua University",
+    "Tsinghua University",
+    "Tsinghua University",
+    "Tsinghua University"
+   ]
   },
   {
    "session": "S1",
@@ -794,6 +922,7 @@
     "Guojian Zhan",
     "Masayoshi Tomizuka"
    ],
+   "affiliation": "UC Berkeley",
    "video": "d1",
    "start": 4633,
    "end": 4824,
@@ -811,7 +940,17 @@
    "website": "https://yixiaowang7.github.io/Diagnosing_Compositional_Generalization_Robot_Page/",
    "paper_url": "https://openreview.net/forum?id=gQFYIM5dJy",
    "thumb": "assets/img/corl2026/diagnosing-compositional-generalization-in-sequential-robot-.webp",
-   "reel": "assets/img/corl2026/strip/diagnosing-compositional-generalization-in-sequential-robot-.webp"
+   "reel": "assets/img/corl2026/strip/diagnosing-compositional-generalization-in-sequential-robot-.webp",
+   "author_affiliations": [
+    "UC Berkeley",
+    "UC Berkeley",
+    "UC Berkeley",
+    "UC Berkeley",
+    "UC Berkeley",
+    "UC Berkeley",
+    "UC Berkeley",
+    "UC Berkeley"
+   ]
   },
   {
    "session": "ECK1",
@@ -936,6 +1075,7 @@
     "Zhuoyang Zhang",
     "Ury Zhilinsky"
    ],
+   "affiliation": "Physical Intelligence",
    "video": "d1",
    "start": 8333,
    "end": 9031,
@@ -955,7 +1095,94 @@
    "website": "https://www.pi.website/blog/pi07",
    "paper_url": "https://openreview.net/forum?id=5XKFwWrW0v",
    "thumb": "assets/img/corl2026/0-7-a-steerable-generalist-robotic-foundation-model-with-eme.webp",
-   "reel": "assets/img/corl2026/strip/0-7-a-steerable-generalist-robotic-foundation-model-with-eme.webp"
+   "reel": "assets/img/corl2026/strip/0-7-a-steerable-generalist-robotic-foundation-model-with-eme.webp",
+   "author_affiliations": [
+    "Physical Intelligence",
+    "Physical Intelligence",
+    "Physical Intelligence",
+    "Physical Intelligence",
+    "Physical Intelligence",
+    "Physical Intelligence",
+    "Physical Intelligence",
+    "Physical Intelligence",
+    "Physical Intelligence",
+    "Physical Intelligence",
+    "Physical Intelligence",
+    "Physical Intelligence",
+    "Physical Intelligence",
+    "Physical Intelligence",
+    "Physical Intelligence",
+    "Physical Intelligence",
+    "Physical Intelligence",
+    "Physical Intelligence",
+    "Physical Intelligence",
+    "Physical Intelligence",
+    "Physical Intelligence",
+    "Physical Intelligence",
+    "Physical Intelligence",
+    "Physical Intelligence",
+    "Physical Intelligence",
+    "Physical Intelligence",
+    "Physical Intelligence",
+    "Physical Intelligence",
+    "Physical Intelligence",
+    "Physical Intelligence",
+    "Physical Intelligence",
+    "Physical Intelligence",
+    "Physical Intelligence",
+    "Physical Intelligence",
+    "Physical Intelligence",
+    "Physical Intelligence",
+    "Physical Intelligence",
+    "Physical Intelligence",
+    "Physical Intelligence",
+    "Physical Intelligence",
+    "Physical Intelligence",
+    "Physical Intelligence",
+    "Physical Intelligence",
+    "Physical Intelligence",
+    "Physical Intelligence",
+    "Physical Intelligence",
+    "Physical Intelligence",
+    "Physical Intelligence",
+    "Physical Intelligence",
+    "Physical Intelligence",
+    "Physical Intelligence",
+    "Physical Intelligence",
+    "Physical Intelligence",
+    "Physical Intelligence",
+    "Physical Intelligence",
+    "Physical Intelligence",
+    "Physical Intelligence",
+    "Physical Intelligence",
+    "Physical Intelligence",
+    "Physical Intelligence",
+    "Physical Intelligence",
+    "Physical Intelligence",
+    "Physical Intelligence",
+    "Physical Intelligence",
+    "Physical Intelligence",
+    "Physical Intelligence",
+    "Physical Intelligence",
+    "Physical Intelligence",
+    "Physical Intelligence",
+    "Physical Intelligence",
+    "Physical Intelligence",
+    "Physical Intelligence",
+    "Physical Intelligence",
+    "Physical Intelligence",
+    "Physical Intelligence",
+    "Physical Intelligence",
+    "Physical Intelligence",
+    "Physical Intelligence",
+    "Physical Intelligence",
+    "Physical Intelligence",
+    "Physical Intelligence",
+    "Physical Intelligence",
+    "Physical Intelligence",
+    "Physical Intelligence",
+    "Physical Intelligence"
+   ]
   },
   {
    "session": "O1",
@@ -978,6 +1205,7 @@
     "Yicheng Feng",
     "Zongqing Lu"
    ],
+   "affiliation": "BeingBeyond",
    "video": "d1",
    "start": 9032,
    "end": 9699,
@@ -995,7 +1223,21 @@
    "arxiv_url": "https://arxiv.org/abs/2601.12993",
    "paper_url": "https://openreview.net/forum?id=cfzFrOJmKA",
    "thumb": "assets/img/corl2026/being-h0-5-scaling-human-centric-robot-learning-for-cross-em.webp",
-   "reel": "assets/img/corl2026/strip/being-h0-5-scaling-human-centric-robot-learning-for-cross-em.webp"
+   "reel": "assets/img/corl2026/strip/being-h0-5-scaling-human-centric-robot-learning-for-cross-em.webp",
+   "author_affiliations": [
+    "BeingBeyond",
+    "BeingBeyond",
+    "BeingBeyond",
+    "BeingBeyond",
+    "BeingBeyond",
+    "BeingBeyond",
+    "BeingBeyond",
+    "BeingBeyond",
+    "BeingBeyond",
+    "BeingBeyond",
+    "BeingBeyond",
+    "BeingBeyond"
+   ]
   },
   {
    "session": "O1",
@@ -1017,6 +1259,7 @@
     "Yuke Zhu",
     "Linxi Fan"
    ],
+   "affiliation": "NVIDIA / Stanford University",
    "video": "d1",
    "start": 9699,
    "end": 10348,
@@ -1037,6 +1280,19 @@
    "paper_url": "https://openreview.net/forum?id=NHE9q2cz1n",
    "thumb": "assets/img/corl2026/robottt-context-scaling-for-robot-policies.webp",
    "reel": "assets/img/corl2026/strip/robottt-context-scaling-for-robot-policies.webp",
+   "author_affiliations": [
+    "NVIDIA / Stanford University",
+    "NVIDIA",
+    "NVIDIA",
+    "NVIDIA",
+    "NVIDIA",
+    "NVIDIA",
+    "NVIDIA / The University of Texas at Austin",
+    "NVIDIA",
+    "Stanford University",
+    "NVIDIA / The University of Texas at Austin",
+    "NVIDIA"
+   ],
    "award": "winner:Best Student Paper Award"
   },
   {
@@ -1084,6 +1340,7 @@
     "Linxi Fan",
     "Joel Jang"
    ],
+   "affiliation": "NVIDIA",
    "video": "d1",
    "start": 10374,
    "end": 11081,
@@ -1103,7 +1360,45 @@
    "website": "https://dreamzero0.github.io/",
    "paper_url": "https://openreview.net/forum?id=Bshs9HDDiu",
    "thumb": "assets/img/corl2026/world-action-models-are-zero-shot-policies.webp",
-   "reel": "assets/img/corl2026/strip/world-action-models-are-zero-shot-policies.webp"
+   "reel": "assets/img/corl2026/strip/world-action-models-are-zero-shot-policies.webp",
+   "author_affiliations": [
+    "NVIDIA",
+    "NVIDIA",
+    "NVIDIA",
+    "NVIDIA",
+    "NVIDIA",
+    "NVIDIA",
+    "NVIDIA",
+    "NVIDIA",
+    "NVIDIA",
+    "NVIDIA",
+    "NVIDIA",
+    "NVIDIA",
+    "NVIDIA",
+    "NVIDIA",
+    "NVIDIA",
+    "NVIDIA",
+    "NVIDIA",
+    "NVIDIA",
+    "NVIDIA",
+    "NVIDIA",
+    "NVIDIA",
+    "NVIDIA",
+    "NVIDIA",
+    "NVIDIA",
+    "NVIDIA",
+    "NVIDIA",
+    "NVIDIA",
+    "NVIDIA",
+    "NVIDIA",
+    "NVIDIA",
+    "NVIDIA",
+    "NVIDIA",
+    "NVIDIA",
+    "NVIDIA",
+    "NVIDIA",
+    "NVIDIA"
+   ]
   },
   {
    "session": "O2",
@@ -1142,7 +1437,19 @@
    "arxiv_url": "https://arxiv.org/abs/2606.18960",
    "paper_url": "https://openreview.net/forum?id=f9grq4Ncx9",
    "thumb": "assets/img/corl2026/memory-augmented-action-conditioned-world-model-for-robot-ma.webp",
-   "reel": "assets/img/corl2026/strip/memory-augmented-action-conditioned-world-model-for-robot-ma.webp"
+   "reel": "assets/img/corl2026/strip/memory-augmented-action-conditioned-world-model-for-robot-ma.webp",
+   "author_affiliations": [
+    "Dalian University of Technology / Samsung R&D Institute China-Beijing",
+    "Samsung R&D Institute China-Beijing",
+    "Samsung R&D Institute China-Beijing",
+    "Samsung R&D Institute China-Beijing",
+    "Dalian University of Technology",
+    "Samsung R&D Institute China-Beijing",
+    "Dalian University of Technology",
+    "Dalian University of Technology",
+    "Dalian University of Technology",
+    "Dalian University of Technology"
+   ]
   },
   {
    "session": "O2",
@@ -1158,6 +1465,7 @@
     "Erik B. Sudderth",
     "Unnat Jain"
    ],
+   "affiliation": "UC Irvine",
    "video": "d1",
    "start": 11783,
    "end": 12462,
@@ -1177,7 +1485,13 @@
    "website": "https://tempo-robot.github.io/",
    "paper_url": "https://openreview.net/forum?id=FVZKpmPHV8",
    "thumb": "assets/img/corl2026/tempo-learning-temporal-context-for-dynamic-robot-manipulati.webp",
-   "reel": "assets/img/corl2026/strip/tempo-learning-temporal-context-for-dynamic-robot-manipulati.webp"
+   "reel": "assets/img/corl2026/strip/tempo-learning-temporal-context-for-dynamic-robot-manipulati.webp",
+   "author_affiliations": [
+    "UC Irvine",
+    "UC Irvine",
+    "UC Irvine",
+    "UC Irvine"
+   ]
   },
   {
    "session": "O3",
@@ -1193,6 +1507,7 @@
     "Florian Shkurti",
     "Fabio Ramos"
    ],
+   "affiliation": "The University of Sydney",
    "video": "d1",
    "start": 12468,
    "end": 13052,
@@ -1210,7 +1525,14 @@
    "arxiv_url": "https://arxiv.org/abs/2603.11634",
    "paper_url": "https://openreview.net/forum?id=TscNG5Wcwn",
    "thumb": "assets/img/corl2026/diversity-you-can-actually-measure-a-fast-model-free-diversi.webp",
-   "reel": "assets/img/corl2026/strip/diversity-you-can-actually-measure-a-fast-model-free-diversi.webp"
+   "reel": "assets/img/corl2026/strip/diversity-you-can-actually-measure-a-fast-model-free-diversi.webp",
+   "author_affiliations": [
+    "The University of Sydney",
+    "University of Toronto",
+    "Stanford University",
+    "University of Toronto / Allen Institute for AI",
+    "The University of Sydney / NVIDIA"
+   ]
   },
   {
    "session": "O3",
@@ -1249,6 +1571,7 @@
     "Dhruv Shah",
     "Ranjay Krishna"
    ],
+   "affiliation": "Allen Institute for AI",
    "video": "d1",
    "start": 13052,
    "end": 13642,
@@ -1268,7 +1591,35 @@
    "website": "https://allenai.github.io/MolmoBot",
    "paper_url": "https://openreview.net/forum?id=c4Z0Y8gvnI",
    "thumb": "assets/img/corl2026/molmob0t-large-scale-simulation-enables-zero-shot-manipulati.webp",
-   "reel": "assets/img/corl2026/strip/molmob0t-large-scale-simulation-enables-zero-shot-manipulati.webp"
+   "reel": "assets/img/corl2026/strip/molmob0t-large-scale-simulation-enables-zero-shot-manipulati.webp",
+   "author_affiliations": [
+    "Allen Institute for AI",
+    "Allen Institute for AI",
+    "Allen Institute for AI",
+    "Allen Institute for AI / TU Darmstadt",
+    "Allen Institute for AI / University of Washington",
+    "Allen Institute for AI",
+    "Allen Institute for AI",
+    "Allen Institute for AI",
+    "Allen Institute for AI / University of Washington",
+    "Allen Institute for AI",
+    "Allen Institute for AI",
+    "Allen Institute for AI",
+    "University of Washington",
+    "University of Washington",
+    "Allen Institute for AI",
+    "UCLA",
+    "Princeton University",
+    "Allen Institute for AI / University of Washington",
+    "Allen Institute for AI",
+    "Allen Institute for AI",
+    "Allen Institute for AI",
+    "Allen Institute for AI / University of Washington",
+    "Allen Institute for AI / University of Washington",
+    "TU Darmstadt",
+    "Princeton University",
+    "Allen Institute for AI / University of Washington"
+   ]
   },
   {
    "session": "O3",
@@ -1285,6 +1636,7 @@
     "Tewodros W. Ayalew",
     "Matthew Walter"
    ],
+   "affiliation": "Toyota Technological Institute at Chicago",
    "video": "d1",
    "start": 13642,
    "end": 14288,
@@ -1303,6 +1655,14 @@
    "paper_url": "https://openreview.net/forum?id=RdvH11pAfJ",
    "thumb": "assets/img/corl2026/what-are-we-actually-benchmarking-in-robot-manipulation.webp",
    "reel": "assets/img/corl2026/strip/what-are-we-actually-benchmarking-in-robot-manipulation.webp",
+   "author_affiliations": [
+    "Toyota Technological Institute at Chicago",
+    "Toyota Technological Institute at Chicago",
+    "Argonne National Laboratory",
+    "Toyota Technological Institute at Chicago",
+    "University of Chicago",
+    "Toyota Technological Institute at Chicago"
+   ],
    "award": "finalist"
   },
   {
@@ -1424,6 +1784,7 @@
     "Ruiping Wang",
     "Xilin CHEN"
    ],
+   "affiliation": "Institute of Computing Technology, Chinese Academy of Sciences / University of Chinese Academy of Sciences",
    "video": "d1",
    "start": 23515,
    "end": 23754,
@@ -1441,7 +1802,13 @@
    "website": "https://github.com/ustcwhy/BitVLA",
    "paper_url": "https://openreview.net/forum?id=mHCqiRUiHi",
    "thumb": "assets/img/corl2026/bitvla-1-bit-vision-language-action-models-for-robotics-mani.webp",
-   "reel": "assets/img/corl2026/strip/bitvla-1-bit-vision-language-action-models-for-robotics-mani.webp"
+   "reel": "assets/img/corl2026/strip/bitvla-1-bit-vision-language-action-models-for-robotics-mani.webp",
+   "author_affiliations": [
+    "Institute of Computing Technology, Chinese Academy of Sciences / University of Chinese Academy of Sciences",
+    "Institute of Computing Technology, Chinese Academy of Sciences / University of Chinese Academy of Sciences",
+    "Institute of Computing Technology, Chinese Academy of Sciences / University of Chinese Academy of Sciences",
+    "Institute of Computing Technology, Chinese Academy of Sciences / University of Chinese Academy of Sciences"
+   ]
   },
   {
    "session": "S2",
@@ -1461,6 +1828,7 @@
     "Hao Dong",
     "Meng Li"
    ],
+   "affiliation": "Peking University / TLAIC",
    "video": "d1",
    "start": 23754,
    "end": 23949,
@@ -1478,7 +1846,18 @@
    "website": "https://github.com/PKU-SEC-Lab/EagleVLA",
    "paper_url": "https://openreview.net/forum?id=OckqYiY2QM",
    "thumb": "assets/img/corl2026/eaglevla-towards-onboard-real-time-robot-control-via-foresig.webp",
-   "reel": "assets/img/corl2026/strip/eaglevla-towards-onboard-real-time-robot-control-via-foresig.webp"
+   "reel": "assets/img/corl2026/strip/eaglevla-towards-onboard-real-time-robot-control-via-foresig.webp",
+   "author_affiliations": [
+    "Peking University / TLAIC",
+    "Peking University",
+    "Peking University",
+    "PrimeBot Research Institute",
+    "AIRS",
+    "AIRS",
+    "Peking University",
+    "Peking University",
+    "Peking University / TLAIC"
+   ]
   },
   {
    "session": "S2",
@@ -1500,6 +1879,7 @@
     "Ran Cheng",
     "Qian Zhu"
    ],
+   "affiliation": "PrimeBot",
    "video": "d1",
    "start": 23949,
    "end": 24146,
@@ -1517,7 +1897,20 @@
    "website": "https://react-vla.github.io",
    "paper_url": "https://openreview.net/forum?id=FFB8qNJwV2",
    "thumb": "assets/img/corl2026/react-rolling-denoising-and-dual-decoupling-for-reactive-rob.webp",
-   "reel": "assets/img/corl2026/strip/react-rolling-denoising-and-dual-decoupling-for-reactive-rob.webp"
+   "reel": "assets/img/corl2026/strip/react-rolling-denoising-and-dual-decoupling-for-reactive-rob.webp",
+   "author_affiliations": [
+    "Shanghai Jiao Tong University / PrimeBot",
+    "PrimeBot / ShanghaiTech University",
+    "PrimeBot",
+    "Zhejiang University",
+    "PrimeBot",
+    "ShanghaiTech University",
+    "PrimeBot",
+    "National University of Singapore",
+    "National University of Singapore",
+    "PrimeBot",
+    "PrimeBot"
+   ]
   },
   {
    "session": "S2",
@@ -1534,6 +1927,7 @@
     "Stelian Coros",
     "Andreas Krause"
    ],
+   "affiliation": "ETH Zurich",
    "video": "d1",
    "start": 24146,
    "end": 24330,
@@ -1551,7 +1945,15 @@
    "website": "https://arnavsukhija.github.io/projects/tarc",
    "paper_url": "https://openreview.net/forum?id=WvR13cRtRf",
    "thumb": "assets/img/corl2026/tarc-time-adaptive-robotic-control.webp",
-   "reel": "assets/img/corl2026/strip/tarc-time-adaptive-robotic-control.webp"
+   "reel": "assets/img/corl2026/strip/tarc-time-adaptive-robotic-control.webp",
+   "author_affiliations": [
+    "ETH Zurich",
+    "ETH Zurich",
+    "ETH Zurich",
+    "ETH Zurich",
+    "ETH Zurich",
+    "ETH Zurich"
+   ]
   },
   {
    "session": "S2",
@@ -1565,6 +1967,7 @@
     "Seongil Hong",
     "Jun-Gill Kang"
    ],
+   "affiliation": "Agency for Defense Development",
    "video": "d1",
    "start": 24330,
    "end": 24519,
@@ -1582,7 +1985,12 @@
    "website": "https://seonsoo-p1.github.io/DiffusionReRoll/",
    "paper_url": "https://openreview.net/forum?id=HbuX1Fe8bl",
    "thumb": "assets/img/corl2026/diffusion-reroll-revisable-denoising-for-robotic-sequential-.webp",
-   "reel": "assets/img/corl2026/strip/diffusion-reroll-revisable-denoising-for-robotic-sequential-.webp"
+   "reel": "assets/img/corl2026/strip/diffusion-reroll-revisable-denoising-for-robotic-sequential-.webp",
+   "author_affiliations": [
+    "Agency for Defense Development",
+    "Agency for Defense Development",
+    "Agency for Defense Development"
+   ]
   },
   {
    "session": "S2",
@@ -1599,6 +2007,7 @@
     "Alina Oprea",
     "Eugene Bagdasarian"
    ],
+   "affiliation": "Northeastern University",
    "video": "d1",
    "start": 24642,
    "end": 24831,
@@ -1615,7 +2024,15 @@
    "arxiv_url": "https://arxiv.org/abs/2606.09499",
    "paper_url": "https://openreview.net/forum?id=6T2ebANGy5",
    "thumb": "assets/img/corl2026/targeting-world-models-to-compromise-robot-learning-pipeline.webp",
-   "reel": "assets/img/corl2026/strip/targeting-world-models-to-compromise-robot-learning-pipeline.webp"
+   "reel": "assets/img/corl2026/strip/targeting-world-models-to-compromise-robot-learning-pipeline.webp",
+   "author_affiliations": [
+    "Northeastern University",
+    "Northeastern University",
+    "University of Massachusetts Amherst",
+    "Northeastern University",
+    "Northeastern University",
+    "University of Massachusetts Amherst"
+   ]
   },
   {
    "session": "S2",
@@ -1630,6 +2047,7 @@
     "Donglin Wang",
     "Yong-Lu Li"
    ],
+   "affiliation": "Zhejiang University / Shanghai Innovation Institute / Westlake University",
    "video": "d1",
    "start": 24831,
    "end": 24983,
@@ -1648,7 +2066,12 @@
    "website": "https://song-wx.github.io/cmpo.github.io/",
    "paper_url": "https://openreview.net/forum?id=dngZLI0SlV",
    "thumb": "assets/img/corl2026/chunk-wise-model-based-policy-optimization.webp",
-   "reel": "assets/img/corl2026/strip/chunk-wise-model-based-policy-optimization.webp"
+   "reel": "assets/img/corl2026/strip/chunk-wise-model-based-policy-optimization.webp",
+   "author_affiliations": [
+    "Zhejiang University / Shanghai Innovation Institute / Westlake University",
+    "Westlake University",
+    "Shanghai Innovation Institute / Shanghai Jiao Tong University"
+   ]
   },
   {
    "session": "S2",
@@ -1661,6 +2084,7 @@
     "Zhilin He",
     "Gauri Joshi"
    ],
+   "affiliation": "Carnegie Mellon University",
    "video": "d1",
    "start": 24983,
    "end": 25173,
@@ -1677,7 +2101,11 @@
    "arxiv_url": "https://arxiv.org/abs/2609.18964",
    "paper_url": "https://openreview.net/forum?id=QBAA8svAIK",
    "thumb": "assets/img/corl2026/fedguide-diffusion-prior-alignment-and-value-baseline-guidan.webp",
-   "reel": "assets/img/corl2026/strip/fedguide-diffusion-prior-alignment-and-value-baseline-guidan.webp"
+   "reel": "assets/img/corl2026/strip/fedguide-diffusion-prior-alignment-and-value-baseline-guidan.webp",
+   "author_affiliations": [
+    "Carnegie Mellon University",
+    "Carnegie Mellon University"
+   ]
   },
   {
    "session": "S2",
@@ -1694,6 +2122,7 @@
     "Wei-Chiu Ma",
     "Shenlong Wang"
    ],
+   "affiliation": "UIUC / Georgia Tech",
    "video": "d1",
    "start": 25173,
    "end": 25360,
@@ -1707,9 +2136,18 @@
     "MoRE improved prediction accuracy over prior methods across rigid, deformable and prehensile benchmarks.",
     "Using one world model inside MPC enabled diverse real manipulation tasks without per-material models."
    ],
+   "website": "https://alwaysleepy.github.io/MoRE-WM-site/",
    "paper_url": "https://openreview.net/forum?id=v24DO7JOuN",
    "thumb": "assets/img/corl2026/more-mixture-of-experts-for-multi-physics-robotic-world-mode.webp",
-   "reel": "assets/img/corl2026/strip/more-mixture-of-experts-for-multi-physics-robotic-world-mode.webp"
+   "reel": "assets/img/corl2026/strip/more-mixture-of-experts-for-multi-physics-robotic-world-mode.webp",
+   "author_affiliations": [
+    "UIUC / Georgia Tech",
+    "UIUC",
+    "UIUC",
+    "UIUC",
+    "Cornell University",
+    "UIUC"
+   ]
   },
   {
    "session": "K1",
@@ -1842,6 +2280,7 @@
     "Ziyuan Jiao",
     "Qin Jin"
    ],
+   "affiliation": "Renmin University of China / Alibaba Inc.",
    "video": "d2",
    "start": 1482,
    "end": 1740,
@@ -1860,7 +2299,24 @@
    "website": "https://www-ye.github.io/ego2robot_blog/",
    "paper_url": "https://openreview.net/forum?id=JV472m0zgq",
    "thumb": "assets/img/corl2026/ego2robot-scalable-robot-data-synthesis-from-egocentric-huma.webp",
-   "reel": "assets/img/corl2026/strip/ego2robot-scalable-robot-data-synthesis-from-egocentric-huma.webp"
+   "reel": "assets/img/corl2026/strip/ego2robot-scalable-robot-data-synthesis-from-egocentric-huma.webp",
+   "author_affiliations": [
+    "Renmin University of China / Alibaba Inc.",
+    "Alibaba Inc. / ShanghaiTech University / Beijing Institute for General Artificial Intelligence",
+    "Alibaba Inc.",
+    "Alibaba Inc.",
+    "Alibaba Inc.",
+    "Alibaba Inc.",
+    "Alibaba Inc.",
+    "Alibaba Inc.",
+    "Alibaba Inc.",
+    "Renmin University of China",
+    "Alibaba Inc.",
+    "Alibaba Inc.",
+    "ShanghaiTech University",
+    "Beijing Institute for General Artificial Intelligence / Beihang University",
+    "Renmin University of China"
+   ]
   },
   {
    "session": "S3",
@@ -1877,6 +2333,7 @@
     "Yizhou Wang",
     "Wentao Zhu"
    ],
+   "affiliation": "Shanghai Jiao Tong University",
    "video": "d2",
    "start": 1743,
    "end": 1932,
@@ -1894,7 +2351,15 @@
    "website": "https://gazevla.github.io",
    "paper_url": "https://openreview.net/forum?id=l0bwpzWRKy",
    "thumb": "assets/img/corl2026/learning-human-intention-for-robotic-manipulation.webp",
-   "reel": "assets/img/corl2026/strip/learning-human-intention-for-robotic-manipulation.webp"
+   "reel": "assets/img/corl2026/strip/learning-human-intention-for-robotic-manipulation.webp",
+   "author_affiliations": [
+    "Shanghai Jiao Tong University / Eastern Institute of Technology, Ningbo",
+    "Shanghai Jiao Tong University",
+    "Peking University",
+    "ShanghaiTech University",
+    "Peking University",
+    "Eastern Institute of Technology, Ningbo"
+   ]
   },
   {
    "session": "S3",
@@ -1910,6 +2375,7 @@
     "Antonio Loquercio",
     "Yunzhu Li"
    ],
+   "affiliation": "Columbia University",
    "video": "d2",
    "start": 1933,
    "end": 2124,
@@ -1928,7 +2394,14 @@
    "website": "https://residual-copilot.github.io/",
    "paper_url": "https://openreview.net/forum?id=QGzgVP8RnK",
    "thumb": "assets/img/corl2026/efficient-and-reliable-teleoperation-through-real-to-sim-to-.webp",
-   "reel": "assets/img/corl2026/strip/efficient-and-reliable-teleoperation-through-real-to-sim-to-.webp"
+   "reel": "assets/img/corl2026/strip/efficient-and-reliable-teleoperation-through-real-to-sim-to-.webp",
+   "author_affiliations": [
+    "Columbia University",
+    "Columbia University",
+    "Columbia University",
+    "University of Pennsylvania",
+    "Columbia University"
+   ]
   },
   {
    "session": "S3",
@@ -1949,6 +2422,7 @@
     "Maya Cakmak",
     "Andrey Kolobov"
    ],
+   "affiliation": "Microsoft Research",
    "video": "d2",
    "start": 2126,
    "end": 2311,
@@ -1967,7 +2441,19 @@
    "website": "https://microsoft.github.io/FlowDAgger",
    "paper_url": "https://openreview.net/forum?id=aspenN9eir",
    "thumb": "assets/img/corl2026/flowdagger-human-in-the-loop-adaptation-of-generative-robot-.webp",
-   "reel": "assets/img/corl2026/strip/flowdagger-human-in-the-loop-adaptation-of-generative-robot-.webp"
+   "reel": "assets/img/corl2026/strip/flowdagger-human-in-the-loop-adaptation-of-generative-robot-.webp",
+   "author_affiliations": [
+    "Microsoft Research",
+    "Microsoft Research / University of Washington",
+    "Microsoft Research",
+    "Microsoft Research",
+    "Microsoft Research",
+    "Microsoft Research",
+    "Microsoft Research",
+    "Microsoft / ETH Zurich",
+    "University of Washington",
+    "Microsoft Research"
+   ]
   },
   {
    "session": "S3",
@@ -1991,6 +2477,7 @@
     "He Wang",
     "Wei-Shi Zheng"
    ],
+   "affiliation": "Sun Yat-sen University / Tsinghua University",
    "video": "d2",
    "start": 2311,
    "end": 2490,
@@ -2009,7 +2496,22 @@
    "website": "https://frenkielm.github.io/BiDexGrasp.github.io/",
    "paper_url": "https://openreview.net/forum?id=ODnu3ohjEQ",
    "thumb": "assets/img/corl2026/bidexgrasp-coordinated-bimanual-dexterous-grasps-across-obje.webp",
-   "reel": "assets/img/corl2026/strip/bidexgrasp-coordinated-bimanual-dexterous-grasps-across-obje.webp"
+   "reel": "assets/img/corl2026/strip/bidexgrasp-coordinated-bimanual-dexterous-grasps-across-obje.webp",
+   "author_affiliations": [
+    "Sun Yat-sen University / Tsinghua University",
+    "Sun Yat-sen University",
+    "Sun Yat-sen University",
+    "Sun Yat-sen University",
+    "Sun Yat-sen University",
+    "Sun Yat-sen University",
+    "Peking University",
+    "Peking University",
+    "Jiangxing Intelligence (Guizhou) Technology Inc.",
+    "Stanford University",
+    "Tsinghua University",
+    "Peking University",
+    "Sun Yat-sen University"
+   ]
   },
   {
    "session": "S3",
@@ -2030,6 +2532,7 @@
     "Li Yi",
     "He Wang"
    ],
+   "affiliation": "Peking University / Galbot",
    "video": "d2",
    "start": 2491,
    "end": 2682,
@@ -2047,7 +2550,18 @@
    "website": "https://yuansen-huang.github.io/KPGrasp-page/",
    "paper_url": "https://openreview.net/forum?id=BXNVzGSYFe",
    "thumb": "assets/img/corl2026/kpgrasp-scalable-keypoint-flow-matching-for-dexterous-grasp-.webp",
-   "reel": "assets/img/corl2026/strip/kpgrasp-scalable-keypoint-flow-matching-for-dexterous-grasp-.webp"
+   "reel": "assets/img/corl2026/strip/kpgrasp-scalable-keypoint-flow-matching-for-dexterous-grasp-.webp",
+   "author_affiliations": [
+    "Peking University / Galbot",
+    "Peking University / Galbot",
+    "Peking University / Galbot",
+    "Peking University / Galbot",
+    "Galbot / Xi'an Jiaotong University",
+    "Peking University / Galbot",
+    "Peking University / Galbot",
+    "Galbot / Tsinghua University",
+    "Peking University / Galbot"
+   ]
   },
   {
    "session": "S3",
@@ -2064,6 +2578,7 @@
     "Chiyu Wang",
     "Xinyang Gu"
    ],
+   "affiliation": "Sharpa Robotics",
    "video": "d2",
    "start": 2684,
    "end": 2882,
@@ -2082,7 +2597,15 @@
    "website": "https://wmcraftnet.github.io/",
    "paper_url": "https://openreview.net/forum?id=AmQH2hU9Gs",
    "thumb": "assets/img/corl2026/wm-craftnet-world-synesthesia-model-for-robust-and-generaliz.webp",
-   "reel": "assets/img/corl2026/strip/wm-craftnet-world-synesthesia-model-for-robust-and-generaliz.webp"
+   "reel": "assets/img/corl2026/strip/wm-craftnet-world-synesthesia-model-for-robust-and-generaliz.webp",
+   "author_affiliations": [
+    "Sharpa Robotics",
+    "Sharpa Robotics",
+    "Sharpa Robotics",
+    "Sharpa Robotics",
+    "Sharpa Robotics",
+    "Sharpa Robotics"
+   ]
   },
   {
    "session": "S3",
@@ -2099,6 +2622,7 @@
     "Guoqiang Ren",
     "Weiming Zhi"
    ],
+   "affiliation": "The University of Sydney",
    "video": "d2",
    "start": 2884,
    "end": 3072,
@@ -2117,7 +2641,15 @@
    "website": "http://cyc0429.github.io/sai-project-page/",
    "paper_url": "https://openreview.net/forum?id=rfRjWMFfvV",
    "thumb": "assets/img/corl2026/sequential-asymmetric-imitation-for-learning-coupled-robot-p.webp",
-   "reel": "assets/img/corl2026/strip/sequential-asymmetric-imitation-for-learning-coupled-robot-p.webp"
+   "reel": "assets/img/corl2026/strip/sequential-asymmetric-imitation-for-learning-coupled-robot-p.webp",
+   "author_affiliations": [
+    "Zeno AI",
+    "Zeno AI",
+    "Zeno AI / The University of Sydney",
+    "The University of Sydney",
+    "Zeno AI / Zhejiang University",
+    "The University of Sydney"
+   ]
   },
   {
    "session": "S3",
@@ -2134,6 +2666,7 @@
     "Marco Hutter",
     "Amanda Prorok"
    ],
+   "affiliation": "University of Cambridge / ETH Zurich",
    "video": "d2",
    "start": 3073,
    "end": 3277,
@@ -2152,7 +2685,15 @@
    "website": "https://proroklab.github.io/PAVE/",
    "paper_url": "https://openreview.net/forum?id=N77om40jWL",
    "thumb": "assets/img/corl2026/leave-it-better-than-found-value-guided-cooperation-in-seque.webp",
-   "reel": "assets/img/corl2026/strip/leave-it-better-than-found-value-guided-cooperation-in-seque.webp"
+   "reel": "assets/img/corl2026/strip/leave-it-better-than-found-value-guided-cooperation-in-seque.webp",
+   "author_affiliations": [
+    "University of Cambridge / ETH Zurich",
+    "University of Cambridge",
+    "University of Cambridge",
+    "ETH Zurich",
+    "ETH Zurich",
+    "University of Cambridge"
+   ]
   },
   {
    "session": "O4",
@@ -2170,6 +2711,7 @@
     "Sergey Levine",
     "Liyiming Ke"
    ],
+   "affiliation": "Physical Intelligence",
    "video": "d2",
    "start": 3280,
    "end": 3958,
@@ -2188,7 +2730,16 @@
    "arxiv_url": "https://arxiv.org/abs/2604.23073",
    "paper_url": "https://openreview.net/forum?id=RYXo2ktK1M",
    "thumb": "assets/img/corl2026/rl-token-bootstrapping-online-rl-with-vision-language-action.webp",
-   "reel": "assets/img/corl2026/strip/rl-token-bootstrapping-online-rl-with-vision-language-action.webp"
+   "reel": "assets/img/corl2026/strip/rl-token-bootstrapping-online-rl-with-vision-language-action.webp",
+   "author_affiliations": [
+    "Physical Intelligence",
+    "Physical Intelligence",
+    "Physical Intelligence",
+    "Physical Intelligence",
+    "Physical Intelligence",
+    "Physical Intelligence",
+    "Physical Intelligence"
+   ]
   },
   {
    "session": "O4",
@@ -2211,6 +2762,7 @@
     "Karen Liu",
     "Angjoo Kanazawa"
    ],
+   "affiliation": "Amazon FAR / UC Berkeley",
    "video": "d2",
    "start": 3959,
    "end": 4603,
@@ -2229,7 +2781,21 @@
    "website": "https://hongsukchoi.github.io/fpo-control",
    "paper_url": "https://openreview.net/forum?id=acslhrig33",
    "thumb": "assets/img/corl2026/flow-policy-gradients-for-robot-control.webp",
-   "reel": "assets/img/corl2026/strip/flow-policy-gradients-for-robot-control.webp"
+   "reel": "assets/img/corl2026/strip/flow-policy-gradients-for-robot-control.webp",
+   "author_affiliations": [
+    "Amazon FAR / UC Berkeley",
+    "Amazon FAR / UC Berkeley",
+    "Amazon FAR / UC Berkeley",
+    "Amazon FAR / UC Berkeley",
+    "Amazon FAR / Stanford University",
+    "Amazon FAR",
+    "UC Berkeley / The University of Hong Kong",
+    "Amazon FAR",
+    "Amazon FAR / UC Berkeley",
+    "Amazon FAR / Carnegie Mellon University",
+    "Amazon FAR / Stanford University",
+    "Amazon FAR / UC Berkeley"
+   ]
   },
   {
    "session": "O4",
@@ -2248,6 +2814,7 @@
     "Kristian Kersting",
     "Devendra Singh Dhami"
    ],
+   "affiliation": "TU Darmstadt",
    "video": "d2",
    "start": 4603,
    "end": 5251,
@@ -2266,7 +2833,16 @@
    "arxiv_url": "https://arxiv.org/abs/2606.15251",
    "paper_url": "https://openreview.net/forum?id=fHzDEYENPF",
    "thumb": "assets/img/corl2026/driving-fast-or-slow-neuro-symbolic-guidance-for-motion-pred.webp",
-   "reel": "assets/img/corl2026/strip/driving-fast-or-slow-neuro-symbolic-guidance-for-motion-pred.webp"
+   "reel": "assets/img/corl2026/strip/driving-fast-or-slow-neuro-symbolic-guidance-for-motion-pred.webp",
+   "author_affiliations": [
+    "TU Darmstadt",
+    "TU Darmstadt",
+    "TU Darmstadt",
+    "Honda Research Institute",
+    "Honda Research Institute",
+    "TU Darmstadt / hessian.AI / Centre for Cognitive Science / DFKI",
+    "TU Eindhoven"
+   ]
   },
   {
    "session": "ECK3",
@@ -2320,6 +2896,7 @@
     "Danfei Xu",
     "Linxi Fan"
    ],
+   "affiliation": "NVIDIA",
    "video": "d2",
    "start": 8582,
    "end": 9238,
@@ -2338,7 +2915,24 @@
    "arxiv_url": "https://arxiv.org/abs/2602.16710",
    "paper_url": "https://openreview.net/forum?id=WF4X17Al2r",
    "thumb": "assets/img/corl2026/egoscale-scaling-dexterous-manipulation-with-diverse-egocent.webp",
-   "reel": "assets/img/corl2026/strip/egoscale-scaling-dexterous-manipulation-with-diverse-egocent.webp"
+   "reel": "assets/img/corl2026/strip/egoscale-scaling-dexterous-manipulation-with-diverse-egocent.webp",
+   "author_affiliations": [
+    "NVIDIA",
+    "NVIDIA / UC Berkeley",
+    "NVIDIA",
+    "NVIDIA",
+    "NVIDIA",
+    "NVIDIA",
+    "NVIDIA",
+    "NVIDIA",
+    "NVIDIA",
+    "NVIDIA / UC Berkeley",
+    "UC Berkeley",
+    "University of Maryland",
+    "NVIDIA",
+    "NVIDIA",
+    "NVIDIA"
+   ]
   },
   {
    "session": "O5",
@@ -2356,6 +2950,7 @@
     "Yitong Peng",
     "Hao Dong"
    ],
+   "affiliation": "Peking University / PrimeBot",
    "video": "d2",
    "start": 9238,
    "end": 9769,
@@ -2375,7 +2970,16 @@
    "website": "https://opendexgrasp.github.io/",
    "paper_url": "https://openreview.net/forum?id=wLgEYxjqid",
    "thumb": "assets/img/corl2026/opendexgrasp-open-vocabulary-task-oriented-dexterous-graspin.webp",
-   "reel": "assets/img/corl2026/strip/opendexgrasp-open-vocabulary-task-oriented-dexterous-graspin.webp"
+   "reel": "assets/img/corl2026/strip/opendexgrasp-open-vocabulary-task-oriented-dexterous-graspin.webp",
+   "author_affiliations": [
+    "Peking University / PrimeBot",
+    "Peking University / PrimeBot",
+    "Peking University / Beijing Institute for General Artificial Intelligence",
+    "Peking University / Beijing Institute for General Artificial Intelligence",
+    "Peking University / PrimeBot",
+    "Peking University",
+    "Peking University / PrimeBot"
+   ]
   },
   {
    "session": "O5",
@@ -2391,6 +2995,7 @@
     "Karen Liu",
     "Jeannette Bohg"
    ],
+   "affiliation": "Stanford University / Cornell University",
    "video": "d2",
    "start": 9769,
    "end": 10428,
@@ -2411,6 +3016,12 @@
    "paper_url": "https://openreview.net/forum?id=RRl1xXZLdM",
    "thumb": "assets/img/corl2026/play2perfect-what-matters-in-dexterous-play-pretraining-for-.webp",
    "reel": "assets/img/corl2026/strip/play2perfect-what-matters-in-dexterous-play-pretraining-for-.webp",
+   "author_affiliations": [
+    "Stanford University",
+    "Cornell University",
+    "Stanford University",
+    "Stanford University"
+   ],
    "award": "finalist"
   },
   {
@@ -2431,6 +3042,7 @@
     "Ruslan Salakhutdinov",
     "Deepak Pathak"
    ],
+   "affiliation": "Carnegie Mellon University / Waseda University",
    "video": "d2",
    "start": 10429,
    "end": 11059,
@@ -2450,7 +3062,17 @@
    "website": "https://jasonjzliu.com/factr2",
    "paper_url": "https://openreview.net/forum?id=03zMMFkTXk",
    "thumb": "assets/img/corl2026/factr-2-learning-external-force-sensing-for-commodity-robot-.webp",
-   "reel": "assets/img/corl2026/strip/factr-2-learning-external-force-sensing-for-commodity-robot-.webp"
+   "reel": "assets/img/corl2026/strip/factr-2-learning-external-force-sensing-for-commodity-robot-.webp",
+   "author_affiliations": [
+    "Carnegie Mellon University / Waseda University",
+    "Carnegie Mellon University",
+    "Carnegie Mellon University",
+    "Carnegie Mellon University",
+    "Carnegie Mellon University",
+    "Waseda University",
+    "Carnegie Mellon University",
+    "Carnegie Mellon University"
+   ]
   },
   {
    "session": "O6",
@@ -2465,6 +3087,7 @@
     "Shuai Chen",
     "You Yangwei"
    ],
+   "affiliation": "Xiaomi Robot Technology",
    "video": "d2",
    "start": 11059,
    "end": 11453,
@@ -2483,7 +3106,13 @@
    "website": "https://pace-insertion.github.io/",
    "paper_url": "https://openreview.net/forum?id=AIInkHZlvB",
    "thumb": "assets/img/corl2026/pace-temporal-role-tactile-conditioning-for-chunk-based-inse.webp",
-   "reel": "assets/img/corl2026/strip/pace-temporal-role-tactile-conditioning-for-chunk-based-inse.webp"
+   "reel": "assets/img/corl2026/strip/pace-temporal-role-tactile-conditioning-for-chunk-based-inse.webp",
+   "author_affiliations": [
+    "Xiaomi Robot Technology",
+    "Xiaomi Robot Technology",
+    "Xiaomi Robot Technology",
+    "Xiaomi Robot Technology"
+   ]
   },
   {
    "session": "O6",
@@ -2500,6 +3129,7 @@
     "Maxim Likhachev",
     "David Held"
    ],
+   "affiliation": "Carnegie Mellon University",
    "video": "d2",
    "start": 12139,
    "end": 12594,
@@ -2520,6 +3150,14 @@
    "paper_url": "https://openreview.net/forum?id=hWuk4y2AeR",
    "thumb": "assets/img/corl2026/long-horizon-multi-object-rearrangement-via-distilled-tree-s.webp",
    "reel": "assets/img/corl2026/strip/long-horizon-multi-object-rearrangement-via-distilled-tree-s.webp",
+   "author_affiliations": [
+    "Carnegie Mellon University",
+    "Stanford University",
+    "Carnegie Mellon University",
+    "Stanford University",
+    "Carnegie Mellon University",
+    "Carnegie Mellon University"
+   ],
    "award": "finalist"
   },
   {
@@ -2551,6 +3189,7 @@
     "Umar Iqbal",
     "Ye Yuan"
    ],
+   "affiliation": "NVIDIA / UCLA",
    "video": "d2",
    "start": 12594,
    "end": 13308,
@@ -2571,6 +3210,28 @@
    "paper_url": "https://openreview.net/forum?id=2dEfANeQL7",
    "thumb": "assets/img/corl2026/grail-generating-humanoid-loco-manipulation-from-world-model.webp",
    "reel": "assets/img/corl2026/strip/grail-generating-humanoid-loco-manipulation-from-world-model.webp",
+   "author_affiliations": [
+    "NVIDIA / UCLA",
+    "NVIDIA",
+    "NVIDIA",
+    "NVIDIA",
+    "NVIDIA",
+    "NVIDIA",
+    "NVIDIA",
+    "NVIDIA",
+    "NVIDIA",
+    "NVIDIA",
+    "NVIDIA",
+    "NVIDIA",
+    "UCLA",
+    "NVIDIA",
+    "NVIDIA",
+    "NVIDIA",
+    "NVIDIA",
+    "NVIDIA",
+    "NVIDIA",
+    "NVIDIA"
+   ],
    "award": "finalist"
   },
   {
@@ -2589,6 +3250,7 @@
     "Pieter Abbeel",
     "Koushil Sreenath"
    ],
+   "affiliation": "UC Berkeley",
    "video": "d2",
    "start": 13311,
    "end": 13919,
@@ -2609,6 +3271,15 @@
    "paper_url": "https://openreview.net/forum?id=psNqjklVOK",
    "thumb": "assets/img/corl2026/supermimic-scaling-humanoid-whole-body-control-with-one-diff.webp",
    "reel": "assets/img/corl2026/strip/supermimic-scaling-humanoid-whole-body-control-with-one-diff.webp",
+   "author_affiliations": [
+    "UC Berkeley",
+    "UC Berkeley",
+    "UC Berkeley",
+    "UC Berkeley",
+    "UC Berkeley",
+    "UC Berkeley",
+    "UC Berkeley"
+   ],
    "award": "winner:Best Conference Paper Award"
   },
   {
@@ -2632,6 +3303,7 @@
     "Peng Lu",
     "Hongyang Li"
    ],
+   "affiliation": "Archon Robotics / The University of Hong Kong",
    "video": "d2",
    "start": 13919,
    "end": 14548,
@@ -2650,7 +3322,21 @@
    "website": "https://opendrivelab.com/RoboNaldo",
    "paper_url": "https://openreview.net/forum?id=WBGnJHRIso",
    "thumb": "assets/img/corl2026/robonaldo-accurate-stable-and-powerful-humanoid-soccer-shoot.webp",
-   "reel": "assets/img/corl2026/strip/robonaldo-accurate-stable-and-powerful-humanoid-soccer-shoot.webp"
+   "reel": "assets/img/corl2026/strip/robonaldo-accurate-stable-and-powerful-humanoid-soccer-shoot.webp",
+   "author_affiliations": [
+    "The University of Hong Kong",
+    "The University of Hong Kong",
+    "The University of Hong Kong",
+    "The University of Hong Kong",
+    "The University of Hong Kong",
+    "Archon Robotics",
+    "Archon Robotics",
+    "The University of Hong Kong",
+    "The Chinese University of Hong Kong",
+    "The Chinese University of Hong Kong",
+    "The University of Hong Kong",
+    "Archon Robotics / The University of Hong Kong"
+   ]
   },
   {
    "session": "SP3",
@@ -2749,6 +3435,7 @@
     "Yandong Guo",
     "Boxin Shi"
    ],
+   "affiliation": "Peking University / AI2 Robotics",
    "video": "d2",
    "start": 21552,
    "end": 21752,
@@ -2764,7 +3451,18 @@
    "arxiv_url": "https://arxiv.org/abs/2610.16463",
    "paper_url": "https://openreview.net/forum?id=yMD1ykviND",
    "thumb": "assets/img/corl2026/detac-dual-branch-decoupling-of-texture-and-force-signals-in.webp",
-   "reel": "assets/img/corl2026/strip/detac-dual-branch-decoupling-of-texture-and-force-signals-in.webp"
+   "reel": "assets/img/corl2026/strip/detac-dual-branch-decoupling-of-texture-and-force-signals-in.webp",
+   "author_affiliations": [
+    "Peking University / AI2 Robotics",
+    "Peking University / AI2 Robotics",
+    "Peking University / AI2 Robotics",
+    "Peking University / AI2 Robotics",
+    "Shanghai Jiao Tong University",
+    "Peking University / AI2 Robotics",
+    "Shanghai Jiao Tong University",
+    "AI2 Robotics",
+    "Peking University"
+   ]
   },
   {
    "session": "S4",
@@ -2780,6 +3478,7 @@
     "Qiu Tianyu",
     "Lin Shao"
    ],
+   "affiliation": "National University of Singapore",
    "video": "d2",
    "start": 21752,
    "end": 21942,
@@ -2796,7 +3495,14 @@
    "website": "https://nus-lins-lab.github.io/FingerEyeWeb/",
    "paper_url": "https://openreview.net/forum?id=RAA96LpIxJ",
    "thumb": "assets/img/corl2026/fingereye-learning-dexterous-manipulation-with-continuous-vi.webp",
-   "reel": "assets/img/corl2026/strip/fingereye-learning-dexterous-manipulation-with-continuous-vi.webp"
+   "reel": "assets/img/corl2026/strip/fingereye-learning-dexterous-manipulation-with-continuous-vi.webp",
+   "author_affiliations": [
+    "National University of Singapore",
+    "National University of Singapore / RoboScience",
+    "RoboScience / Huazhong University of Science and Technology",
+    "RoboScience / South China University of Technology",
+    "National University of Singapore / RoboScience"
+   ]
   },
   {
    "session": "S4",
@@ -2813,6 +3519,7 @@
     "Lillian Chin",
     "Roberto Martín-Martín"
    ],
+   "affiliation": "UT Austin",
    "video": "d2",
    "start": 21942,
    "end": 22138,
@@ -2825,9 +3532,18 @@
     "Adding immersion-depth sensing raised success from 25% to 61% on a task where vision alone could not recover the state.",
     "Tactile sensing alone is not enough when vision is heavily distorted, especially under water-level variation."
    ],
+   "website": "https://davatar-corl26.github.io/",
    "paper_url": "https://openreview.net/forum?id=hSRtOgnkTM",
    "thumb": "assets/img/corl2026/davatar-depth-aware-visually-augmented-tactile-learning-acro.webp",
-   "reel": "assets/img/corl2026/strip/davatar-depth-aware-visually-augmented-tactile-learning-acro.webp"
+   "reel": "assets/img/corl2026/strip/davatar-depth-aware-visually-augmented-tactile-learning-acro.webp",
+   "author_affiliations": [
+    "UT Austin",
+    "UT Austin",
+    "UT Austin",
+    "UT Austin",
+    "UT Austin",
+    "UT Austin"
+   ]
   },
   {
    "session": "S4",
@@ -2846,6 +3562,7 @@
     "Dennis Hong",
     "Yuchen Cui"
    ],
+   "affiliation": "UCLA",
    "video": "d2",
    "start": 22138,
    "end": 22340,
@@ -2862,7 +3579,16 @@
    "website": "https://visibletouch.github.io/",
    "paper_url": "https://openreview.net/forum?id=ult1vxdeUb",
    "thumb": "assets/img/corl2026/visible-touch-rendering-contact-for-visuomotor-policies.webp",
-   "reel": "assets/img/corl2026/strip/visible-touch-rendering-contact-for-visuomotor-policies.webp"
+   "reel": "assets/img/corl2026/strip/visible-touch-rendering-contact-for-visuomotor-policies.webp",
+   "author_affiliations": [
+    "UCLA",
+    "UCLA",
+    "UCLA",
+    "UCLA",
+    "UCLA",
+    "UCLA",
+    "UCLA"
+   ]
   },
   {
    "session": "S4",
@@ -2879,6 +3605,7 @@
     "Alberta Longhini",
     "Jeannette Bohg"
    ],
+   "affiliation": "Stanford University",
    "video": "d2",
    "start": 22340,
    "end": 22526,
@@ -2895,7 +3622,14 @@
    "arxiv_url": "https://arxiv.org/abs/2608.01402",
    "paper_url": "https://openreview.net/forum?id=BV0T1o1ZIL",
    "thumb": "assets/img/corl2026/demystifying-when-and-why-vlas-fail-in-contact-rich-tasks-an.webp",
-   "reel": "assets/img/corl2026/strip/demystifying-when-and-why-vlas-fail-in-contact-rich-tasks-an.webp"
+   "reel": "assets/img/corl2026/strip/demystifying-when-and-why-vlas-fail-in-contact-rich-tasks-an.webp",
+   "author_affiliations": [
+    "Stanford University",
+    "Stanford University",
+    "Stanford University",
+    "Stanford University",
+    "Stanford University"
+   ]
   },
   {
    "session": "S4",
@@ -2917,6 +3651,7 @@
     "Chuan Wen",
     "Cewu Lu"
    ],
+   "affiliation": "Shanghai Jiao Tong University / Shanghai Innovation Institute",
    "video": "d2",
    "start": 22526,
    "end": 22716,
@@ -2933,7 +3668,20 @@
    "website": "https://lift-policy.github.io/",
    "paper_url": "https://openreview.net/forum?id=19iADsbO9A",
    "thumb": "assets/img/corl2026/never-too-late-for-force-accelerating-vla-post-training-with.webp",
-   "reel": "assets/img/corl2026/strip/never-too-late-for-force-accelerating-vla-post-training-with.webp"
+   "reel": "assets/img/corl2026/strip/never-too-late-for-force-accelerating-vla-post-training-with.webp",
+   "author_affiliations": [
+    "Shanghai Jiao Tong University / Shanghai Innovation Institute",
+    "Shanghai Jiao Tong University / Shanghai Innovation Institute",
+    "Shanghai Jiao Tong University",
+    "Shanghai Jiao Tong University",
+    "Shanghai Innovation Institute / Southern University of Science and Technology",
+    "Shanghai Jiao Tong University / Shanghai Innovation Institute",
+    "Shanghai Jiao Tong University",
+    "Shanghai Jiao Tong University",
+    "Noematrix Ltd.",
+    "Shanghai Jiao Tong University",
+    "Shanghai Jiao Tong University / Shanghai Innovation Institute / Noematrix Ltd."
+   ]
   },
   {
    "session": "S4",
@@ -2949,6 +3697,7 @@
     "Minseok Choi",
     "Frank C. Park"
    ],
+   "affiliation": "Seoul National University",
    "video": "d2",
    "start": 22716,
    "end": 22905,
@@ -2965,7 +3714,14 @@
    "website": "https://erickun0125.github.io/constraint-decomposed-impedance/",
    "paper_url": "https://openreview.net/forum?id=MjpidVjNMS",
    "thumb": "assets/img/corl2026/constraint-decomposed-impedance-control-from-generative-poli.webp",
-   "reel": "assets/img/corl2026/strip/constraint-decomposed-impedance-control-from-generative-poli.webp"
+   "reel": "assets/img/corl2026/strip/constraint-decomposed-impedance-control-from-generative-poli.webp",
+   "author_affiliations": [
+    "Seoul National University",
+    "Seoul National University",
+    "Seoul National University",
+    "Seoul National University",
+    "Seoul National University"
+   ]
   },
   {
    "session": "S4",
@@ -2982,6 +3738,7 @@
     "Beomjoon Kim",
     "Dieter Fox"
    ],
+   "affiliation": "KAIST",
    "video": "d2",
    "start": 22905,
    "end": 23051,
@@ -2998,7 +3755,15 @@
    "website": "https://dongwon-son.github.io/tam-project-page/",
    "paper_url": "https://openreview.net/forum?id=Ti3oK55n1H",
    "thumb": "assets/img/corl2026/tam-torque-adaptation-module-for-robust-motion-transfer-in-m.webp",
-   "reel": "assets/img/corl2026/strip/tam-torque-adaptation-module-for-robust-motion-transfer-in-m.webp"
+   "reel": "assets/img/corl2026/strip/tam-torque-adaptation-module-for-robust-motion-transfer-in-m.webp",
+   "author_affiliations": [
+    "KAIST",
+    "Allen Institute for AI / University of Toronto",
+    "Allen Institute for AI / University of Washington",
+    "Allen Institute for AI",
+    "KAIST",
+    "Allen Institute for AI / University of Washington"
+   ]
   },
   {
    "session": "S4",
@@ -3017,6 +3782,7 @@
     "Tilman Burghoff",
     "Justin Carpentier"
    ],
+   "affiliation": "Technical University Berlin / Robotics Institute Germany / Fraunhofer HHI",
    "video": "d2",
    "start": 23051,
    "end": 23254,
@@ -3034,7 +3800,17 @@
    "website": "https://www.user.tu-berlin.de/mtoussai/26-CSRL/",
    "paper_url": "https://openreview.net/forum?id=cJGMjQlgz5",
    "thumb": "assets/img/corl2026/combining-constrained-sampling-and-reinforcement-learning-fo.webp",
-   "reel": "assets/img/corl2026/strip/combining-constrained-sampling-and-reinforcement-learning-fo.webp"
+   "reel": "assets/img/corl2026/strip/combining-constrained-sampling-and-reinforcement-learning-fo.webp",
+   "author_affiliations": [
+    "Technical University Berlin / Robotics Institute Germany / Fraunhofer HHI",
+    "Technical University Berlin",
+    "LAAS-CNRS",
+    "Technical University Berlin",
+    "Technical University Berlin",
+    "Technical University Berlin / Fraunhofer HHI",
+    "Technical University Berlin",
+    "Inria / PSL Research University"
+   ]
   },
   {
    "session": "S5",
@@ -3051,6 +3827,7 @@
     "Svetlana Lazebnik",
     "Yunzhu Li"
    ],
+   "affiliation": "UIUC",
    "video": "d2",
    "start": 23254,
    "end": 23467,
@@ -3068,7 +3845,14 @@
    "website": "https://pgrd-robot.github.io/",
    "paper_url": "https://openreview.net/forum?id=3hsq75Gmr9",
    "thumb": "assets/img/corl2026/learning-physics-guided-residual-dynamics-for-deformable-obj.webp",
-   "reel": "assets/img/corl2026/strip/learning-physics-guided-residual-dynamics-for-deformable-obj.webp"
+   "reel": "assets/img/corl2026/strip/learning-physics-guided-residual-dynamics-for-deformable-obj.webp",
+   "author_affiliations": [
+    "UIUC",
+    "Columbia University",
+    "UIUC",
+    "UIUC",
+    "Columbia University"
+   ]
   },
   {
    "session": "S5",
@@ -3087,6 +3871,7 @@
     "Seungyeon Ha",
     "Chi-Guhn Lee"
    ],
+   "affiliation": "University of Toronto",
    "video": "d2",
    "start": 23467,
    "end": 23655,
@@ -3102,7 +3887,17 @@
    "arxiv_url": "https://arxiv.org/abs/2606.18097",
    "paper_url": "https://openreview.net/forum?id=cQPnBRGgWM",
    "thumb": "assets/img/corl2026/wirecraft-a-simulation-benchmark-for-industrial-dlo-manipula.webp",
-   "reel": "assets/img/corl2026/strip/wirecraft-a-simulation-benchmark-for-industrial-dlo-manipula.webp"
+   "reel": "assets/img/corl2026/strip/wirecraft-a-simulation-benchmark-for-industrial-dlo-manipula.webp",
+   "author_affiliations": [
+    "University of Toronto",
+    "University of Toronto",
+    "University of Toronto",
+    "University of Toronto",
+    "University of Toronto",
+    "University of Toronto",
+    "CREFLE Inc.",
+    "University of Toronto"
+   ]
   },
   {
    "session": "S5",
@@ -3124,6 +3919,7 @@
     "Chenkun Qi",
     "Fan Shi"
    ],
+   "affiliation": "National University of Singapore / Shanghai Jiao Tong University",
    "video": "d2",
    "start": 23655,
    "end": 23811,
@@ -3140,7 +3936,19 @@
    "website": "https://silr-cloth.github.io/",
    "paper_url": "https://openreview.net/forum?id=nzYChkCtvT",
    "thumb": "assets/img/corl2026/enabling-robust-cloth-manipulation-via-inference-time-simula.webp",
-   "reel": "assets/img/corl2026/strip/enabling-robust-cloth-manipulation-via-inference-time-simula.webp"
+   "reel": "assets/img/corl2026/strip/enabling-robust-cloth-manipulation-via-inference-time-simula.webp",
+   "author_affiliations": [
+    "National University of Singapore / Shanghai Jiao Tong University",
+    "National University of Singapore",
+    "National University of Singapore",
+    "National University of Singapore",
+    "National University of Singapore",
+    "National University of Singapore",
+    "National University of Singapore",
+    "National University of Singapore",
+    "Shanghai Jiao Tong University",
+    "National University of Singapore"
+   ]
   },
   {
    "session": "S5",
@@ -3156,6 +3964,7 @@
     "Yuexi Song",
     "Glen Chou"
    ],
+   "affiliation": "Georgia Institute of Technology",
    "video": "d2",
    "start": 23811,
    "end": 23998,
@@ -3172,7 +3981,14 @@
    "arxiv_url": "https://arxiv.org/abs/2606.14188",
    "paper_url": "https://openreview.net/forum?id=UVJPDRCmlf",
    "thumb": "assets/img/corl2026/robustness-without-wrinkles-parallel-simulation-and-robust-m.webp",
-   "reel": "assets/img/corl2026/strip/robustness-without-wrinkles-parallel-simulation-and-robust-m.webp"
+   "reel": "assets/img/corl2026/strip/robustness-without-wrinkles-parallel-simulation-and-robust-m.webp",
+   "author_affiliations": [
+    "Georgia Institute of Technology",
+    "Georgia Institute of Technology",
+    "Georgia Institute of Technology",
+    "Georgia Institute of Technology",
+    "Georgia Institute of Technology"
+   ]
   },
   {
    "session": "S5",
@@ -3190,6 +4006,7 @@
     "Haiyue Zhu",
     "Kezhi Mao"
    ],
+   "affiliation": "A*STAR SIMTech / NTU",
    "video": "d2",
    "start": 23998,
    "end": 24185,
@@ -3202,9 +4019,19 @@
     "Under saturated depth noise NISE beat the strongest baseline by 33-40 percentage points across two simulation benchmarks.",
     "On real transparent and reflective objects it roughly doubled baseline successes, for example 16 vs. 6 of 30 on a test-tube pouring task."
    ],
+   "arxiv_url": "https://arxiv.org/abs/2610.24674",
+   "website": "https://nise-robotics.github.io/",
    "paper_url": "https://openreview.net/forum?id=r8MOxo93Mv",
    "thumb": "assets/img/corl2026/noise-invariant-spatial-encoding-for-3d-manipulation-policie.webp",
-   "reel": "assets/img/corl2026/strip/noise-invariant-spatial-encoding-for-3d-manipulation-policie.webp"
+   "reel": "assets/img/corl2026/strip/noise-invariant-spatial-encoding-for-3d-manipulation-policie.webp",
+   "author_affiliations": [
+    "A*STAR SIMTech / NTU",
+    "A*STAR SIMTech / NTU",
+    "A*STAR SIMTech / NUS",
+    "NTU",
+    "A*STAR SIMTech",
+    "NTU"
+   ]
   },
   {
    "session": "S5",
@@ -3220,6 +4047,7 @@
     "Yulun Tian",
     "Nikolay Atanasov"
    ],
+   "affiliation": "UC San Diego",
    "video": "d2",
    "start": 24185,
    "end": 24367,
@@ -3233,9 +4061,18 @@
     "Compared with an image-only pi-0.5 policy, the map-conditioned policy reached subgoals more directly and completed more of them.",
     "An explicit 3D map gives the policy a mechanism to accumulate context that image-only foundation models lack."
    ],
+   "arxiv_url": "https://arxiv.org/abs/2606.12956",
+   "website": "https://existentialrobotics.org/serf/",
    "paper_url": "https://openreview.net/forum?id=nIbnBCtz79",
    "thumb": "assets/img/corl2026/serf-spatiotemporal-environment-and-robot-feature-map-for-lo.webp",
-   "reel": "assets/img/corl2026/strip/serf-spatiotemporal-environment-and-robot-feature-map-for-lo.webp"
+   "reel": "assets/img/corl2026/strip/serf-spatiotemporal-environment-and-robot-feature-map-for-lo.webp",
+   "author_affiliations": [
+    "UC San Diego",
+    "Agency for Defense Development",
+    "UC San Diego",
+    "University of Michigan",
+    "UC San Diego"
+   ]
   },
   {
    "session": "S5",
@@ -3255,6 +4092,7 @@
     "Marc Pollefeys",
     "Abhinav Valada"
    ],
+   "affiliation": "University of Freiburg",
    "video": "d2",
    "start": 24367,
    "end": 24555,
@@ -3268,9 +4106,20 @@
     "One regularized twist model robustly estimates both prismatic and revolute joints.",
     "The graph supported long-horizon tasks on a Toyota HSR and a quadruped, such as opening a fridge and retrieving milk from a language command."
    ],
+   "arxiv_url": "https://arxiv.org/abs/2602.16356",
    "paper_url": "https://openreview.net/forum?id=FKKr8jKS29",
    "thumb": "assets/img/corl2026/articulated-3d-scene-graphs-for-open-world-mobile-manipulati.webp",
-   "reel": "assets/img/corl2026/strip/articulated-3d-scene-graphs-for-open-world-mobile-manipulati.webp"
+   "reel": "assets/img/corl2026/strip/articulated-3d-scene-graphs-for-open-world-mobile-manipulati.webp",
+   "author_affiliations": [
+    "University of Freiburg",
+    "University of Freiburg",
+    "ETH Zurich",
+    "University of Freiburg",
+    "ETH Zurich",
+    "ETH Zurich / University of Bonn",
+    "ETH Zurich",
+    "University of Freiburg"
+   ]
   },
   {
    "session": "S5",
@@ -3285,6 +4134,7 @@
     "Jonathan Külz",
     "Matthias Althoff"
    ],
+   "affiliation": "Technical University of Munich",
    "video": "d2",
    "start": 24555,
    "end": 24744,
@@ -3301,7 +4151,13 @@
    "website": "https://timwalter.github.io/ram",
    "paper_url": "https://openreview.net/forum?id=SaMjmUr6xC",
    "thumb": "assets/img/corl2026/ram-reachability-across-morphologies.webp",
-   "reel": "assets/img/corl2026/strip/ram-reachability-across-morphologies.webp"
+   "reel": "assets/img/corl2026/strip/ram-reachability-across-morphologies.webp",
+   "author_affiliations": [
+    "Technical University of Munich",
+    "German Electron Synchrotron / University of Hamburg",
+    "Technical University of Munich",
+    "Technical University of Munich"
+   ]
   },
   {
    "session": "S5",
@@ -3314,6 +4170,7 @@
     "Nico Bohlinger",
     "Jan Peters"
    ],
+   "affiliation": "TU Darmstadt",
    "video": "d2",
    "start": 24744,
    "end": 24938,
@@ -3326,9 +4183,15 @@
     "Training once replaces a new co-design RL run per design and allows thousands of designs to be optimized in seconds.",
     "Optimized designs often beat the manufacturers' originals, and the value gradients show which parameters, such as actuator settings, limit performance."
    ],
+   "arxiv_url": "https://arxiv.org/abs/2606.00702",
+   "website": "https://nico-bohlinger.github.io/shape-your-body",
    "paper_url": "https://openreview.net/forum?id=xhO9wj1gGt",
    "thumb": "assets/img/corl2026/shape-your-body-value-gradients-for-multi-embodiment-robot-d.webp",
-   "reel": "assets/img/corl2026/strip/shape-your-body-value-gradients-for-multi-embodiment-robot-d.webp"
+   "reel": "assets/img/corl2026/strip/shape-your-body-value-gradients-for-multi-embodiment-robot-d.webp",
+   "author_affiliations": [
+    "TU Darmstadt",
+    "TU Darmstadt / Robotics Institute Germany / DFKI / hessian.AI"
+   ]
   },
   {
    "session": "K2",
@@ -3452,6 +4315,7 @@
     "Xueyan Zou",
     "Xiaolong Wang"
    ],
+   "affiliation": "UC San Diego",
    "video": "d3a",
    "start": 1931,
    "end": 2137,
@@ -3465,9 +4329,21 @@
     "For well-posed problems like IK and motion planning, optimization already performs well and learned methods only match it.",
     "Learning helps when physics matters (sim-trained grasping), when inputs are partial point clouds, and when speed is critical (learned motion planning is hundreds of times faster)."
    ],
+   "arxiv_url": "https://arxiv.org/abs/2611.20185",
+   "website": "https://openrobokit.com/robokit",
    "paper_url": "https://openreview.net/forum?id=xfZJ2GKrZG",
    "thumb": "assets/img/corl2026/robokit-accelerating-parallel-differentiable-optimization-fo.webp",
-   "reel": "assets/img/corl2026/strip/robokit-accelerating-parallel-differentiable-optimization-fo.webp"
+   "reel": "assets/img/corl2026/strip/robokit-accelerating-parallel-differentiable-optimization-fo.webp",
+   "author_affiliations": [
+    "UC San Diego",
+    "UC San Diego",
+    "UC San Diego",
+    "UC San Diego",
+    "UC San Diego",
+    "UC San Diego",
+    "UC San Diego",
+    "UC San Diego"
+   ]
   },
   {
    "session": "S6",
@@ -3487,6 +4363,7 @@
     "Vincent bonnet",
     "Harold Soh"
    ],
+   "affiliation": "NUS",
    "video": "d3a",
    "start": 2137,
    "end": 2333,
@@ -3500,9 +4377,20 @@
     "Used as a policy prior, SCOPE reduces MPPI collisions in narrow passages, and used as a forecast it makes the robot yield to pedestrians.",
     "In a real pick-and-place with a human hand intruding, combining SCOPE as both prior and forecast let the robot back off early and finish the task."
    ],
+   "arxiv_url": "https://arxiv.org/abs/2610.12431",
    "paper_url": "https://openreview.net/forum?id=c9tCcHtVcS",
    "thumb": "assets/img/corl2026/control-ready-uncertainty-for-trajectory-diffusion.webp",
-   "reel": "assets/img/corl2026/strip/control-ready-uncertainty-for-trajectory-diffusion.webp"
+   "reel": "assets/img/corl2026/strip/control-ready-uncertainty-for-trajectory-diffusion.webp",
+   "author_affiliations": [
+    "NUS",
+    "NUS",
+    "NUS",
+    "NUS",
+    "LAAS-CNRS",
+    "NUS",
+    "LAAS-CNRS",
+    "NUS"
+   ]
   },
   {
    "session": "S6",
@@ -3566,6 +4454,7 @@
     "Spencer Huang",
     "Ken Goldberg"
    ],
+   "affiliation": "UC Berkeley",
    "video": "d3a",
    "start": 2527,
    "end": 2725,
@@ -3579,9 +4468,36 @@
     "Self-learning in simulation produced composite strategies, such as surveying, selecting, flipping and checking objects with only parallel-jaw grippers.",
     "When sim physics mismatched reality, GaP used real-world video to update both the simulation and the graph (e.g., using the left gripper to stabilize a bar)."
    ],
+   "arxiv_url": "https://arxiv.org/abs/2607.05369",
    "paper_url": "https://openreview.net/forum?id=C96z0RnFh8",
    "thumb": "assets/img/corl2026/gap-a-graph-as-policy-multi-agent-self-learning-harness-for-.webp",
-   "reel": "assets/img/corl2026/strip/gap-a-graph-as-policy-multi-agent-self-learning-harness-for-.webp"
+   "reel": "assets/img/corl2026/strip/gap-a-graph-as-policy-multi-agent-self-learning-harness-for-.webp",
+   "author_affiliations": [
+    "UC Berkeley",
+    "UC Berkeley",
+    "UC Berkeley",
+    "UC Berkeley",
+    "UC Berkeley",
+    "UC Berkeley",
+    "UC Berkeley",
+    "UC Berkeley",
+    "UC Berkeley",
+    "UC Berkeley",
+    "Bosch",
+    "Bosch",
+    "Bosch",
+    "Bosch",
+    "Bosch",
+    "UC Berkeley",
+    "NVIDIA",
+    "NVIDIA",
+    "NVIDIA",
+    "UC Berkeley",
+    "NVIDIA",
+    "NVIDIA",
+    "NVIDIA",
+    "UC Berkeley"
+   ]
   },
   {
    "session": "S6",
@@ -3613,6 +4529,7 @@
     "Haiwen Feng",
     "Trevor Darrell"
    ],
+   "affiliation": "UC Berkeley",
    "video": "d3a",
    "start": 2727,
    "end": 2917,
@@ -3630,7 +4547,29 @@
    "website": "https://playful-rats.github.io/",
    "paper_url": "https://openreview.net/forum?id=GeL3GdwSYo",
    "thumb": "assets/img/corl2026/playful-agentic-robot-learning.webp",
-   "reel": "assets/img/corl2026/strip/playful-agentic-robot-learning.webp"
+   "reel": "assets/img/corl2026/strip/playful-agentic-robot-learning.webp",
+   "author_affiliations": [
+    "UC Berkeley",
+    "UC Berkeley",
+    "UC Berkeley",
+    "UC Berkeley",
+    "Impossible Research",
+    "Impossible Research",
+    "UC Berkeley",
+    "Impossible Research",
+    "UC Berkeley",
+    "UC Berkeley",
+    "UC Berkeley",
+    "UC Berkeley",
+    "UC Berkeley",
+    "UC Berkeley",
+    "UC Berkeley",
+    "UC Berkeley",
+    "UC Berkeley",
+    "UC Berkeley",
+    "UC Berkeley / Impossible Research",
+    "UC Berkeley"
+   ]
   },
   {
    "session": "S6",
@@ -3650,6 +4589,7 @@
     "Guy Van den Broeck",
     "Yuchen Cui"
    ],
+   "affiliation": "UCLA",
    "video": "d3a",
    "start": 2919,
    "end": 3110,
@@ -3663,9 +4603,20 @@
     "Treating each action as one meta token and decoupling syntax from world state avoids a state explosion (about 350 million states and over 100 TB in token-level approaches).",
     "On VirtualHome, Llama 3B rose from 20% to 90% success, and real-robot plans were valid 20/20 times versus about 2 for the unguided model."
    ],
+   "arxiv_url": "https://arxiv.org/abs/2608.22149",
    "paper_url": "https://openreview.net/forum?id=qQs6JndxfZ",
    "thumb": "assets/img/corl2026/meta-ctrl-guaranteed-plan-generation-by-decoupling-syntactic.webp",
-   "reel": "assets/img/corl2026/strip/meta-ctrl-guaranteed-plan-generation-by-decoupling-syntactic.webp"
+   "reel": "assets/img/corl2026/strip/meta-ctrl-guaranteed-plan-generation-by-decoupling-syntactic.webp",
+   "author_affiliations": [
+    "UCLA",
+    "UCLA",
+    "Michigan State University",
+    "UCLA",
+    "UCLA",
+    "UCLA",
+    "UCLA",
+    "UCLA"
+   ]
   },
   {
    "session": "S6",
@@ -3682,6 +4633,7 @@
     "John Karigiannis",
     "Chuchu Fan"
    ],
+   "affiliation": "MIT",
    "video": "d3a",
    "start": 3110,
    "end": 3312,
@@ -3695,9 +4647,18 @@
     "Sampling from a learned latent space of task specifications helps explore intents the LLM might overlook.",
     "In a factory inspection scenario with a quadruped, the framework raised task success while asking fewer questions."
    ],
+   "arxiv_url": "https://arxiv.org/abs/2609.34270",
    "paper_url": "https://openreview.net/forum?id=El4EDBhqCG",
    "thumb": "assets/img/corl2026/bayesian-active-learning-for-intent-disambiguation-in-intera.webp",
-   "reel": "assets/img/corl2026/strip/bayesian-active-learning-for-intent-disambiguation-in-intera.webp"
+   "reel": "assets/img/corl2026/strip/bayesian-active-learning-for-intent-disambiguation-in-intera.webp",
+   "author_affiliations": [
+    "MIT",
+    "MIT",
+    "MIT",
+    "GE Vernova",
+    "GE Vernova",
+    "MIT"
+   ]
   },
   {
    "session": "S6",
@@ -3720,6 +4681,7 @@
     "Xi Yang",
     "Yongtao Wang"
    ],
+   "affiliation": "BAAI / Peking University",
    "video": "d3a",
    "start": 3312,
    "end": 3492,
@@ -3734,9 +4696,24 @@
     "Across five policies, simple instruction grounding is easiest, while precise motor control, counting and compositional generalization remain hard.",
     "Policies that succeed at every individual atom can still fail when the atoms must be combined in a single task."
    ],
+   "arxiv_url": "https://arxiv.org/abs/2606.16826",
+   "website": "https://flageval-baai.github.io/AtomBenchPage/",
    "paper_url": "https://openreview.net/forum?id=DpOVq6nE2d",
    "thumb": "assets/img/corl2026/atom-bench-a-real-world-benchmark-for-atomic-skills-and-comp.webp",
-   "reel": "assets/img/corl2026/strip/atom-bench-a-real-world-benchmark-for-atomic-skills-and-comp.webp"
+   "reel": "assets/img/corl2026/strip/atom-bench-a-real-world-benchmark-for-atomic-skills-and-comp.webp",
+   "author_affiliations": [
+    "BAAI / Peking University",
+    "BAAI / Peking University",
+    "BAAI",
+    "BAAI",
+    "BAAI",
+    "BAAI",
+    "BAAI / Peking University",
+    "BAAI",
+    "BAAI",
+    "BAAI",
+    "Peking University"
+   ]
   },
   {
    "session": "S7",
@@ -3756,6 +4733,7 @@
     "Tobias Widmer",
     "Moritz Bächer"
    ],
+   "affiliation": "Disney Research",
    "video": "d3a",
    "start": 3499,
    "end": 3745,
@@ -3769,9 +4747,21 @@
     "It simulates thousands of heterogeneous worlds at once, so a single RL policy can control ant variants with different numbers of limbs.",
     "Newton ships a public demo biped with six kinematic loops, and Kamino was validated against XPBD and MJWarp on analytical toy problems."
    ],
+   "arxiv_url": "https://arxiv.org/abs/2603.16536",
    "paper_url": "https://openreview.net/forum?id=aKjXDWnmzc",
    "thumb": "assets/img/corl2026/kamino-gpu-based-simulation-of-rigid-multi-body-physics-with.webp",
-   "reel": "assets/img/corl2026/strip/kamino-gpu-based-simulation-of-rigid-multi-body-physics-with.webp"
+   "reel": "assets/img/corl2026/strip/kamino-gpu-based-simulation-of-rigid-multi-body-physics-with.webp",
+   "author_affiliations": [
+    "Disney Research",
+    "Disney Research",
+    "Disney Research",
+    "Disney Research",
+    "Disney Research",
+    "Disney Research",
+    "NVIDIA",
+    "NVIDIA",
+    "Disney Research"
+   ]
   },
   {
    "session": "S7",
@@ -3791,6 +4781,7 @@
     "Hojoon Lee",
     "Jaegul Choo"
    ],
+   "affiliation": "KAIST",
    "video": "d3a",
    "start": 3747,
    "end": 3935,
@@ -3808,7 +4799,18 @@
    "website": "https://davian-robotics.github.io/PHUMA",
    "paper_url": "https://openreview.net/forum?id=lY47GBfn32",
    "thumb": "assets/img/corl2026/phuma-physically-reliable-humanoid-locomotion-dataset.webp",
-   "reel": "assets/img/corl2026/strip/phuma-physically-reliable-humanoid-locomotion-dataset.webp"
+   "reel": "assets/img/corl2026/strip/phuma-physically-reliable-humanoid-locomotion-dataset.webp",
+   "author_affiliations": [
+    "KAIST",
+    "KAIST",
+    "KRAFTON / Holiday Robotics",
+    "KAIST",
+    "KAIST / KRAFTON",
+    "KAIST",
+    "Holiday Robotics",
+    "Holiday Robotics",
+    "KAIST"
+   ]
   },
   {
    "session": "S7",
@@ -3829,6 +4831,7 @@
     "Karen Liu",
     "Guanya Shi"
    ],
+   "affiliation": "Amazon FAR / USC",
    "video": "d3a",
    "start": 3937,
    "end": 4127,
@@ -3845,7 +4848,18 @@
    "website": "https://ladderman-robot.github.io",
    "paper_url": "https://openreview.net/forum?id=PLNJ3a6Yht",
    "thumb": "assets/img/corl2026/ladderman-learning-humanoid-perceptive-ladder-climbing.webp",
-   "reel": "assets/img/corl2026/strip/ladderman-learning-humanoid-perceptive-ladder-climbing.webp"
+   "reel": "assets/img/corl2026/strip/ladderman-learning-humanoid-perceptive-ladder-climbing.webp",
+   "author_affiliations": [
+    "Amazon FAR / USC",
+    "Amazon FAR",
+    "Amazon FAR",
+    "Amazon FAR / UC Berkeley",
+    "Amazon FAR",
+    "Amazon FAR / UC Berkeley",
+    "USC",
+    "Amazon FAR / Stanford University",
+    "Amazon FAR / Carnegie Mellon University"
+   ]
   },
   {
    "session": "S7",
@@ -3863,6 +4877,7 @@
     "Hang Zhao",
     "Yiming Li"
    ],
+   "affiliation": "Tsinghua University",
    "video": "d3a",
    "start": 4129,
    "end": 4315,
@@ -3876,9 +4891,19 @@
     "Compared with a baseline, TactileStep lands more softly and quietly and keeps more of the sole in contact during stance, especially on stairs.",
     "A variant trained with the same rewards but no tactile input lost much of the benefit, so the sensing itself matters."
    ],
+   "arxiv_url": "https://arxiv.org/abs/2609.28959",
+   "website": "https://tactilestep.github.io/",
    "paper_url": "https://openreview.net/forum?id=aGLO1l8SNB",
    "thumb": "assets/img/corl2026/tactilestep-sole-tactile-learning-for-regulating-foot-terrai.webp",
-   "reel": "assets/img/corl2026/strip/tactilestep-sole-tactile-learning-for-regulating-foot-terrai.webp"
+   "reel": "assets/img/corl2026/strip/tactilestep-sole-tactile-learning-for-regulating-foot-terrai.webp",
+   "author_affiliations": [
+    "Tsinghua University",
+    "Tsinghua University",
+    "Tsinghua University",
+    "Tsinghua University",
+    "Tsinghua University",
+    "Tsinghua University"
+   ]
   },
   {
    "session": "S7",
@@ -3898,6 +4923,7 @@
     "Ruiqian Nai",
     "Yang Gao"
    ],
+   "affiliation": "Tsinghua University",
    "video": "d3a",
    "start": 4317,
    "end": 4501,
@@ -3912,9 +4938,22 @@
     "Using relative action targets and dropping body-state perception together caused catastrophic failure.",
     "Adding stationary teleop and human (UMI-style) data raised progress on new objects and instructions from 36% to 84%, and the full recipe reached 87.5% on a long-horizon fruit task with less than half the demonstration time."
    ],
+   "arxiv_url": "https://arxiv.org/abs/2606.22174",
+   "website": "https://openhlm-project.github.io/",
    "paper_url": "https://openreview.net/forum?id=TTFZrb0Hw3",
    "thumb": "assets/img/corl2026/openhlm-an-empirical-recipe-for-whole-body-humanoid-loco-man.webp",
-   "reel": "assets/img/corl2026/strip/openhlm-an-empirical-recipe-for-whole-body-humanoid-loco-man.webp"
+   "reel": "assets/img/corl2026/strip/openhlm-an-empirical-recipe-for-whole-body-humanoid-loco-man.webp",
+   "author_affiliations": [
+    "Tsinghua University / Shanghai Qi Zhi Institute / Spirit.AI",
+    "Tsinghua University",
+    "Tsinghua University / Shanghai Qi Zhi Institute",
+    "Tsinghua University / Shanghai Qi Zhi Institute",
+    "Tsinghua University / Shanghai Qi Zhi Institute / Spirit.AI",
+    "Tsinghua University",
+    "Tsinghua University",
+    "Tsinghua University",
+    "Tsinghua University / Shanghai Qi Zhi Institute / Spirit.AI"
+   ]
   },
   {
    "session": "S7",
@@ -3933,6 +4972,7 @@
     "Simon Le Cleac'h",
     "Jan Brüdigam"
    ],
+   "affiliation": "RAI Institute / TU Munich",
    "video": "d3a",
    "start": 4503,
    "end": 4686,
@@ -3947,9 +4987,20 @@
     "Policies trained purely with sparse rewards transferred zero-shot to Spot with an arm, including pushing boxes and rolling tires.",
     "The same pipeline also worked on a Unitree G1, showing cross-embodiment applicability."
    ],
+   "arxiv_url": "https://arxiv.org/abs/2608.12063",
    "paper_url": "https://openreview.net/forum?id=5b4j0e21aJ",
    "thumb": "assets/img/corl2026/learning-loco-manipulation-from-smpc-demonstrations-with-spa.webp",
-   "reel": "assets/img/corl2026/strip/learning-loco-manipulation-from-smpc-demonstrations-with-spa.webp"
+   "reel": "assets/img/corl2026/strip/learning-loco-manipulation-from-smpc-demonstrations-with-spa.webp",
+   "author_affiliations": [
+    "RAI Institute / TU Munich",
+    "RAI Institute",
+    "RAI Institute / ETH Zurich",
+    "RAI Institute",
+    "TU Munich",
+    "RAI Institute / ETH Zurich",
+    "RAI Institute",
+    "RAI Institute"
+   ]
   },
   {
    "session": "S7",
@@ -3968,6 +5019,7 @@
     "Jie Zhou",
     "Jiwen Lu"
    ],
+   "affiliation": "Tsinghua University",
    "video": "d3a",
    "start": 4688,
    "end": 4875,
@@ -3981,9 +5033,19 @@
     "Real-world survival under OOD commands rose from 0% to 87% with negligible added latency or tracking error.",
     "The safety does not cost in-distribution agility, which still covers gimbal-like end-effector holding and catching objects midair."
    ],
+   "arxiv_url": "https://arxiv.org/abs/2604.07457",
    "paper_url": "https://openreview.net/forum?id=yyitbtz7rQ",
    "thumb": "assets/img/corl2026/cmp-robust-whole-body-tracking-for-loco-manipulation-via-com.webp",
-   "reel": "assets/img/corl2026/strip/cmp-robust-whole-body-tracking-for-loco-manipulation-via-com.webp"
+   "reel": "assets/img/corl2026/strip/cmp-robust-whole-body-tracking-for-loco-manipulation-via-com.webp",
+   "author_affiliations": [
+    "Tsinghua University",
+    "Tsinghua University",
+    "Tsinghua University",
+    "Tsinghua University",
+    "Tsinghua University",
+    "Tsinghua University",
+    "Tsinghua University"
+   ]
   },
   {
    "session": "S7",
@@ -4001,6 +5063,7 @@
     "Claire Tomlin",
     "Jason Jangho Choi"
    ],
+   "affiliation": "UC Berkeley",
    "video": "d3a",
    "start": 4877,
    "end": 5027,
@@ -4015,9 +5078,19 @@
     "On cart-pole, the learned residual closely matched a minimal safety filter from discriminating hyperplanes, with a slightly larger margin.",
     "On a G1 with random payloads, ResSafe fell far less often than baselines and generalized to unseen reference policies."
    ],
+   "arxiv_url": "https://arxiv.org/abs/2609.15988",
    "paper_url": "https://openreview.net/forum?id=rEmMzoUnpn",
    "thumb": "assets/img/corl2026/ressafe-learning-safety-filtering-with-residual-reinforcemen.webp",
-   "reel": "assets/img/corl2026/strip/ressafe-learning-safety-filtering-with-residual-reinforcemen.webp"
+   "reel": "assets/img/corl2026/strip/ressafe-learning-safety-filtering-with-residual-reinforcemen.webp",
+   "author_affiliations": [
+    "UC Berkeley",
+    "UC Berkeley",
+    "UC Berkeley",
+    "UC Berkeley",
+    "UC Berkeley",
+    "UC Berkeley",
+    "UCLA"
+   ]
   },
   {
    "session": "S7",
@@ -4035,6 +5108,7 @@
     "Masayoshi Tomizuka",
     "Dhruv Shah"
    ],
+   "affiliation": "UC Berkeley / NVIDIA",
    "video": "d3a",
    "start": 5029,
    "end": 5234,
@@ -4049,9 +5123,20 @@
     "Training data comes purely from simulation, using potential fields for upper-body avoidance and footstep retargeting for the lower body.",
     "The model reports state-of-the-art results on 2D and 3D navigation benchmarks and runs on a real Unitree G1 with remote inference."
    ],
+   "arxiv_url": "https://arxiv.org/abs/2609.09158",
+   "website": "https://tango-vla.github.io/",
    "paper_url": "https://openreview.net/forum?id=2Z9666X2B7",
    "thumb": "assets/img/corl2026/humanoid-navigation-in-cluttered-environments-with-a-whole-b.webp",
-   "reel": "assets/img/corl2026/strip/humanoid-navigation-in-cluttered-environments-with-a-whole-b.webp"
+   "reel": "assets/img/corl2026/strip/humanoid-navigation-in-cluttered-environments-with-a-whole-b.webp",
+   "author_affiliations": [
+    "UC Berkeley / Peking University",
+    "UC Berkeley / NVIDIA",
+    "UC Berkeley",
+    "UC Berkeley / Tsinghua University",
+    "UC Berkeley / The University of Hong Kong",
+    "UC Berkeley",
+    "Princeton University"
+   ]
   },
   {
    "session": "S8",
@@ -4071,6 +5156,7 @@
     "Atul Ingle",
     "Mohit Gupta"
    ],
+   "affiliation": "UW–Madison",
    "video": "d3a",
    "start": 5236,
    "end": 5446,
@@ -4084,9 +5170,21 @@
     "Failure modes like ambient-light corruption, blur, ToF phase wrapping and history-dependent thermal effects emerge naturally from the sensor physics.",
     "The authors release a large synchronized multimodal indoor dataset with ground-truth annotations."
    ],
+   "arxiv_url": "https://arxiv.org/abs/2611.08368",
    "paper_url": "https://openreview.net/forum?id=dE7KjOl8yu",
    "thumb": "assets/img/corl2026/visionsim-beyond-idealized-sensors-a-multi-modal-simulator-f.webp",
-   "reel": "assets/img/corl2026/strip/visionsim-beyond-idealized-sensors-a-multi-modal-simulator-f.webp"
+   "reel": "assets/img/corl2026/strip/visionsim-beyond-idealized-sensors-a-multi-modal-simulator-f.webp",
+   "author_affiliations": [
+    "UW–Madison",
+    "Portland State University",
+    "UW–Madison",
+    "Carnegie Mellon University",
+    "UW–Madison",
+    "UW–Madison",
+    "Carnegie Mellon University",
+    "Portland State University",
+    "UW–Madison"
+   ]
   },
   {
    "session": "S8",
@@ -4105,6 +5203,7 @@
     "Jinhui Zhang",
     "Ziyang Meng"
    ],
+   "affiliation": "Tsinghua University",
    "video": "d3a",
    "start": 5448,
    "end": 5625,
@@ -4118,9 +5217,19 @@
     "Pretrained MosaicIMU reduced average ATE and RTE by 40% and 34% across carriers.",
     "In online adaptation on a campus vehicle running on a Jetson Orin, trajectory error fell from 42.60 m to 7.60 m."
    ],
+   "arxiv_url": "https://arxiv.org/abs/2606.09355",
    "paper_url": "https://openreview.net/forum?id=k2QZxbcSbQ",
    "thumb": "assets/img/corl2026/mosaicimu-composing-carrier-experts-for-generalizable-neural.webp",
-   "reel": "assets/img/corl2026/strip/mosaicimu-composing-carrier-experts-for-generalizable-neural.webp"
+   "reel": "assets/img/corl2026/strip/mosaicimu-composing-carrier-experts-for-generalizable-neural.webp",
+   "author_affiliations": [
+    "Tsinghua University",
+    "Xi'an Jiaotong University",
+    "Beijing University of Chemical Technology",
+    "Beijing Information Science and Technology University",
+    "Tsinghua University",
+    "Beijing Institute of Technology",
+    "Tsinghua University"
+   ]
   },
   {
    "session": "S8",
@@ -4142,6 +5251,7 @@
     "Hainan Cui",
     "Shuhan Shen"
    ],
+   "affiliation": "Institute of Automation, Chinese Academy of Sciences / University of Chinese Academy of Sciences / Horizon Robotics",
    "video": "d3a",
    "start": 5627,
    "end": 5801,
@@ -4155,9 +5265,23 @@
     "Rebuilding pose queries when the anchor moves stops stale coordinate assumptions from propagating and keeps training and inference consistent.",
     "A fixed-size window keeps GPU memory bounded, with no chunk resets or cross-chunk alignment needed."
    ],
+   "arxiv_url": "https://arxiv.org/abs/2606.05035",
    "paper_url": "https://openreview.net/forum?id=Q53ayGo2IE",
    "thumb": "assets/img/corl2026/anchor3r-streaming-3d-reconstruction-with-transient-anchors-.webp",
-   "reel": "assets/img/corl2026/strip/anchor3r-streaming-3d-reconstruction-with-transient-anchors-.webp"
+   "reel": "assets/img/corl2026/strip/anchor3r-streaming-3d-reconstruction-with-transient-anchors-.webp",
+   "author_affiliations": [
+    "Institute of Automation, Chinese Academy of Sciences / University of Chinese Academy of Sciences / Horizon Robotics",
+    "Horizon Robotics / HKUST (Guangzhou)",
+    "Horizon Robotics",
+    "Horizon Robotics",
+    "Horizon Robotics",
+    "Horizon Robotics",
+    "Horizon Robotics",
+    "Horizon Robotics",
+    "Horizon Robotics",
+    "Institute of Automation, Chinese Academy of Sciences / University of Chinese Academy of Sciences",
+    "Institute of Automation, Chinese Academy of Sciences / University of Chinese Academy of Sciences"
+   ]
   },
   {
    "session": "S8",
@@ -4175,6 +5299,7 @@
     "Wayne Wu",
     "Bolei Zhou"
    ],
+   "affiliation": "UCLA",
    "video": "d3a",
    "start": 5803,
    "end": 5984,
@@ -4192,7 +5317,16 @@
    "website": "https://vail-ucla.github.io/SidewalkBench/",
    "paper_url": "https://openreview.net/forum?id=wBzyyPlFs6",
    "thumb": "assets/img/corl2026/sidewalkbench-benchmarking-visual-navigation-on-urban-sidewa.webp",
-   "reel": "assets/img/corl2026/strip/sidewalkbench-benchmarking-visual-navigation-on-urban-sidewa.webp"
+   "reel": "assets/img/corl2026/strip/sidewalkbench-benchmarking-visual-navigation-on-urban-sidewa.webp",
+   "author_affiliations": [
+    "UCLA",
+    "UCLA",
+    "UCLA",
+    "Coco Robotics",
+    "Coco Robotics",
+    "UCLA",
+    "UCLA / Coco Robotics"
+   ]
   },
   {
    "session": "S8",
@@ -4210,6 +5344,7 @@
     "Yanyuan Qiao",
     "Qi Wu"
    ],
+   "affiliation": "Adelaide University",
    "video": "d3a",
    "start": 5986,
    "end": 6165,
@@ -4226,7 +5361,15 @@
    "arxiv_url": "https://arxiv.org/abs/2607.03792",
    "paper_url": "https://openreview.net/forum?id=RwGNm8fUxX",
    "thumb": "assets/img/corl2026/from-region-arrival-to-instance-level-grounding-in-vision-an.webp",
-   "reel": "assets/img/corl2026/strip/from-region-arrival-to-instance-level-grounding-in-vision-an.webp"
+   "reel": "assets/img/corl2026/strip/from-region-arrival-to-instance-level-grounding-in-vision-an.webp",
+   "author_affiliations": [
+    "Adelaide University",
+    "Ruyi Dynamics",
+    "Ruyi Dynamics",
+    "Fudan University",
+    "EPFL",
+    "Adelaide University"
+   ]
   },
   {
    "session": "S8",
@@ -4242,6 +5385,7 @@
     "Nicholas Rhinehart",
     "Timothy Barfoot"
    ],
+   "affiliation": "University of Toronto",
    "video": "d3a",
    "start": 6167,
    "end": 6367,
@@ -4254,9 +5398,16 @@
     "Rerouting yields right-censored observations, which survival models handle naturally.",
     "In simulation OSCAR improves with experience, approaches an oracle with ground-truth survival functions, and beats the heuristic baselines."
    ],
+   "arxiv_url": "https://arxiv.org/abs/2606.00990",
    "paper_url": "https://openreview.net/forum?id=hr2FYFod4n",
    "thumb": "assets/img/corl2026/oscar-obstacle-survival-curves-for-adaptive-robot-navigation.webp",
-   "reel": "assets/img/corl2026/strip/oscar-obstacle-survival-curves-for-adaptive-robot-navigation.webp"
+   "reel": "assets/img/corl2026/strip/oscar-obstacle-survival-curves-for-adaptive-robot-navigation.webp",
+   "author_affiliations": [
+    "University of Toronto",
+    "University of Toronto",
+    "University of Toronto",
+    "University of Toronto"
+   ]
   },
   {
    "session": "S8",
@@ -4270,6 +5421,7 @@
     "Ahmad Mouri Zadeh Khaki",
     "Kyunghwan Choi"
    ],
+   "affiliation": "KAIST",
    "video": "d3a",
    "start": 6369,
    "end": 6549,
@@ -4283,9 +5435,15 @@
     "VLM priority weights used only at training time steer attention toward relevant agents such as crossing pedestrians.",
     "Closed-loop nuPlan performance improves with no added inference time."
    ],
+   "website": "https://kaist-mic-lab.github.io/publications/2026-TRIAD/",
    "paper_url": "https://openreview.net/forum?id=98pbD92mEI",
    "thumb": "assets/img/corl2026/triad-planner-three-level-robust-imitation-learning-for-auto.webp",
-   "reel": "assets/img/corl2026/strip/triad-planner-three-level-robust-imitation-learning-for-auto.webp"
+   "reel": "assets/img/corl2026/strip/triad-planner-three-level-robust-imitation-learning-for-auto.webp",
+   "author_affiliations": [
+    "KAIST",
+    "KAIST",
+    "KAIST"
+   ]
   },
   {
    "session": "S8",
@@ -4303,6 +5461,7 @@
     "Donghyun Kim",
     "Hao Zhang"
    ],
+   "affiliation": "UMass Amherst",
    "video": "d3a",
    "start": 6551,
    "end": 6726,
@@ -4316,9 +5475,18 @@
     "Error-bounded inference scheduling picks the next position to unmask by minimizing predictive entropy, which improves plan optimality.",
     "The approach was validated in a ROS city simulation and in a mixed-reality setup with Crazyflie UAVs and LIMO UGVs."
    ],
+   "arxiv_url": "https://arxiv.org/abs/2610.18850",
    "paper_url": "https://openreview.net/forum?id=lSrxDURLdG",
    "thumb": "assets/img/corl2026/collaborative-planning-for-uav-ugv-teams-under-operational-c.webp",
-   "reel": "assets/img/corl2026/strip/collaborative-planning-for-uav-ugv-teams-under-operational-c.webp"
+   "reel": "assets/img/corl2026/strip/collaborative-planning-for-uav-ugv-teams-under-operational-c.webp",
+   "author_affiliations": [
+    "UMass Amherst",
+    "UMass Amherst",
+    "DEVCOM Army Research Laboratory",
+    "DEVCOM Army Research Laboratory",
+    "UMass Amherst",
+    "UMass Amherst"
+   ]
   },
   {
    "session": "S8",
@@ -4333,6 +5501,7 @@
     "Matteo El-Hariry",
     "Miguel Olivares-Mendez"
    ],
+   "affiliation": "University of Luxembourg",
    "video": "d3a",
    "start": 6728,
    "end": 6916,
@@ -4347,9 +5516,16 @@
     "Summing advantages from the success critic and the damped CaT stream within PPO restores goal reaching without constraint violations.",
     "The method gave a 250-fold increase in task completion on a floating platform and transferred zero-shot to a real thruster-equipped testbed."
    ],
+   "arxiv_url": "https://arxiv.org/abs/2609.06061",
    "paper_url": "https://openreview.net/forum?id=SUV5PudsyI",
    "thumb": "assets/img/corl2026/scocat-success-conditioned-constrained-reinforcement-learnin.webp",
-   "reel": "assets/img/corl2026/strip/scocat-success-conditioned-constrained-reinforcement-learnin.webp"
+   "reel": "assets/img/corl2026/strip/scocat-success-conditioned-constrained-reinforcement-learnin.webp",
+   "author_affiliations": [
+    "University of Luxembourg",
+    "University of Luxembourg",
+    "University of Luxembourg",
+    "University of Luxembourg"
+   ]
   },
   {
    "session": "K3",
@@ -4387,7 +5563,6 @@
     "Lisa Su",
     "Peter Stone"
    ],
-   "affiliation": "Stanford / World Labs; AMD; UT Austin / Sony AI (moderator)",
    "video": "d3b",
    "start": 4582,
    "end": 6652,
@@ -4405,7 +5580,12 @@
     "Their parting advice was to hold onto timeless values like curiosity, integrity and fearlessness (Li) and to run toward the hardest problems (Su)."
    ],
    "thumb": "assets/img/corl2026/fireside-chat-fei-fei-li-lisa-su.webp",
-   "reel": "assets/img/corl2026/strip/fireside-chat-fei-fei-li-lisa-su.webp"
+   "reel": "assets/img/corl2026/strip/fireside-chat-fei-fei-li-lisa-su.webp",
+   "presenter_affiliations": [
+    "Stanford University / World Labs",
+    "AMD",
+    "UT Austin / Sony AI; moderator"
+   ]
   },
   {
    "session": "PANEL",
@@ -4438,7 +5618,16 @@
     "Much of the debate turned on definitions, such as whether simulation and RL fine-tuning count as part of 'the current recipe'."
    ],
    "thumb": "assets/img/corl2026/debate-the-current-recipe-of-behavior-cloning-pre-training-a.webp",
-   "reel": "assets/img/corl2026/strip/debate-the-current-recipe-of-behavior-cloning-pre-training-a.webp"
+   "reel": "assets/img/corl2026/strip/debate-the-current-recipe-of-behavior-cloning-pre-training-a.webp",
+   "presenter_affiliations": [
+    "Waymo",
+    "Stanford University / Physical Intelligence",
+    "MIT / Eka Robotics",
+    "Technical University Berlin",
+    "MIT",
+    "Imperial College London / Machenta",
+    "Carnegie Mellon University"
+   ]
   },
   {
    "session": "CLOSING",
@@ -4490,7 +5679,15 @@
     "Goldberg argues the field must now deliver reliability, throughput and interpretability to earn revenue, and announces CoRL 2027 in Paris."
    ],
    "thumb": "assets/img/corl2026/closing-remarks-awards-farewell.webp",
-   "reel": "assets/img/corl2026/strip/closing-remarks-awards-farewell.webp"
+   "reel": "assets/img/corl2026/strip/closing-remarks-awards-farewell.webp",
+   "presenter_affiliations": [
+    "UT Austin / NVIDIA",
+    "TU Darmstadt",
+    "Carnegie Mellon University",
+    "Waymo",
+    "UC Berkeley",
+    "UT Austin / Sony AI"
+   ]
   }
  ]
 }
