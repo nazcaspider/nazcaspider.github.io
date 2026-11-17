@@ -763,6 +763,38 @@ h6,
   gap: 6px;
 }
 
+/* Acronyms: dotted underline, meaning in a tooltip on hover/tap */
+.corl-abbr {
+  position: relative;
+  text-decoration: underline dotted;
+  text-decoration-color: var(--corl-muted);
+  text-underline-offset: 3px;
+  cursor: help;
+  border-bottom: 0;
+}
+
+.corl-abbr:focus {
+  outline: none;
+}
+
+/* One tooltip for all acronyms, placed by corl2026.js so it stays on screen */
+.corl-tip {
+  position: fixed;
+  z-index: 1000;
+  max-width: min(280px, calc(100vw - 16px));
+  padding: 5px 9px;
+  border-radius: 4px;
+  background: #000;
+  color: #fff;
+  font-size: 0.75rem;
+  line-height: 1.35;
+  pointer-events: none;
+}
+
+.corl-tip[hidden] {
+  display: none;
+}
+
 /* Language switch above the page title */
 .corl-lang {
   display: inline-flex;

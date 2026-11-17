@@ -256,6 +256,133 @@
       }
     }
   };
+  /* ---------- Acronyms ----------
+   * Underlined, with the meaning in a tooltip on hover or tap. Names of methods,
+   * products and benchmarks (LIBERO, SAM, GRAIL…) and everyday terms (AI, GPU) are left out.
+   * [English, English plural, Spanish] */
+  const ACRONYMS = {
+    AV: ["audio-visual", null, "audiovisual"],
+    ATE: ["absolute trajectory error", null, "error absoluto de trayectoria"],
+    BC: ["behavior cloning", null, "clonación de comportamiento"],
+    CAD: ["computer-aided design", null, "diseño asistido por computadora"],
+    DAgger: ["Dataset Aggregation, an interactive imitation-learning method", null, "Dataset Aggregation, un método de aprendizaje por imitación interactivo"],
+    DAGGER: ["Dataset Aggregation, an interactive imitation-learning method", null, "Dataset Aggregation, un método de aprendizaje por imitación interactivo"],
+    DiT: ["diffusion transformer", null, "transformer de difusión"],
+    DoF: ["degrees of freedom", null, "grados de libertad"],
+    EKF: ["extended Kalman filter", null, "filtro de Kalman extendido"],
+    ELBO: ["evidence lower bound", null, "cota inferior de la evidencia"],
+    FEM: ["finite element method", null, "método de elementos finitos"],
+    GAE: ["generalized advantage estimation", null, "estimación de ventaja generalizada"],
+    HRI: ["human-robot interaction", null, "interacción humano-robot"],
+    HSR: ["Human Support Robot (Toyota)", null, "Human Support Robot (Toyota)"],
+    IK: ["inverse kinematics", null, "cinemática inversa"],
+    KV: ["key-value (attention cache)", null, "clave-valor, de la caché de atención"],
+    LiDAR: ["laser-based 3D range sensor", null, "sensor de distancia 3D por láser"],
+    LLM: ["large language model", "large language models", "modelo de lenguaje grande"],
+    LoRA: ["low-rank adaptation, a light fine-tuning method", null, "adaptación de bajo rango, un método ligero de ajuste fino"],
+    LSTM: ["long short-term memory network", null, "red de memoria a corto y largo plazo"],
+    MCTS: ["Monte Carlo tree search", null, "búsqueda de árbol de Monte Carlo"],
+    MDP: ["Markov decision process", null, "proceso de decisión de Markov"],
+    MLP: ["multilayer perceptron", null, "perceptrón multicapa"],
+    MPC: ["model predictive control", null, "control predictivo basado en modelo"],
+    MPPI: ["model predictive path integral control", null, "control predictivo por integral de trayectorias"],
+    NAIRR: ["National AI Research Resource (US)", null, "National AI Research Resource (EE. UU.)"],
+    OOD: ["out-of-distribution", null, "fuera de distribución"],
+    PCA: ["principal component analysis", null, "análisis de componentes principales"],
+    PI: ["Physical Intelligence, the company", null, "Physical Intelligence, la empresa"],
+    PPO: ["Proximal Policy Optimization, an RL algorithm", null, "Proximal Policy Optimization, un algoritmo de RL"],
+    QA: ["quality assurance", null, "control de calidad"],
+    RL: ["reinforcement learning", null, "aprendizaje por refuerzo"],
+    RNN: ["recurrent neural network", "recurrent neural networks", "red neuronal recurrente"],
+    ROS: ["Robot Operating System", null, "Robot Operating System"],
+    RTC: ["real-time chunking", null, "real-time chunking (fragmentación en tiempo real)"],
+    RTE: ["relative trajectory error", null, "error relativo de trayectoria"],
+    SAC: ["Soft Actor-Critic, an RL algorithm", null, "Soft Actor-Critic, un algoritmo de RL"],
+    SFT: ["supervised fine-tuning", null, "ajuste fino supervisado"],
+    SLAM: ["simultaneous localization and mapping", null, "localización y mapeo simultáneos"],
+    SMPL: ["a standard parametric 3D human body model", null, "un modelo paramétrico estándar del cuerpo humano en 3D"],
+    SPAD: ["single-photon avalanche diode", null, "diodo de avalancha de fotón único"],
+    STL: ["signal temporal logic", null, "lógica temporal de señales"],
+    ToF: ["time-of-flight", null, "tiempo de vuelo"],
+    UAV: ["unmanned aerial vehicle", "unmanned aerial vehicles", "vehículo aéreo no tripulado"],
+    UGV: ["unmanned ground vehicle", "unmanned ground vehicles", "vehículo terrestre no tripulado"],
+    UMI: ["Universal Manipulation Interface, a handheld data-collection gripper", null, "Universal Manipulation Interface, una pinza manual para recopilar datos"],
+    VLA: ["vision-language-action model", "vision-language-action models", "modelo de visión-lenguaje-acción"],
+    VLM: ["vision-language model", "vision-language models", "modelo de visión y lenguaje"],
+    XPBD: ["extended position-based dynamics", null, "dinámica basada en posiciones extendida"]
+  };
+  // ACRONYM, optional plural "s", then any hyphenated continuation ("BC-pretrained").
+  const ACR_RE = new RegExp("\\b(" + Object.keys(ACRONYMS).sort((a, b) => b.length - a.length).join("|") +
+    ")(s?)((?:-[A-Za-z0-9]+)*)(?![\\w])", "g");
+
+  // Names that start with an acronym, left as they are ("RL Token" is a method).
+  const NAMES_WITH_ACR = [["RL", " Token"]];
+
+  // The English term behind an acronym, where the English entry is a description.
+  const ACR_ORIGINAL = { LiDAR: "light detection and ranging", SMPL: "Skinned Multi-Person Linear model" };
+
+  // Translated tooltips also show the original English term in brackets,
+  // unless the translation already contains it or is practically the same.
+  function acrMeaning(acr, plural) {
+    const g = ACRONYMS[acr];
+    if (LANG === "en") return plural && g[1] ? g[1] : g[0];
+    const local = g[2];
+    const original = ACR_ORIGINAL[acr] || g[0].split(",")[0].replace(/\s*\(.*\)$/, "");
+    const norm = (x) => x.toLowerCase().replace(/[^a-z]/g, "");
+    if (norm(local).includes(norm(original))) return local;
+    // Right after the term itself: "adaptación de bajo rango (low-rank adaptation), un método…"
+    const cut = local.indexOf(", ");
+    return cut < 0 ? `${local} (${original})` : `${local.slice(0, cut)} (${original})${local.slice(cut)}`;
+  }
+
+  // One shared tooltip, kept inside the viewport: centered on the acronym when it
+  // fits, shifted sideways near the edges, and below the word if there is no room above.
+  let tipEl = null;
+  function showTip(abbr) {
+    if (!tipEl) {
+      tipEl = el("div", { class: "corl-tip", role: "tooltip", id: "corl-tip", hidden: true });
+      document.body.append(tipEl);
+    }
+    tipEl.textContent = abbr.dataset.tip;
+    tipEl.hidden = false;
+    abbr.setAttribute("aria-describedby", "corl-tip");
+    const r = abbr.getBoundingClientRect();
+    const w = tipEl.offsetWidth;
+    const h = tipEl.offsetHeight;
+    const vw = document.documentElement.clientWidth;
+    const left = Math.min(Math.max(8, r.left + r.width / 2 - w / 2), vw - w - 8);
+    const top = r.top - h - 6 >= 8 ? r.top - h - 6 : r.bottom + 6;
+    tipEl.style.left = left + "px";
+    tipEl.style.top = top + "px";
+  }
+  function hideTip() {
+    if (tipEl) tipEl.hidden = true;
+  }
+  document.addEventListener("mouseover", (e) => { const a = e.target.closest && e.target.closest(".corl-abbr"); if (a) showTip(a); });
+  document.addEventListener("mouseout", (e) => { if (e.target.closest && e.target.closest(".corl-abbr") && document.activeElement !== e.target) hideTip(); });
+  document.addEventListener("focusin", (e) => { if (e.target.classList && e.target.classList.contains("corl-abbr")) showTip(e.target); });
+  document.addEventListener("focusout", (e) => { if (e.target.classList && e.target.classList.contains("corl-abbr")) hideTip(); });
+  window.addEventListener("scroll", () => { if (tipEl && !tipEl.hidden) { const a = document.activeElement; a && a.classList && a.classList.contains("corl-abbr") ? showTip(a) : hideTip(); } }, { passive: true });
+
+  // Text → nodes, with each acronym underlined and its meaning in a tooltip.
+  function gloss(text) {
+    if (!text) return [];
+    const out = [];
+    let last = 0;
+    ACR_RE.lastIndex = 0;
+    for (let m; (m = ACR_RE.exec(text));) {
+      const [whole, acr, plural, rest] = m;
+      if (NAMES_WITH_ACR.some(([x, after]) => x === acr && text.startsWith(after, m.index + whole.length))) continue;
+      const meaning = acrMeaning(acr, Boolean(plural));
+      out.push(text.slice(last, m.index));
+      out.push(el("abbr", { class: "corl-abbr", "data-tip": meaning, tabindex: "0" }, acr + plural));
+      if (rest) out.push(rest);
+      last = m.index + whole.length;
+    }
+    out.push(text.slice(last));
+    return out;
+  }
+
   let LANG = "en";
   const tr = {};          // loaded translation files by language
   // Look up a page string in the current language, falling back to English.
@@ -725,10 +852,10 @@
           t.affiliation ? el("span", { class: "corl-affil", text: " · " + t.affiliation }) : null,
           t.presenter_inferred ? el("span", { class: "corl-affil", title: T("notNamedTitle"), text: T("notNamed") }) : null),
         authors && el("details", { class: "corl-authors" }, el("summary", { text: T("allAuthors") }), ...authors),
-        t.summary && el("p", { class: "corl-summary", text: t.summary }),
+        t.summary && el("p", { class: "corl-summary" }, gloss(t.summary)),
         (t.takeaways || []).length > 0 && el("div", { class: "corl-takeaways" },
           el("h5", { text: T("keyTakeaways") }),
-          el("ul", null, t.takeaways.map((k) => el("li", { text: k })))),
+          el("ul", null, t.takeaways.map((k) => el("li", null, gloss(k))))),
         links
       ),
       player(t)
@@ -883,9 +1010,10 @@
     const talkLink = (title) => idByTitle[title]
       ? el("a", { href: `#talk=${idByTitle[title]}`, class: "corl-ov-talk" }, title)
       : null;
+    const g = gloss;
     const items = (list, heading, cls) => (list || []).length > 0 && el("div", { class: cls },
       el("h4", { text: heading }),
-      list.map((x) => el("div", { class: "corl-ov-item" }, el("h5", { text: x.title }), el("p", { text: x.body }))));
+      list.map((x) => el("div", { class: "corl-ov-item" }, el("h5", { text: x.title }), el("p", null, g(x.body)))));
 
     // Headline, numbers and summary stay visible; the long tail folds away.
     const more = el("details", { class: "corl-ov-more" },
@@ -897,11 +1025,11 @@
 
     box.append(
       el("p", { class: "corl-ov-kicker", text: T("ovKicker") }),
-      el("h3", { id: "corl-overview-title", class: "corl-ov-headline", text: o.headline }),
+      el("h3", { id: "corl-overview-title", class: "corl-ov-headline" }, g(o.headline)),
       (o.stats || []).length > 0 && el("dl", { class: "corl-ov-stats" },
         o.stats.map((s) => el("div", { class: "corl-ov-stat" },
-          el("dt", { text: s.label }), el("dd", { text: s.value }), s.note ? el("span", { text: s.note }) : null))),
-      el("div", { class: "corl-ov-summary" }, (o.summary || []).map((p) => el("p", { text: p }))),
+          el("dt", { text: s.label }), el("dd", { text: s.value }), s.note ? el("span", null, g(s.note)) : null))),
+      el("div", { class: "corl-ov-summary" }, (o.summary || []).map((p) => el("p", null, g(p)))),
       more
     );
     more.append(
@@ -909,7 +1037,7 @@
         el("h4", { text: T("ovThemes") }),
         el("div", { class: "corl-ov-grid" }, o.themes.map((th) => el("article", { class: "corl-ov-theme" },
           el("h5", { text: th.title }),
-          el("p", { text: th.body }),
+          el("p", null, g(th.body)),
           (th.talks || []).length > 0 && el("p", { class: "corl-ov-refs" },
             el("span", { text: T("ovSee") }),
             th.talks.map(talkLink).filter(Boolean).flatMap((a, n) => n ? ["; ", a] : [a])))))),
@@ -918,7 +1046,7 @@
         items(o.outlook_2027, T("ovOutlook"), "corl-ov-col")),
       (o.takeaways || []).length > 0 && el("div", { class: "corl-ov-takeaways" },
         el("h4", { text: T("keyTakeaways") }),
-        el("ol", null, o.takeaways.map((k) => el("li", { text: k })))),
+        el("ol", null, o.takeaways.map((k) => el("li", null, g(k))))),
       (o.sources || []).length > 0 && el("p", { class: "corl-ov-sources" },
         el("span", { text: T("ovSources") }),
         o.sources.map((s) => el("a", { href: s.url, target: "_blank", rel: "noopener" }, s.label))
