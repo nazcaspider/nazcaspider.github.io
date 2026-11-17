@@ -1097,9 +1097,13 @@
 
   /* ---------- Language switch ---------- */
 
+  // A language page (work-corl2026-es.html) opens in its language; ?lang= still wins.
+  const PAGE_LANG = LANGS.includes(document.documentElement.dataset.defaultLang) ? document.documentElement.dataset.defaultLang : null;
+
   function initialLang() {
     const q = new URLSearchParams(location.search).get("lang");
     if (LANGS.includes(q)) return q;
+    if (PAGE_LANG) return PAGE_LANG;
     try { const s = localStorage.getItem("corl-lang"); if (LANGS.includes(s)) return s; } catch (e) { /* storage blocked */ }
     return "en";
   }
@@ -1138,7 +1142,7 @@
   function rememberLang() {
     try { localStorage.setItem("corl-lang", LANG); } catch (e) { /* storage blocked */ }
     const params = new URLSearchParams(location.search);
-    if (LANG === "en") params.delete("lang"); else params.set("lang", LANG);
+    if (LANG === (PAGE_LANG || "en")) params.delete("lang"); else params.set("lang", LANG);
     const qs = params.toString();
     history.replaceState(null, "", location.pathname + (qs ? "?" + qs : "") + location.hash);
   }
@@ -1167,6 +1171,8 @@
       setLang(b.dataset.lang, true).then(rememberLang);
     }));
     const lang = initialLang();
+    // Header and filter text are built in: show them in the right language right away.
+    if (lang !== "en") { LANG = lang; applyStaticText(); }
     Promise.all([
       fetch(DATA_URL).then((r) => {
         if (!r.ok) throw new Error(r.status + " " + r.statusText);
