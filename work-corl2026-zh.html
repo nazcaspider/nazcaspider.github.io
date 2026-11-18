@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="zh-Hans" data-default-lang="zh">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Renato Salas - CoRL 2026 AI 逐一解读</title>
+  <meta content="CoRL 2026 直播录像中的全部报告，附摘要、要点，以及只播放该场报告的播放器。" name="description">
+  <meta content="CoRL 2026, robot learning, robotics, conference talks" name="keywords">
+
+  <!-- Social sharing previews (LinkedIn, X, Facebook, Slack, iMessage…) -->
+  <link rel="canonical" href="https://www.renatosalas.com/work-corl2026-zh.html">
+  <link rel="alternate" hreflang="en" href="https://www.renatosalas.com/work-corl2026.html">
+  <link rel="alternate" hreflang="es" href="https://www.renatosalas.com/work-corl2026-es.html">
+  <link rel="alternate" hreflang="de" href="https://www.renatosalas.com/work-corl2026-de.html">
+  <link rel="alternate" hreflang="zh-Hans" href="https://www.renatosalas.com/work-corl2026-zh.html">
+  <link rel="alternate" hreflang="ja" href="https://www.renatosalas.com/work-corl2026-ja.html">
+  <link rel="alternate" hreflang="ko" href="https://www.renatosalas.com/work-corl2026-ko.html">
+  <link rel="alternate" hreflang="x-default" href="https://www.renatosalas.com/work-corl2026.html">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="zh_CN">
+  <meta property="og:locale:alternate" content="en_US">
+  <meta property="og:locale:alternate" content="es_ES">
+  <meta property="og:locale:alternate" content="de_DE">
+  <meta property="og:locale:alternate" content="ja_JP">
+  <meta property="og:locale:alternate" content="ko_KR">
+  <meta property="og:site_name" content="Renato Salas, PhD">
+  <meta property="og:title" content="CoRL 2026 — 每场报告，AI 逐一解读">
+  <meta property="og:description" content="CoRL 2026 直播录像中的全部报告，附摘要、要点，以及只播放该场报告的播放器。">
+  <meta property="og:url" content="https://www.renatosalas.com/work-corl2026-zh.html">
+  <meta property="og:image" content="https://www.renatosalas.com/assets/img/share/corl2026-zh.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="CoRL 2026 — 每场报告，AI 逐一解读">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@nazcaspider">
+  <meta name="twitter:title" content="CoRL 2026 — 每场报告，AI 逐一解读">
+  <meta name="twitter:description" content="CoRL 2026 直播录像中的全部报告，附摘要、要点，以及只播放该场报告的播放器。">
+  <meta name="twitter:image" content="https://www.renatosalas.com/assets/img/share/corl2026-zh.jpg">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=https://fonts.googleapis.com/css?family=Inconsolata:400,500,600,700|Raleway:400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css?v=17" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- ======= Navbar ======= -->
+  <div class="collapse navbar-collapse custom-navmenu" id="main-navbar">
+    <div class="container py-2 py-md-5">
+      <div class="row align-items-start">
+        <div class="col-md-4">
+          <ul class="custom-menu">
+            <li><a href="index.html">Home</a></li>
+            <li class="active has-sub"><a href="index.html#work">Work</a>
+              <ul class="custom-submenu">
+                <li class="active"><a href="work-corl2026.html">CoRL 2026 Dissected by AI</a></li>
+                <li><a href="index.html#robotics">Robotics</a></li>
+                <li><a href="index.html#startups">Startups</a></li>
+                <li><a href="index.html#aviation">Aviation</a></li>
+              </ul>
+            </li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <nav class="navbar navbar-light custom-navbar">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Renato Salas, PhD</a>
+      <a href="#" class="burger" data-bs-toggle="collapse" data-bs-target="#main-navbar">
+        <span></span>
+      </a>
+    </div>
+  </nav>
+
+  <main id="main">
+
+    <section class="section corl-page">
+      <div class="container">
+        <div class="row mb-4 align-items-center">
+          <div class="col-lg-8" data-aos="fade-up">
+            <div class="corl-lang" role="group" aria-label="Language">
+              <button type="button" data-lang="en" lang="en" aria-pressed="true" class="active">English</button>
+              <button type="button" data-lang="es" lang="es" aria-pressed="false">Español</button>
+              <button type="button" data-lang="de" lang="de" aria-pressed="false">Deutsch</button>
+              <button type="button" data-lang="zh" lang="zh-Hans" aria-pressed="false">简体中文</button>
+              <button type="button" data-lang="ja" lang="ja" aria-pressed="false">日本語</button>
+              <button type="button" data-lang="ko" lang="ko" aria-pressed="false">한국어</button>
+            </div>
+            <h2 data-i18n="title">CoRL 2026 &mdash; Every Talk, Dissected by AI</h2>
+            <p data-i18n="intro">The <a href="https://www.corl.org/program">Conference on Robot Learning 2026</a> (Austin, Texas, Nov 9&ndash;12) streamed its whole
+              main program in four long recordings. These are broken into individual presentations: keynotes, orals, spotlights,
+              sponsor talks and the debate panel. Each entry has a short summary, key takeaways and a player that starts and stops on that talk.</p>
+            <p class="corl-note mb-0" data-i18n="note">Summaries are written from the livestream captions and the paper abstracts. Each paper links to arXiv and its project page where available, and to OpenReview.</p>
+            <p class="corl-note mt-2 mb-0" data-i18n="disclaimer"><strong>Disclaimer:</strong> This page was generated with Claude Opus 5.5 and has not been fully reviewed,
+              so it may contain errors. The translations were also made with AI. Details should be checked against the original recording or paper.
+              All talks, papers, slides and recordings belong to their authors and to CoRL 2026.</p>
+          </div>
+        </div>
+
+        <!-- Conference overview (rendered from assets/data/corl2026.json) -->
+        <section id="corl-overview" class="corl-overview" aria-labelledby="corl-overview-title" hidden></section>
+
+        <!-- Filters -->
+        <div class="corl-filters" id="corl-filters" aria-label="Filter presentations" data-i18n-attr="aria-label:filtersAria">
+          <div class="corl-search">
+            <i class="bi bi-search" aria-hidden="true"></i>
+            <input type="search" id="corl-q" placeholder="Search titles, presenters, summaries&hellip;" aria-label="Search presentations" data-i18n-attr="placeholder:search;aria-label:searchAria">
+          </div>
+          <div class="corl-group" data-group="day"><span class="corl-label" data-i18n="day">Day</span><div class="corl-chips"></div></div>
+          <div class="corl-group" data-group="type"><span class="corl-label" data-i18n="type">Type</span><div class="corl-chips"></div></div>
+          <div class="corl-group" data-group="topic"><span class="corl-label" data-i18n="topic">Topic</span><div class="corl-chips"></div></div>
+          <div class="corl-group" data-group="award"><span class="corl-label" data-i18n="award">Awards</span><div class="corl-chips"></div></div>
+          <div class="corl-group corl-group-row">
+            <span class="corl-label" data-i18n="session">Session</span>
+            <select id="corl-session" aria-label="Session" data-i18n-attr="aria-label:session"><option value="" data-i18n="allSessions">All sessions</option></select>
+            <span class="corl-count" id="corl-count" aria-live="polite"></span>
+            <button type="button" class="corl-clear" id="corl-clear" data-i18n="clear">Clear filters</button>
+          </div>
+        </div>
+
+        <div id="corl-list" class="corl-list">
+          <p class="corl-loading" data-i18n="loading">Loading presentations&hellip;</p>
+        </div>
+      </div>
+    </section>
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6">
+          <p class="mb-1">&copy; 2026 Renato Salas. All rights reserved.</p>
+        </div>
+        <div class="col-sm-6 social text-md-end">
+          <a href="https://www.linkedin.com/in/renatosalas" aria-label="LinkedIn"><span class="bi bi-linkedin"></span></a>
+          <a href="https://x.com/nazcaspider" aria-label="X"><span class="bi bi-twitter-x"></span></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js?v=2"></script>
+  <script src="assets/js/corl2026.js?v=23"></script>
+
+  <!-- GoatCounter: cookie-free analytics -->
+  <script data-goatcounter="https://nazcaspider.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+
+</body>
+
+</html>

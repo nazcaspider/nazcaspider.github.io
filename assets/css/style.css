@@ -804,16 +804,15 @@ h6,
 
 /* Language switch above the page title */
 .corl-lang {
-  display: inline-flex;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
   margin-bottom: 14px;
-  border: 1px solid var(--corl-line);
-  border-radius: 999px;
-  overflow: hidden;
 }
 
 .corl-lang button {
-  border: 0;
-  border-left: 1px solid var(--corl-line);
+  border: 1px solid var(--corl-line);
+  border-radius: 999px;
   background: #fff;
   color: #000;
   padding: 3px 12px;
@@ -823,16 +822,13 @@ h6,
   cursor: pointer;
 }
 
-.corl-lang button:first-child {
-  border-left: 0;
-}
-
 .corl-lang button:hover {
   background: var(--corl-soft);
 }
 
 .corl-lang button.active {
   background: #000;
+  border-color: #000;
   color: #fff;
 }
 
@@ -1393,4 +1389,10 @@ h6,
   .corl-count {
     margin-left: 0;
   }
+}
+
+/* Korean wraps between words (spaces), not inside them */
+html:lang(ko) body {
+  word-break: keep-all;
+  overflow-wrap: break-word;
 }
