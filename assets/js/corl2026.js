@@ -5,7 +5,7 @@
 (function () {
   "use strict";
 
-  const DATA_URL = "assets/data/corl2026.json?v=12";
+  const DATA_URL = "assets/data/corl2026.json?v=13";
 
   const DAY_OF_VIDEO = { d1: "1", d2: "2", d3a: "3", d3b: "3" };
   const TYPE_ORDER = ["keynote", "early-career-keynote", "oral", "spotlight", "sponsor", "panel", "fireside", "welcome", "closing"];
@@ -1125,7 +1125,7 @@
     return Object.assign({}, o, {
       headline: x.headline || o.headline,
       summary: (x.summary || []).length === (o.summary || []).length ? x.summary : o.summary,
-      stats: pair(o.stats, x.stats).map((s, i) => Object.assign(s, { value: o.stats[i].value })),
+      stats: pair(o.stats, x.stats).map((s, i) => Object.assign(s, { value: ((x.stats || [])[i] || {}).value || o.stats[i].value })),
       themes: pair(o.themes, x.themes).map((th, i) => Object.assign(th, { talks: o.themes[i].talks })),
       since_2025: pair(o.since_2025, x.since_2025),
       outlook_2027: pair(o.outlook_2027, x.outlook_2027),
